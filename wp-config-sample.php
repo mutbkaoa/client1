@@ -65,6 +65,16 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  */
 $table_prefix = 'wp_';
 
+/** Set current host as default */
+$host = (isset($_SERVER['HTTPS']) ? "https" : "http") . '://' . $_SERVER['HTTP_HOST'];
+define('WP_SITEURL',       $host);
+define('WP_HOME',          $host);
+
+
+// Относительный путь к изображениям
+define('WP_CONTENT_URL', '/wp-content' );
+
+
 /**
  * For developers: WordPress debugging mode.
  *
