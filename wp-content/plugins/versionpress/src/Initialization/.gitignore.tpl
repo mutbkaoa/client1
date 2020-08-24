@@ -3,22 +3,22 @@
 #------------------------
 
 /wp-config.php
-//wp-config.php
+{{abspath}}/wp-config.php
 .maintenance
 versionpress.maintenance
-!/.htaccess
+/.htaccess
 /web.config
 
-/wp-content/*
-!/wp-content/db.php
-!/wp-content/index.php
-!/wp-content/plugins/
-#/wp-content/plugins/versionpress/
-!/wp-content/mu-plugins/
-!/wp-content/themes/
-!/wp-content/languages/
-!/wp-content/uploads/
-!/wp-content/vpdb/
+{{wp-content}}/*
+!{{wp-content}}/db.php
+!{{wp-content}}/index.php
+!{{wp-plugins}}/
+{{wp-plugins}}/versionpress/
+!{{wp-content}}/mu-plugins/
+!{{wp-content}}/themes/
+!{{wp-content}}/languages/
+!{{wp-content}}/uploads/
+!{{wp-content}}/vpdb/
 
 
 #------------------------
