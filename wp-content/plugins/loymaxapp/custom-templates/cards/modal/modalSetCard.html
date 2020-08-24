@@ -1,0 +1,31 @@
+<div class="lmx-set-card-modal">
+    <div class="modal-header">
+        <h2>{{'cards.setCardModal.title' | translate}}</h2>
+    </div>
+
+    <lmx-notifications area="cardModal"></lmx-notifications>
+
+    <form novalidate="" name="setCardForm" ng-submit="setCardForm.$valid && setCard()">
+        <div class="modal-content-wrapper">
+            <div class="modal-body">
+                <form-group label-text="{{'cards.setCardModal.cardNumber' | translate}}">
+                    <input type="text" ng-model="model.cardNumber" ng-disabled="inProgress" id="lmx-cardNumber" name="cardNumber" required="" autofocus="">
+                </form-group>
+                <form-group ng-if="cvcCodeCardsRegistration" label-text="{{'registration.cardStep.cvcCode' | translate}}">
+                    <input type="number" ng-model="model.cvcCode" ng-disabled="inProgress" id="lmx-cvcCode" name="cvcCode">
+                </form-group>
+            </div>
+            <div class="modal-footer lmx-btn-container">
+                <div ng-hide="inProgress">
+                    <button class="lmx-btn-cancel" ng-click="cancel()" type="button">
+                        {{'buttons.cancel' | translate}}
+                    </button>
+                    <button type="submit">
+                        {{'cards.actions.set' | translate}}
+                    </button>
+                </div>
+                <inline-loader>inProgress</inline-loader>
+            </div>
+        </div>
+    </form>
+</div>

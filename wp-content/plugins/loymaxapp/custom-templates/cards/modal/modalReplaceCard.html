@@ -1,0 +1,32 @@
+<div class="lmx-replace-card-modal">
+    <div class="modal-header">
+        <h2>{{'cards.replaceCardModal.title' | translate}}</h2>
+    </div>
+    <lmx-notifications area="cardModal"></lmx-notifications>
+    <form novalidate="" name="replaceCardForm" ng-submit="replaceCardForm.$valid && replaceCard()">
+        <div class="modal-content-wrapper">
+            <div class="modal-body">
+                <form-group label-text="{{'cards.replaceCardModal.cardNumber' | translate}}">
+                    <input type="text" ng-model="model.cardNumber" ng-disabled="inProgress" id="lmx-cardNumber" name="cardNumber" required="" autofocus="">
+                </form-group>
+                <form-group ng-if="cvcCodeCardsRegistration" label-text="{{'cards.replaceCardModal.cvcCode' | translate}}">
+                    <input type="number" ng-model="model.cvcCode" ng-disabled="inProgress" id="lmx-cvcCode" name="cvcCode">
+                </form-group>
+                <form-group label-text="{{'cards.replaceCardModal.password' | translate}}">
+                    <input type="password" ng-model="model.password" ng-disabled="inProgress" id="lmx-password" name="password" autocomplete="off" required="">
+                </form-group>
+            </div>
+            <div class="modal-footer lmx-btn-container">
+                <div ng-hide="inProgress">
+                    <button class="lmx-btn-cancel" ng-click="cancel()" type="button">
+                        {{'buttons.cancel' | translate}}
+                    </button>
+                    <button type="submit">
+                        {{'cards.actions.replace' | translate}}
+                    </button>
+                </div>
+                <inline-loader>inProgress</inline-loader>
+            </div>
+        </div>
+    </form>
+</div>

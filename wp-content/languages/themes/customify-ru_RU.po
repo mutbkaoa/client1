@@ -1,0 +1,2770 @@
+# Translation of Themes - Customify in Russian
+# This file is distributed under the same license as the Themes - Customify package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-18 22:22:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Customify\n"
+
+#. Theme Name of the theme
+#: inc/admin/dashboard.php:61
+msgid "Customify"
+msgstr "Customify"
+
+#: inc/template-functions.php:323
+msgid "Search &hellip;"
+msgstr "Поиск &помощь;"
+
+#: inc/customizer/configs/header/panel.php:30
+msgid "Version 2"
+msgstr "Версия 2"
+
+#: inc/customizer/configs/header/panel.php:26
+msgid "Version 1"
+msgstr "Версия 1"
+
+#: inc/admin/dashboard.php:237
+msgid "Copy now"
+msgstr "Скопируйте сейчас"
+
+#: inc/admin/dashboard.php:229
+msgid "To Theme"
+msgstr "К Теме"
+
+#: inc/admin/dashboard.php:224
+msgid "From Theme"
+msgstr "Из Темы"
+
+#: inc/admin/dashboard.php:219
+msgid "Child theme uses it's own theme setting name, would you like to copy setting data from parent theme to this child theme?"
+msgstr "Хотите ли вы скопировать данные настроек из родительской темы в  дочернюю тему?"
+
+#: inc/admin/dashboard.php:217
+msgid "You're using %1$s theme, It's a child theme of Customify"
+msgstr "Вы используете тему %1$s, которая является дочерней темой Customify"
+
+#: inc/admin/dashboard.php:69 inc/admin/dashboard.php:211
+msgid "Copy Settings"
+msgstr "Копировать настройки"
+
+#: inc/class-metabox.php:95
+msgid "Disable Footer Top"
+msgstr "Отключить Нижний Колонтитул"
+
+#: inc/customizer/configs/upsell.php:56
+msgid "Payment Methods Item"
+msgstr "Способ Оплаты Товара"
+
+#: inc/customizer/configs/upsell.php:55
+msgid "Contact Info Item"
+msgstr "Контактная информация"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:396
+msgid "Advanced styling for onsale button"
+msgstr "Расширенный стиль для кнопки продажи"
+
+#: woocommerce/single-product/product-image.php:41
+msgid "Awaiting product image"
+msgstr "Ожидание изображения продукта"
+
+#: inc/customizer/configs/related-posts.php:163
+msgid "Order"
+msgstr "Заказ"
+
+#: inc/customizer/configs/related-posts.php:152
+msgid "Comment count"
+msgstr "Количество комментариев"
+
+#: inc/customizer/configs/related-posts.php:151
+msgid "Random"
+msgstr "Произвольный"
+
+#: inc/customizer/configs/related-posts.php:150
+msgid "Post order"
+msgstr "Разместить заказ"
+
+#: inc/customizer/configs/related-posts.php:145
+msgid "Order by"
+msgstr "Сортировать по"
+
+#: inc/customizer/configs/related-posts.php:132
+msgid "Custom Thumbnail Width"
+msgstr "Пользовательская Ширина Превьюшки"
+
+#: inc/customizer/configs/related-posts.php:118
+msgid "Custom Thumbnail Height"
+msgstr "Пользовательская Высота Превьюшки"
+
+#: inc/customizer/configs/related-posts.php:91
+msgid "Image Position"
+msgstr "Положение изображения"
+
+#: inc/customizer/configs/related-posts.php:81
+msgid "Enter 0 to disable related posts."
+msgstr "Введите 0, чтобы отключить соответствующий пост."
+
+#: inc/customizer/configs/related-posts.php:80
+msgid "Number posts to show"
+msgstr "Количество постов для отображения"
+
+#: inc/customizer/configs/related-posts.php:62
+msgid "Number columns to show"
+msgstr "Количество отображаемых столбцов"
+
+#: inc/customizer/configs/related-posts.php:45
+msgid "By tags"
+msgstr "По тегам"
+
+#: inc/customizer/configs/related-posts.php:44
+msgid "By categories"
+msgstr "По категориям"
+
+#: inc/customizer/controls/class-control-pro.php:49
+#: inc/customizer/class-customify-section-pro.php:85
+msgctxt "Customify Pro upsell"
+msgid "Learn More"
+msgstr "Узнать больше"
+
+#: inc/compatibility/woocommerce/config/single-product.php:346
+msgid "Show shop breadcrumb"
+msgstr "Показать хлебные крошки "
+
+#: inc/compatibility/woocommerce/config/single-product.php:255
+msgid "Sections"
+msgstr "Разделы"
+
+#: inc/compatibility/woocommerce/config/single-product.php:233
+msgid "Show Product Navigation"
+msgstr "Показать навигацию по продукту"
+
+#: inc/compatibility/woocommerce/config/single-product.php:224
+msgid "Product Navigation"
+msgstr "Навигация по продукту"
+
+#: inc/compatibility/woocommerce/config/single-product.php:202
+#: inc/compatibility/woocommerce/config/single-product.php:208
+#: inc/compatibility/woocommerce/config/single-product.php:214
+#: inc/customizer/configs/blogs.php:52 inc/customizer/configs/blogs.php:57
+msgid "Pro"
+msgstr "Pro"
+
+#: inc/compatibility/woocommerce/config/single-product.php:156
+msgid "Single Product Page"
+msgstr "Страница единичного товара"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:300
+msgid "Custom list view excerpt length"
+msgstr "Настраиваемая длина списка"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:288
+msgid "Product short description"
+msgstr "Краткое описание продукта"
+
+#: inc/admin/dashboard.php:663
+msgid "Infinity Scroll."
+msgstr "Бесконечная Прокрутка."
+
+#: inc/admin/dashboard.php:657
+msgid "Add product quick view modal for product listing.."
+msgstr "Добавить быстрый просмотр товара для списка продуктов.."
+
+#: inc/admin/dashboard.php:656
+msgid "Quick View"
+msgstr "Быстрый просмотр"
+
+#: inc/admin/dashboard.php:651
+msgid "Add slider for product gallery."
+msgstr "Добавить слайдер для галереи товаров."
+
+#: inc/admin/dashboard.php:650
+msgid "Product Gallery Slider"
+msgstr "Слайдер Галереи Товаров"
+
+#: inc/admin/dashboard.php:639
+msgid "More beautiful layouts for your single product."
+msgstr "Больше красивых макетов для вашей карточки товара."
+
+#: inc/admin/dashboard.php:638
+msgid "Single Product Layouts"
+msgstr "Макеты для карточки товара"
+
+#: woocommerce/cart/cart.php:136 woocommerce/checkout/form-coupon.php:27
+msgid "Apply coupon"
+msgstr "Применить код"
+
+#: woocommerce/cart/cart.php:135 woocommerce/checkout/form-coupon.php:26
+msgid "Coupon code"
+msgstr "Введите код"
+
+#: woocommerce/cart/cart.php:134
+msgid "Coupon:"
+msgstr "Промокод"
+
+#: woocommerce/cart/cart.php:83
+msgid "Available on backorder"
+msgstr "По предварительному заказу"
+
+#: woocommerce/cart/cart.php:23 woocommerce/cart/cart.php:116
+msgid "Total"
+msgstr "Сумма"
+
+#: woocommerce/cart/cart.php:20 woocommerce/cart/cart.php:68
+msgid "Product"
+msgstr "Товар"
+
+#: inc/class-metabox-fields.php:512
+msgid "Select image"
+msgstr "Выберите изображение"
+
+#: inc/admin/dashboard.php:172
+msgid "Back"
+msgstr "Назад"
+
+#: inc/admin/dashboard.php:156 inc/admin/dashboard.php:179
+msgid "Changelog"
+msgstr "Изменения"
+
+#: woocommerce/product-searchform.php:18
+msgctxt "submit button"
+msgid "Search"
+msgstr "Поиск"
+
+#: woocommerce/product-searchform.php:17
+msgid "Search products&hellip;"
+msgstr "Поиск товаровs&помощь;"
+
+#: woocommerce/product-searchform.php:16
+msgid "Search for:"
+msgstr "Поиск"
+
+#: woocommerce/cart/mini-cart.php:91
+msgid "Subtotal"
+msgstr "Итого"
+
+#: inc/customizer/configs/styling.php:137
+msgid "Link Hover Color"
+msgstr "Цвет ссылки при наведении"
+
+#: inc/customizer/configs/styling.php:83
+msgid "Secondary Color"
+msgstr "Вторичный цвет"
+
+#: inc/customizer/configs/styling.php:30
+msgid "Theme Colors"
+msgstr "Цвета темы"
+
+#: inc/customizer/configs/single-blog-post.php:77
+msgid "Author Biography"
+msgstr "Биография автора"
+
+#: inc/customizer/configs/header/menus.php:94
+msgid "Border Position"
+msgstr "Позиция Границы"
+
+#: inc/customizer/configs/header/html.php:82
+msgid "Typography Setting"
+msgstr "Настройка типографии"
+
+#: inc/customizer/configs/background.php:59
+msgid "Content Area Background"
+msgstr "Фон области содержимого"
+
+#: inc/compatibility/woocommerce/config/single-product.php:337
+msgid "Related products per row"
+msgstr "Сопутствующие товары в ряд"
+
+#: inc/compatibility/woocommerce/config/single-product.php:328
+msgid "Number of related products"
+msgstr "Количество сопутствующих товаров"
+
+#: inc/compatibility/woocommerce/config/single-product.php:319
+msgid "Related Products"
+msgstr "Сопутствующие товары"
+
+#: inc/compatibility/woocommerce/config/single-product.php:302
+msgid "Number of upsell products"
+msgstr "Количество проданных товаров"
+
+#: inc/compatibility/woocommerce/config/single-product.php:253
+msgid "Vertical"
+msgstr "Вертикальный"
+
+#: inc/compatibility/woocommerce/config/single-product.php:252
+msgid "Horizontal"
+msgstr "Горизонтальный"
+
+#: inc/compatibility/woocommerce/config/single-product.php:241
+msgid "Product Tabs"
+msgstr "Вкладки Продуктов"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:216
+msgid "Icon Settings"
+msgstr "Настройки иконок"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:162
+msgid "Show Quantity"
+msgstr "Показать количество"
+
+#: woocommerce/cart/cart.php:22 woocommerce/cart/cart.php:94
+#: inc/compatibility/woocommerce/config/header/cart.php:161
+#: inc/compatibility/woocommerce/config/header/cart.php:262
+msgid "Quantity"
+msgstr "Количество"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:145
+msgid "Show Sub Total"
+msgstr "Показать промежуточный итог"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:144
+msgid "Sub Total"
+msgstr "Промежуточный итог"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:117
+msgid "Link To"
+msgstr "Ссылка на"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:114
+msgid "Cart Page"
+msgstr "Страница корзины"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:76
+#: inc/compatibility/woocommerce/config/cart.php:46
+msgid "Cart"
+msgstr "Корзина"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:35
+msgid "Shopping Cart"
+msgstr "Корзина"
+
+#: inc/compatibility/woocommerce/config/colors.php:68
+msgid "On Sale"
+msgstr "В продаже"
+
+#: inc/compatibility/woocommerce/config/colors.php:46
+msgid "Color for rating stars, default is Secondary Color."
+msgstr "Цвет для рейтинга звезд, по умолчанию вторичный цвет."
+
+#: inc/compatibility/woocommerce/config/colors.php:45
+msgid "Rating Stars"
+msgstr "Рейтинг Звезд"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:382
+msgid "Discount value"
+msgstr "Скидка"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:381
+msgid "Discount percent"
+msgstr "Процент скидки"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:362
+msgid "List View - Content Alignment"
+msgstr "Вид Списка-Выравнивание Содержимого"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:351
+msgid "Grid View - Content Alignment"
+msgstr "Вид Сетки - Выравнивание Содержимого"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:332
+msgid "Disable"
+msgstr "Запретить"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:331
+msgid "Use last image of product gallery"
+msgstr "Использовать последнее изображение галереи продуктов"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:330
+msgid "Use first image of product gallery"
+msgstr "Использовать первое изображение галереи продуктов"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:275
+msgid "Show in list view"
+msgstr "Показать в виде списка"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:270
+msgid "Show in grid view"
+msgstr "Показать в виде сетки"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:185
+msgid "Add To Cart"
+msgstr "Добавить в корзину"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:178
+msgid "Short Description"
+msgstr "Краткое описание"
+
+#: woocommerce/cart/cart.php:21 woocommerce/cart/cart.php:88
+#: inc/compatibility/woocommerce/config/catalog-designer.php:171
+msgid "Price"
+msgstr "Цена"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:163
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:237
+msgid "List"
+msgstr "Список"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:236
+msgid "Grid"
+msgstr "Сетка"
+
+#: inc/blog/class-post-entry.php:654
+msgid "Previous post:"
+msgstr "Предыдущий пост:"
+
+#: inc/blog/class-post-entry.php:653
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: inc/blog/class-post-entry.php:650
+msgid "Next post:"
+msgstr "Следующий пост:"
+
+#: inc/blog/class-post-entry.php:649
+msgid "Next"
+msgstr "Следующий"
+
+#: inc/blog/class-post-entry.php:608
+msgid "About the Author: <span>%s</span>"
+msgstr "Об авторе: <span>%s</span>"
+
+#: inc/blog/class-post-entry.php:298
+msgid "Posted in "
+msgstr "Опубликовано в"
+
+#: inc/admin/dashboard.php:610
+msgid "Multilingual Integration"
+msgstr "Многоязычная интеграция"
+
+#: inc/admin/dashboard.php:605
+msgid "Mega Menu"
+msgstr "Мега Меню"
+
+#: inc/admin/dashboard.php:601
+msgid "Create unique header for each page, post, archive or WooCommerce pages."
+msgstr "Создайте уникальный заголовок для каждой страницы, публикации, архива или страницы WooCommerce."
+
+#: inc/admin/dashboard.php:590 inc/customizer/configs/header/panel.php:204
+msgid "Advanced Styling"
+msgstr "Расширенный стиль"
+
+#: inc/customizer/configs/background.php:52
+msgid "Site Content"
+msgstr "Содержимое сайта"
+
+#: inc/customizer/configs/page-header.php:340
+#: inc/customizer/configs/page-header.php:409
+msgid "Title is pull from post title, archive title."
+msgstr "Заголовок является пулом из заголовка статьи, заголовка архива"
+
+#: inc/customizer/configs/page-header.php:339
+#: inc/customizer/configs/page-header.php:408
+msgid "Show Title"
+msgstr "Показать Заголовок"
+
+#: inc/customizer/configs/page-header.php:195
+msgid "Tagline for %s"
+msgstr "Подзаголовок для %s"
+
+#: inc/customizer/configs/page-header.php:187
+msgid "Title for %s"
+msgstr "Заголовок для %s"
+
+#: inc/customizer/configs/page-header.php:178
+msgid "Apply when viewing %1$s %2$s"
+msgstr "Применить при просмотре %1$s %2$s"
+
+#: inc/customizer/configs/page-header.php:177
+msgid "Display on %1$s %2$s"
+msgstr "Показать на %1$s %2$s"
+
+#: inc/customizer/configs/page-header.php:159
+#: inc/customizer/configs/page-header.php:188
+#: inc/customizer/configs/page-header.php:196
+msgid "Apply when viewing single %s"
+msgstr "Применить при просмотре единичной %s"
+
+#: inc/customizer/configs/page-header.php:158
+msgid "Display on %s page"
+msgstr "Показать на странице %s"
+
+#: inc/customizer/configs/layouts.php:228
+msgid "Single %s"
+msgstr "Единичная %s"
+
+#: inc/customizer/configs/layouts.php:219
+msgid "Post Type Settings"
+msgstr "Настройки типа записи"
+
+#: inc/customizer/configs/blogs.php:226
+msgid "Metas"
+msgstr "Мета"
+
+#: inc/customizer/configs/background.php:25
+msgid "Site Background"
+msgstr "Фон сайта"
+
+#: inc/customizer/configs/upsell.php:17
+msgid "Customify Pro modules available"
+msgstr "Доступные модули Customify Pro"
+
+#: inc/customizer/configs/header/panel.php:328
+msgid "Do not copy parent menu to submenu."
+msgstr "Не копировать родительское меню в подменю"
+
+#: inc/customizer/configs/blogs.php:409
+msgid "Previous Label"
+msgstr "Ярлык \"Предыдущий\""
+
+#: inc/customizer/configs/blogs.php:199 inc/customizer/configs/search.php:37
+msgid "Excerpt Type"
+msgstr "Тип отрывка"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:289
+#: inc/customizer/configs/blogs.php:195 inc/customizer/configs/search.php:33
+msgid "Full content"
+msgstr "Полное содержимое"
+
+#: inc/customizer/configs/blogs.php:194 inc/customizer/configs/search.php:32
+msgid "Strip excerpt by more tag"
+msgstr "Укоротить отрывок меткой \"далее\""
+
+#: inc/customizer/configs/blogs.php:193 inc/customizer/configs/search.php:31
+msgid "Use excerpt metabox"
+msgstr "Использовать метабокс отрывка"
+
+#: inc/customizer/configs/blogs.php:111
+msgid "Hide Media"
+msgstr "Скрыть медиа-файл"
+
+#: inc/compatibility/breadcrumb.php:91
+msgid "Customify theme support <a target=\"_blank\" href=\"https://wordpress.org/plugins/breadcrumb-navxt/\">Breadcrumb NavXT</a> or <a href=\"https://wordpress.org/plugins/wordpress-seo/\" target=\"_blank\">Yoast SEO</a> breadcrumb plugin. All settings will be displayed after you installed and activated it."
+msgstr "Тема Customify поддерживает плагины <a target=\"_blank\" href=\"https://wordpress.org/plugins/breadcrumb-navxt/\">Breadcrumb NavXT</a> или <a href=\"https://wordpress.org/plugins/wordpress-seo/\" target=\"_blank\">Yoast SEO</a>. Все настройки будут показаны после установки и активации."
+
+#: inc/admin/dashboard.php:550
+msgid "Recommend Plugins"
+msgstr "Рекомендованные плагины"
+
+#: inc/admin/dashboard.php:508
+msgid "Activate"
+msgstr "Активировать"
+
+#: inc/customizer/configs/typography.php:37
+msgid "Apply to body and paragraph text."
+msgstr "Применить к тексту тела и параграфу."
+
+#: inc/customizer/configs/page-header.php:256
+msgid "Post Header Background Cover"
+msgstr "Фон обложки верхнего колонтитула записи"
+
+#: inc/customizer/configs/layouts.php:198
+msgid "Search Page"
+msgstr "Страница поиска"
+
+#: inc/customizer/configs/layouts.php:189
+msgid "Blog Archive Page"
+msgstr "Страница архива блога"
+
+#: inc/customizer/configs/header/logo.php:80
+msgid "Logo Position"
+msgstr "Положение логотипа"
+
+#: inc/customizer/configs/header/logo.php:66
+msgid "Show Site Tagline"
+msgstr "Показать подзаголовок сайта"
+
+#: inc/customizer/configs/header/logo.php:52
+msgid "Show Site Title"
+msgstr "Показать заголовок сайта"
+
+#: inc/customizer/configs/header/social-icons.php:123
+#: inc/customizer/configs/header/button.php:89
+msgid "Open link in a new tab."
+msgstr "Открыть ссылку в новом окне."
+
+#: inc/customizer/configs/blogs.php:328
+msgid "Show Read More Button"
+msgstr "Показать кнопку Читать далее"
+
+#: inc/customizer/configs/single-blog-post.php:153
+#: inc/customizer/configs/blogs.php:253
+msgid "Drag to reorder the meta item."
+msgstr "Перетащите, чтобы изменить порядок мета-элемента."
+
+#: inc/customizer/configs/blogs.php:174
+msgid "Hide featured image if empty."
+msgstr "Скрыть изображение записи, если оно отсутствует."
+
+#: template-parts/content.php:58 template-parts/content-page.php:23
+#: inc/blog/class-post-entry.php:671
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: template-parts/content-none.php:47
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Похоже, мы не можем найти то, что вы ищите. Возможно, поможет поиск."
+
+#: template-parts/content-none.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но ничего не найдено по вашим условиям поиска. Пожалуйста, попытайтесь снова с другими ключевыми словами."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы создать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: inc/template-tags.php:136
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: inc/template-tags.php:117
+msgid "Edit"
+msgstr "Редактировать"
+
+#: inc/template-tags.php:108
+msgid "Post author"
+msgstr "Автор записи"
+
+#: inc/template-tags.php:123
+msgid "Reply"
+msgstr "Ответить"
+
+#: inc/template-tags.php:86
+msgid "(Edit)"
+msgstr "(Редактировать)"
+
+#: inc/template-tags.php:86
+msgid "Pingback:"
+msgstr "Уведомление:"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:36
+msgctxt "post author"
+msgid "by %s"
+msgstr "от %s"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Написано %s"
+
+#: inc/template-functions.php:305
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: inc/template-functions.php:303
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-functions.php:301
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-functions.php:16
+msgid "Content / Sidebar / Sidebar"
+msgstr "Содержимое / Боковая панель / Боковая панель"
+
+#: inc/template-functions.php:15
+msgid "Sidebar / Sidebar / Content"
+msgstr "Боковая панель / Боковая панель / Содержимое"
+
+#: inc/template-functions.php:14
+msgid "Sidebar / Content / Sidebar"
+msgstr "Боковая панель / Содержимое / Боковая панель "
+
+#: inc/template-functions.php:13
+msgid "Content (no sidebars)"
+msgstr "Содержимое (без боковой панели)"
+
+#: inc/template-functions.php:12
+msgid "Sidebar / Content"
+msgstr "Боковая панель / Содержимое"
+
+#: inc/template-functions.php:11
+msgid "Content / Sidebar"
+msgstr "Содержимое / Боковая панель"
+
+#: inc/panel-builder/class-layout-builder.php:205
+msgid "No Support"
+msgstr "Без поддержки"
+
+#: inc/panel-builder/class-layout-builder.php:201
+#: inc/panel-builder/class-layout-builder.php:246
+msgid "Saved %s"
+msgstr "Сохранено %s"
+
+#: inc/panel-builder/class-layout-builder.php:194
+#: inc/panel-builder/class-layout-builder.php:274
+msgid "Access denied"
+msgstr "Доступ закрыт"
+
+#: inc/panel-builder/class-layout-builder.php:54
+msgid "Class <strong>%s</strong> do not extends class <strong>Customify_Customize_Builder_Panel</strong>."
+msgstr "Класс <strong>%s</strong> не расширяет класс <strong>Customify_Customize_Builder_Panel</strong>."
+
+#: inc/customizer/controls/class-control-slider.php:58
+msgid "Reset"
+msgstr "Сбросить"
+
+#: inc/customizer/controls/class-control-shadow.php:43
+msgid "inset"
+msgstr "вставить"
+
+#: inc/customizer/controls/class-control-shadow.php:37
+msgid "Spread"
+msgstr "Распространить"
+
+#: inc/customizer/controls/class-control-shadow.php:33
+msgid "Blur"
+msgstr "Размыть"
+
+#: inc/customizer/controls/class-control-shadow.php:29
+msgid "Y"
+msgstr "Y"
+
+#: inc/customizer/controls/class-control-shadow.php:25
+msgid "X"
+msgstr "X"
+
+#: inc/customizer/controls/class-control-repeater.php:33
+#: inc/panel-builder/class-layout-builder.php:394
+#: inc/panel-builder/class-abstract-layout-frontend.php:122
+msgid "Close"
+msgstr "Закрыть"
+
+#: inc/customizer/controls/class-control-repeater.php:29
+msgid "Move Up"
+msgstr "Поднять вверх"
+
+#: inc/customizer/controls/class-control-repeater.php:27
+msgid "Move Down"
+msgstr "Опустить вниз"
+
+#: inc/customizer/controls/class-control-repeater.php:20
+msgid "Toggle item visible"
+msgstr "Включить видимый элемент"
+
+#: inc/customizer/controls/class-control-styling.php:10
+#: inc/customizer/controls/class-control-modal.php:10
+#: inc/customizer/controls/class-control-typography.php:10
+msgid "Toggle edit panel"
+msgstr "Включить панель редактирования"
+
+#: inc/customizer/controls/class-control-styling.php:9
+#: inc/customizer/controls/class-control-modal.php:9
+#: inc/customizer/controls/class-control-typography.php:9
+msgid "Reset to default"
+msgstr "Сбросить к начальным"
+
+#: inc/customizer/controls/class-control-upload.php:43
+#: inc/customizer/controls/class-control-video.php:43
+#: inc/customizer/controls/class-control-media.php:43
+#: inc/customizer/controls/class-control-image.php:43
+msgid "Change"
+msgstr "Изменить"
+
+#: inc/customizer/controls/class-control-upload.php:42
+#: inc/customizer/controls/class-control-video.php:42
+#: inc/customizer/controls/class-control-media.php:42
+#: inc/customizer/controls/class-control-image.php:42
+msgid "Add"
+msgstr "Добавить"
+
+#: inc/customizer/controls/class-control-upload.php:19
+#: inc/customizer/controls/class-control-video.php:19
+#: inc/customizer/controls/class-control-media.php:19
+#: inc/customizer/controls/class-control-image.php:19
+msgid "No file selected"
+msgstr "Файл не выбран"
+
+#: inc/customizer/controls/class-control-icon.php:47
+msgid "Type icon name"
+msgstr "Напишите название иконки"
+
+#: inc/customizer/controls/class-control-icon.php:42
+msgid "All Icon Types"
+msgstr "Все типы иконок"
+
+#: inc/customizer/controls/class-control-icon.php:38
+msgid "Cancel"
+msgstr "Отменить"
+
+#: inc/customizer/controls/class-control-icon.php:23
+msgid "Pick an icon"
+msgstr "Выбрать иконку"
+
+#: inc/customizer/controls/class-control-font.php:20
+msgid "Languages"
+msgstr "Языки"
+
+#: inc/customizer/controls/class-control-font.php:16
+msgid "Variants"
+msgstr "Варианты"
+
+#: inc/customizer/controls/class-control-font-style.php:19
+msgid "Strikethrough"
+msgstr "Перечеркнутый"
+
+#: inc/customizer/controls/class-control-font-style.php:16
+msgid "Bold"
+msgstr "Жирный"
+
+#: inc/customizer/controls/class-control-css-ruler.php:72
+msgid "Toggle values together"
+msgstr "Включить значения вместе"
+
+#: inc/customizer/controls/class-control-css-ruler.php:51
+msgid "%"
+msgstr "%"
+
+#: inc/customizer/controls/class-control-css-ruler.php:47
+msgid "em"
+msgstr "em"
+
+#: inc/customizer/controls/class-control-css-ruler.php:43
+msgid "rem"
+msgstr "rem"
+
+#: inc/customizer/controls/class-control-slider.php:54
+#: inc/customizer/controls/class-control-css-ruler.php:39
+msgid "px"
+msgstr "px"
+
+#: inc/customizer/controls/class-control-css-ruler.php:37
+msgid "Chose an unit"
+msgstr "Выберите еденицу"
+
+#: inc/customizer/controls/class-control-base.php:367
+#: inc/customizer/controls/class-control-repeater.php:54
+msgid "Add an item"
+msgstr "Добавить элемент"
+
+#: inc/customizer/controls/class-control-base.php:365
+#: inc/customizer/controls/class-control-repeater.php:51
+msgid "Done"
+msgstr "Сделано"
+
+#: inc/customizer/controls/class-control-base.php:365
+#: inc/customizer/controls/class-control-repeater.php:50
+#: inc/customizer/controls/class-control-repeater.php:51
+msgid "Reorder"
+msgstr "Изменить порядок"
+
+#: inc/customizer/controls/class-control-base.php:269
+msgctxt "customify-font-weight"
+msgid "Bold"
+msgstr "Жирный"
+
+#: inc/customizer/controls/class-control-base.php:268
+msgctxt "customify-font-weight"
+msgid "Normal"
+msgstr "Нормальный"
+
+#: inc/customizer/controls/class-control-base.php:265
+msgid "Do you want to reset this section settings?"
+msgstr "Вы хотите сбросить настройки этой секции?"
+
+#: inc/customizer/controls/class-control-base.php:263
+msgid "Reset this section settings"
+msgstr "Сбросить настройки этой секции"
+
+#: inc/customizer/controls/class-control-base.php:262
+msgid "Theme Default"
+msgstr "Тема по умолчанию"
+
+#: inc/customizer/configs/typography.php:60
+msgid "Widget Title"
+msgstr "Название виджета"
+
+#: inc/customizer/configs/typography.php:149
+msgid "Heading H6"
+msgstr "Заголовок H6"
+
+#: inc/customizer/configs/typography.php:140
+msgid "Heading H5"
+msgstr "Заголовок H5"
+
+#: inc/customizer/configs/typography.php:131
+msgid "Heading H4"
+msgstr "Заголовок H4"
+
+#: inc/customizer/configs/typography.php:122
+msgid "Heading H3"
+msgstr "Заголовок H3"
+
+#: inc/customizer/configs/typography.php:113
+msgid "Heading H2"
+msgstr "Заголовок H2"
+
+#: inc/customizer/configs/typography.php:104
+msgid "Heading H1"
+msgstr "Заголовок H1"
+
+#: inc/customizer/configs/typography.php:78
+msgid "Site Title"
+msgstr "Заголовок сайта"
+
+#: inc/customizer/configs/typography.php:71
+msgid "Site Title & Tagline"
+msgstr "Заголовок и подзаголовок сайта"
+
+#: inc/customizer/configs/typography.php:47
+msgid "Apply to all heading elements."
+msgstr "Применить ко всем элементам заголовка."
+
+#: inc/customizer/configs/typography.php:46
+msgid "Heading"
+msgstr "Заголовок"
+
+#: inc/customizer/configs/typography.php:36
+msgid "Body & Paragraph"
+msgstr "Тело и параграф"
+
+#: inc/customizer/configs/typography.php:29
+msgid "Base"
+msgstr "Основное"
+
+#: inc/customizer/configs/styling.php:271
+msgid "Heading Color"
+msgstr "Цвет заголовка"
+
+#: inc/customizer/configs/styling.php:246
+msgid "Meta Color"
+msgstr "Цвет метаданных"
+
+#: inc/customizer/configs/styling.php:100
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: inc/customizer/configs/styling.php:38
+msgid "Primary Color"
+msgstr "Основной цвет"
+
+#: inc/customizer/configs/styling.php:22
+msgid "Global Colors"
+msgstr "Глобальные цвета"
+
+#: inc/customizer/configs/single-blog-post.php:126
+msgid "Meta Settings"
+msgstr "Настройка метаданных"
+
+#: inc/customizer/configs/single-blog-post.php:94
+msgid "Comment Form"
+msgstr "Форма комментария"
+
+#: inc/customizer/configs/single-blog-post.php:82
+msgid "Post Navigation"
+msgstr "Навигация по записям"
+
+#: inc/customizer/configs/single-blog-post.php:72
+msgid "Tags"
+msgstr "Метки"
+
+#: inc/customizer/configs/single-blog-post.php:62
+#: inc/customizer/configs/typography.php:97
+msgid "Content"
+msgstr "Содержимое"
+
+#: inc/customizer/configs/single-blog-post.php:57
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: inc/customizer/configs/single-blog-post.php:37
+msgid "Items Display"
+msgstr "Показать элементы"
+
+#: inc/customizer/configs/single-blog-post.php:6
+#: inc/customizer/configs/related-posts.php:6
+msgid "Single Blog Post"
+msgstr "Еденичная запись блога"
+
+#: inc/customizer/configs/page-header.php:768
+msgid "Oops! That page can't be found."
+msgstr "Упс! Страница не найдена."
+
+#: inc/customizer/configs/page-header.php:559
+#: inc/customizer/configs/page-header.php:591
+msgid "Cover Text Align"
+msgstr "Положение текста обложки"
+
+#: inc/customizer/configs/page-header.php:568
+msgid "Cover Height"
+msgstr "Высота обложки"
+
+#: inc/customizer/configs/page-header.php:543
+msgid "Cover Overlay"
+msgstr "Наложение обложки"
+
+#: inc/customizer/configs/page-header.php:401
+msgid "Cover Settings"
+msgstr "Настройка обложки"
+
+#: inc/customizer/configs/page-header.php:379
+msgid "Text Align"
+msgstr "Положение текста"
+
+#: inc/customizer/configs/page-header.php:350
+#: inc/customizer/configs/page-header.php:419
+msgid "Tagline is pull from post excerpt, archive description."
+msgstr "Подзаголовк извлекается из отрывка записи, описания архива."
+
+#: inc/customizer/configs/page-header.php:349
+#: inc/customizer/configs/page-header.php:418
+msgid "Show Tagline"
+msgstr "Показать подзаголовок"
+
+#: inc/customizer/configs/page-header.php:305
+#: inc/customizer/configs/page-header.php:341
+#: inc/customizer/configs/page-header.php:351
+#: inc/customizer/configs/page-header.php:410
+#: inc/customizer/configs/page-header.php:420
+msgid "Enable"
+msgstr "Активировать"
+
+#: inc/customizer/configs/page-header.php:304
+msgid "Enable or disable archive prefix on category, date, tag page."
+msgstr "Активировать или отключить префикс архива в рубрике, дате, странице метки."
+
+#: inc/customizer/configs/page-header.php:303
+msgid "Archive Prefix"
+msgstr "Префикс архива"
+
+#: inc/customizer/configs/page-header.php:290
+#: inc/customizer/configs/typography.php:87
+msgid "Tagline"
+msgstr "Подзаголовок"
+
+#: inc/customizer/configs/page-header.php:285
+msgid "Title & tagline for special pages."
+msgstr "Заголовок и подзаголовок для специальных страниц."
+
+#: inc/customizer/configs/page-header.php:284
+msgid "Title & Tagline"
+msgstr "Заголовок и подзаголовок"
+
+#: inc/customizer/configs/page-header.php:273
+msgid "Use title & tagline of current post"
+msgstr "Использовать заголовок и подзаголовок для текущей записи"
+
+#: inc/customizer/configs/page-header.php:272
+msgid "Use title & tagline from blog page"
+msgstr "Использовать заголовок и подзаголовок со страницы блога"
+
+#: inc/customizer/configs/page-header.php:268
+msgid "Single Post Title & Tagline"
+msgstr "Заголовок и подзаголовок одиночной записи"
+
+#: inc/customizer/configs/page-header.php:262
+msgid "Use featured image of current post"
+msgstr "Использовать изображение текущей записи"
+
+#: inc/customizer/configs/page-header.php:261
+msgid "Use featured image from blog page"
+msgstr "Использовать изображение записи со страницы блога"
+
+#: inc/customizer/configs/page-header.php:257
+msgid "Apply when viewing single post and page header setting displays as cover."
+msgstr "Применить для показа в качестве обложки при просмотре отдельных сообщений и параметров заголовка страницы."
+
+#: inc/customizer/configs/page-header.php:249
+msgid "Advanced"
+msgstr "Продвинутый"
+
+#: inc/customizer/configs/page-header.php:230
+msgid "Display Settings"
+msgstr "Показать настройки"
+
+#: inc/class-metabox.php:55 inc/customizer/configs/page-header.php:207
+msgid "Page Header"
+msgstr "Заголовок страницы"
+
+#: inc/customizer/configs/page-header.php:146
+msgid "Tagline for 404 page"
+msgstr "Подзаголовок для страницы 404"
+
+#: inc/customizer/configs/page-header.php:139
+msgid "Tagline for single post"
+msgstr "Подзаголовок для одиночной записи"
+
+#: inc/customizer/configs/page-header.php:132
+msgid "Tagline for index page"
+msgstr "Подзаголовок для главной страницы"
+
+#: inc/customizer/configs/page-header.php:122
+msgid "Title for 404 page"
+msgstr "Заголовок для страницы 404"
+
+#: inc/customizer/configs/page-header.php:115
+msgid "Title for single post"
+msgstr "Заголовок для одиночной записи"
+
+#: inc/customizer/configs/page-header.php:108
+msgid "Title for index page"
+msgstr "Заголовок для для главной страницы"
+
+#: inc/customizer/configs/page-header.php:97
+#: inc/customizer/configs/page-header.php:123
+#: inc/customizer/configs/page-header.php:147
+msgid "Apply when the page not found"
+msgstr "Применить если страницы не найдена"
+
+#: inc/customizer/configs/page-header.php:96
+msgid "Display on 404 page"
+msgstr "Отобразить на странице 404"
+
+#: inc/customizer/configs/page-header.php:89
+msgid "Apply when viewing archive pages, e.g. Tag, Author, Date, Custom Post Type or Custom Taxonomy"
+msgstr "Применить при просмотре страницах архива, например Метки, Автор, Дата, Тип пользовательской записи или Пользовательская таксономия"
+
+#: inc/customizer/configs/page-header.php:88
+msgid "Display on archive"
+msgstr "Отобразить на архиве"
+
+#: inc/customizer/configs/page-header.php:81
+msgid "Apply when viewing search results page"
+msgstr "Применить при просмотре страницы результаты поиска"
+
+#: inc/customizer/configs/page-header.php:80
+msgid "Display on search"
+msgstr "Отобразить при поиске"
+
+#: inc/customizer/configs/page-header.php:73
+#: inc/customizer/configs/page-header.php:109
+#: inc/customizer/configs/page-header.php:133
+msgid "Apply when your homepage displays as latest posts"
+msgstr "Применить когда ваша страница отображается как последние записи"
+
+#: inc/customizer/configs/page-header.php:72
+msgid "Display on index"
+msgstr "Отобразить на главной"
+
+#: inc/customizer/configs/page-header.php:65
+msgid "Apply when viewing a category page"
+msgstr "Применить при просмотре страницы рубрики"
+
+#: inc/customizer/configs/page-header.php:64
+msgid "Display on categories"
+msgstr "Отобразить на рубриках"
+
+#: inc/customizer/configs/page-header.php:56
+#: inc/customizer/configs/page-header.php:116
+#: inc/customizer/configs/page-header.php:140
+msgid "Apply when viewing single post"
+msgstr "Применить при просмотре одиночной записи"
+
+#: inc/customizer/configs/page-header.php:55
+msgid "Display on single post"
+msgstr "Отобразить на одиночной записи страницы"
+
+#: inc/customizer/configs/page-header.php:48
+msgid "Apply when viewing single page"
+msgstr "Применить при просмотре одиночной страницы"
+
+#: inc/customizer/configs/page-header.php:47
+msgid "Display on single page"
+msgstr "Отобразить на одиночной странице"
+
+#: inc/customizer/configs/layouts.php:207
+msgid "404 Page"
+msgstr "Страница 404"
+
+#: inc/customizer/configs/search.php:6
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: inc/customizer/configs/layouts.php:180
+msgid "Blog posts"
+msgstr "Записи блога"
+
+#: inc/customizer/configs/layouts.php:171
+msgid "Pages"
+msgstr "Страницы"
+
+#: inc/customizer/configs/layouts.php:155
+msgid "Sidebar with vertical border"
+msgstr "Боковая панель с вертикальной границей"
+
+#: inc/customizer/configs/layouts.php:147
+msgid "Default Sidebar Layout"
+msgstr "Макет боковой панели по умолчанию"
+
+#: inc/customizer/configs/layouts.php:139
+msgid "Sidebars"
+msgstr "Боковые панели"
+
+#: inc/customizer/configs/layouts.php:120
+msgid "Site content padding"
+msgstr "Отступы содержимого сайта"
+
+#: inc/customizer/configs/layouts.php:108
+msgid "Full width"
+msgstr "Вся ширина"
+
+#: inc/customizer/configs/layouts.php:106
+msgid "Site content layout"
+msgstr "Макет содержимого сайта"
+
+#: inc/customizer/configs/layouts.php:96
+msgid "Container width"
+msgstr "Ширина контейнера"
+
+#: inc/customizer/configs/layouts.php:69
+msgid "Site framed margin"
+msgstr "Внешние отступы обрамления сайта"
+
+#: inc/customizer/configs/layouts.php:52
+msgid "Site boxed/framed shadow"
+msgstr "Тень фиксированого/обрамленого сайта"
+
+#: inc/customizer/configs/layouts.php:44
+msgid "Framed"
+msgstr "Обрамление"
+
+#: inc/customizer/configs/layouts.php:43 inc/customizer/configs/layouts.php:109
+msgid "Boxed"
+msgstr "Фиксированная"
+
+#: inc/customizer/configs/layouts.php:37
+msgid "Select global site layout."
+msgstr "Выберите макет глобального сайта."
+
+#: inc/customizer/configs/layouts.php:36
+msgid "Site layout"
+msgstr "Макет сайта"
+
+#: inc/customizer/configs/layouts.php:30
+msgid "Global"
+msgstr "Глобальный"
+
+#: inc/customizer/configs/layouts.php:21
+msgid "Layouts"
+msgstr "Макеты"
+
+#: inc/customizer/configs/header/social-icons.php:258
+msgid "Border & border radius"
+msgstr "Граница и радиусы границы"
+
+#: inc/customizer/configs/header/social-icons.php:227
+#: inc/customizer/configs/header/social-icons.php:243
+msgid "Icon Color"
+msgstr "Цвет иконки"
+
+#: inc/customizer/configs/header/social-icons.php:210
+msgid "Custom Color"
+msgstr "Пользовательский текст"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:291
+#: inc/customizer/configs/header/social-icons.php:199
+#: inc/customizer/configs/blogs.php:192 inc/customizer/configs/search.php:30
+msgid "Custom"
+msgstr "Пользовательский"
+
+#: inc/customizer/configs/header/social-icons.php:198
+msgid "Official Color"
+msgstr "Официальный цвет"
+
+#: inc/customizer/configs/header/social-icons.php:184
+msgid "Circle"
+msgstr "Круг"
+
+#: inc/customizer/configs/header/social-icons.php:183
+msgid "Square"
+msgstr "Квадрат"
+
+#: inc/customizer/configs/header/social-icons.php:182
+msgid "Rounded"
+msgstr "Закругленный"
+
+#: inc/customizer/configs/header/social-icons.php:180
+msgid "Shape"
+msgstr "Форма"
+
+#: inc/customizer/configs/header/social-icons.php:170
+msgid "Icon Spacing"
+msgstr "Интервал иконки"
+
+#: inc/customizer/configs/header/social-icons.php:131
+msgid "Adding rel=\"nofollow\" for social links."
+msgstr "Добавляем rel=\"nofollow\" для ссылок соц. сетей."
+
+#: inc/customizer/configs/header/social-icons.php:110
+msgid "URL"
+msgstr "Ссылка"
+
+#: inc/customizer/configs/header/social-icons.php:51
+msgid "Social Profiles"
+msgstr "Профили соц. сетей"
+
+#: inc/customizer/configs/header/social-icons.php:23
+#: inc/customizer/configs/header/social-icons.php:42
+msgid "Social Icons"
+msgstr "Иконки соц. сетей"
+
+#: inc/customizer/configs/header/search-icon.php:179
+msgid "Search Modal Width"
+msgstr "Ширина окна поиска"
+
+#: inc/customizer/configs/header/search-icon.php:134
+msgid "Form modal styling"
+msgstr "Стиль окна формы"
+
+#: inc/customizer/configs/header/search-icon.php:133
+msgid "Form Styling"
+msgstr "Стиль формы"
+
+#: inc/customizer/configs/header/search-icon.php:115
+msgid "Modal Settings"
+msgstr "Настройки окна"
+
+#: inc/customizer/configs/header/search-icon.php:82
+msgid "Search icon styling"
+msgstr "Стиль иконки поиска"
+
+#: inc/customizer/configs/header/search-icon.php:73
+msgid "Icon Padding"
+msgstr "Отступ от иконки"
+
+#: inc/customizer/configs/header/search-icon.php:15
+msgid "Search Icon"
+msgstr "Иконка поиска"
+
+#: inc/template-functions.php:322 inc/template-functions.php:323
+#: inc/customizer/configs/header/search-icon.php:331
+#: inc/customizer/configs/header/search-icon.php:332
+#: inc/customizer/configs/header/search-box.php:255
+#: inc/customizer/configs/header/search-box.php:265
+msgctxt "label"
+msgid "Search for:"
+msgstr "Искать:"
+
+#: inc/customizer/configs/header/search-icon.php:81
+#: inc/customizer/configs/header/search-icon.php:274
+#: inc/customizer/configs/header/search-box.php:202
+msgid "Icon Styling"
+msgstr "Стиль иконки"
+
+#: inc/customizer/configs/header/search-icon.php:238
+#: inc/customizer/configs/header/search-icon.php:275
+#: inc/customizer/configs/header/search-box.php:152
+#: inc/customizer/configs/header/search-box.php:203
+msgid "Search input styling"
+msgstr "Стиль поля ввода поиска"
+
+#: inc/customizer/configs/header/search-icon.php:237
+#: inc/customizer/configs/header/search-box.php:151
+msgid "Input Styling"
+msgstr "Стиль поля ввода"
+
+#: inc/customizer/configs/header/search-icon.php:189
+#: inc/customizer/configs/header/search-box.php:142
+msgid "Typography for search input"
+msgstr "Оформление для поля ввода поиска"
+
+#: inc/customizer/configs/header/search-icon.php:188
+#: inc/customizer/configs/header/search-box.php:141
+msgid "Input Text Typography"
+msgstr "Оформление текста поля ввода"
+
+#: inc/customizer/configs/header/search-icon.php:169
+#: inc/customizer/configs/header/search-box.php:89
+msgid "Input Height"
+msgstr "Высота поля ввода"
+
+#: inc/customizer/configs/header/search-box.php:75
+msgid "Note: The width can not greater than grid width."
+msgstr "Примечание: Ширина не может быть больше чем ширина сетки сайта."
+
+#: inc/customizer/configs/header/search-box.php:74
+msgid "Search Form Width"
+msgstr "Ширина формы поиска"
+
+#: inc/customizer/configs/header/search-icon.php:125
+#: inc/customizer/configs/header/search-box.php:63
+msgid "Search ..."
+msgstr "Поиск ..."
+
+#: inc/customizer/configs/header/search-icon.php:124
+#: inc/customizer/configs/header/search-box.php:62
+msgid "Placeholder"
+msgstr "Заполнитель"
+
+#: inc/customizer/configs/header/search-box.php:15
+msgid "Search Box"
+msgstr "Окно поиска"
+
+#: inc/customizer/configs/header/panel.php:430
+msgid "Merge with right item"
+msgstr "Слияние с правым элементом"
+
+#: inc/customizer/configs/header/panel.php:429
+msgid "Merge with left item"
+msgstr "Слияние с левым элементом"
+
+#: inc/customizer/configs/header/panel.php:426
+msgid "If you choose to merge this item, the alignment setting will inherit from the item you are merging."
+msgstr "Если вы решите объединить этот элемент, настройка выравнивания наследуется от элемента, который вы объединяете."
+
+#: inc/customizer/configs/header/panel.php:425
+msgid "Merge Item"
+msgstr "Элемент объединения"
+
+#: inc/customizer/configs/header/panel.php:375
+msgid "Item Layout"
+msgstr "Макет элемента"
+
+#: inc/customizer/configs/header/panel.php:253
+msgid "Toggle Dropdown"
+msgstr "Вкл/Выкл выпадающий список"
+
+#: inc/customizer/configs/header/panel.php:252
+msgid "Full-screen Overlay"
+msgstr "Наложение на весь экран"
+
+#: inc/customizer/configs/header/panel.php:251
+msgid "Slide From Right"
+msgstr "Выезжать справа"
+
+#: inc/customizer/configs/header/panel.php:250
+msgid "Slide From Left"
+msgstr "Выезжать слева"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:387
+#: inc/customizer/configs/header/panel.php:247
+msgid "Display Type"
+msgstr "Тип дисплея"
+
+#: inc/customizer/configs/header/panel.php:177
+msgid "Height"
+msgstr "Высота"
+
+#: inc/customizer/configs/header/panel.php:57
+msgid "Header"
+msgstr "Верхний колонтитул"
+
+#: inc/customizer/configs/header/panel.php:45
+msgid "Menu Sidebar"
+msgstr "Меню боковой панели"
+
+#: inc/customizer/configs/header/panel.php:44
+msgid "Header Bottom"
+msgstr "Низ верхнего колонтитула"
+
+#: inc/customizer/configs/header/panel.php:43
+msgid "Header Main"
+msgstr "Основной верхний колонтитул"
+
+#: inc/customizer/configs/header/panel.php:42
+#: inc/customizer/configs/header/panel.php:115
+msgid "Header Top"
+msgstr "Верх верхнего колонтитула"
+
+#: inc/customizer/configs/header/panel.php:35
+msgid "Mobile/Tablet"
+msgstr "Мобильный/Планшет"
+
+#: inc/customizer/configs/header/panel.php:34
+msgid "Desktop"
+msgstr "Настольный компьютер"
+
+#: inc/customizer/configs/header/nav-icon.php:91
+msgid "Color Hover"
+msgstr "Цвет при наведении"
+
+#: inc/customizer/configs/header/nav-icon.php:71
+msgid "Large"
+msgstr "Большой"
+
+#: inc/customizer/configs/header/nav-icon.php:70
+msgid "Medium"
+msgstr "Средний"
+
+#: inc/customizer/configs/header/nav-icon.php:69
+msgid "Small"
+msgstr "Маленький"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:225
+#: inc/customizer/configs/header/search-icon.php:60
+#: inc/customizer/configs/header/search-icon.php:202
+#: inc/customizer/configs/header/nav-icon.php:61
+#: inc/customizer/configs/header/search-box.php:103
+msgid "Icon Size"
+msgstr "Размер иконки"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:132
+#: inc/compatibility/woocommerce/config/header/cart.php:133
+#: inc/customizer/configs/header/nav-icon.php:52
+msgid "Show Label"
+msgstr "Отобразить метку"
+
+#: inc/customizer/configs/header/nav-icon.php:45
+msgid "Label Settings"
+msgstr "Настройки метки"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:75
+#: inc/customizer/configs/header/nav-icon.php:36
+msgid "Label"
+msgstr "Метка"
+
+#: inc/customizer/configs/header/nav-icon.php:35
+#: inc/panel-builder/class-abstract-layout-frontend.php:119
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/customizer/configs/header/nav-icon.php:9
+#: inc/customizer/configs/header/nav-icon.php:26
+msgid "Menu Icon"
+msgstr "Иконка меню"
+
+#: inc/customizer/configs/header/menus.php:204
+msgid "Submenu"
+msgstr "Подменю"
+
+#: inc/customizer/configs/header/menus.php:192
+msgid "Typography for menu"
+msgstr "Типографика меню"
+
+#: inc/customizer/configs/header/menus.php:191
+msgid "Top Menu Items Typography"
+msgstr "Типографика элементов верха верхнего колонтитула"
+
+#: inc/customizer/configs/header/menus.php:166
+msgid "Hover/Active"
+msgstr "При наведении/Активный"
+
+#: inc/customizer/configs/header/menus.php:156
+msgid "Styling for top level menu items"
+msgstr "Стиль для элементов меню верхнего уровня "
+
+#: inc/customizer/configs/header/menus.php:155
+msgid "Top Menu Items Styling"
+msgstr "Стиль элементов верхнего меню"
+
+#: inc/customizer/configs/header/menus.php:148
+msgid "Top Menu"
+msgstr "Верхнее меню"
+
+#: inc/customizer/configs/header/menus.php:139
+msgid "Arrow icon size"
+msgstr "Размер значка стрелки"
+
+#: inc/customizer/configs/header/menus.php:128
+msgid "Hide menu dropdown arrow"
+msgstr "Скрыть стрелку выпадающего меню"
+
+#: inc/customizer/configs/header/menus.php:53
+msgid "Menu Preset"
+msgstr "Предустановленное меню"
+
+#: inc/customizer/configs/header/menus.php:44
+msgid "Assign <a href=\"#menu_locations\"  class=\"focus-section\">Menu Location</a> for %1$s"
+msgstr "Назначить <a href=\"#menu_locations\"  class=\"focus-section\">Положение меню</a> для %1$s"
+
+#: inc/customizer/configs/header/menus.php:18
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: inc/customizer/configs/header/logo.php:8
+msgid "Logo"
+msgstr "Логотип"
+
+#: inc/customizer/configs/header/logo.php:86
+#: inc/customizer/controls/class-control-css-ruler.php:66
+msgid "Bottom"
+msgstr "Снизу"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:302
+#: inc/customizer/configs/header/logo.php:85
+#: inc/customizer/configs/related-posts.php:94
+#: inc/customizer/controls/class-control-css-ruler.php:62
+msgid "Right"
+msgstr "Справа"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:301
+#: inc/customizer/configs/header/logo.php:84
+#: inc/customizer/configs/related-posts.php:93
+#: inc/customizer/controls/class-control-css-ruler.php:70
+msgid "Left"
+msgstr "Слева"
+
+#: inc/customizer/configs/header/logo.php:83
+#: inc/customizer/configs/related-posts.php:95
+#: inc/customizer/controls/class-control-css-ruler.php:58
+msgid "Top"
+msgstr "Сверху"
+
+#: inc/customizer/configs/layouts.php:55 inc/customizer/configs/layouts.php:158
+#: inc/customizer/configs/header/panel.php:428
+#: inc/customizer/configs/header/logo.php:56
+#: inc/customizer/configs/header/logo.php:70
+msgid "No"
+msgstr "Нет"
+
+#: inc/customizer/configs/layouts.php:54 inc/customizer/configs/layouts.php:157
+#: inc/customizer/configs/header/logo.php:55
+#: inc/customizer/configs/header/logo.php:69
+msgid "Yes"
+msgstr "Да"
+
+#: inc/customizer/configs/header/logo.php:43
+msgid "Logo Retina"
+msgstr "Логотип Retina"
+
+#: inc/customizer/configs/header/logo.php:30
+msgid "Logo Max Width"
+msgstr "Максимальная ширина логотипа"
+
+#: inc/customizer/configs/header/html.php:73
+msgid "Arbitrary HTML code."
+msgstr "Произвольный HTML-код."
+
+#: inc/customizer/configs/header/html.php:72
+msgid "HTML"
+msgstr "HTML"
+
+#: inc/customizer/configs/header/html.php:71
+msgid "Add custom text here or remove it"
+msgstr "Добавьте сюда пользовательский текст или удалите его."
+
+#: inc/customizer/configs/header/html.php:29
+msgid "HTML 1"
+msgstr "HTML 1"
+
+#: inc/customizer/configs/header/button.php:108
+msgid "Advanced styling for button"
+msgstr "Расширенные настройки для кнопки"
+
+#: inc/customizer/configs/header/button.php:97
+msgid "Advanced typography for button"
+msgstr "Расширенная типографика для кнопки"
+
+#: inc/customizer/configs/header/button.php:80
+msgid "Link"
+msgstr "Ссылка"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:101
+#: inc/customizer/configs/header/button.php:70
+msgid "After"
+msgstr "После"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:100
+#: inc/customizer/configs/header/button.php:69
+msgid "Before"
+msgstr "Перед"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:103
+#: inc/customizer/configs/header/search-icon.php:229
+#: inc/customizer/configs/header/button.php:67
+#: inc/customizer/configs/header/search-box.php:131
+msgid "Icon Position"
+msgstr "Положение иконки"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:89
+#: inc/customizer/configs/header/social-icons.php:104
+#: inc/customizer/configs/header/button.php:57
+msgid "Icon"
+msgstr "Иконка"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:380
+#: inc/customizer/configs/header/button.php:46
+msgid "Text"
+msgstr "Текст"
+
+#: inc/customizer/configs/header/button.php:18
+#: inc/customizer/configs/header/button.php:36
+#: inc/customizer/configs/header/button.php:47
+#: inc/customizer/configs/header/button.php:165
+msgid "Button"
+msgstr "Кнопка"
+
+#. Translators: 1: Admin URL2: Customize URL 3: Footer ID
+#: inc/customizer/configs/footer/widgets.php:161
+msgid "<p>Replace this widget content by going to <a href=\"%1$s\"><strong>Appearance &rarr; Customize &rarr; Footer &rarr; Footer %2$s</strong></a> and adding widgets into this widget area.</p>"
+msgstr "<p>Замените содержимое этого виджета перейдя в <a href=\"%1$s\"><strong>Вид &rarr; Настройки &rarr; Нижний колонтитул &rarr; Нижний колонтитул %2$s</strong></a> и добавьте виджеты в этот блок.</p>"
+
+#: inc/customizer/configs/footer/widgets.php:158
+msgid "Footer Widget %s"
+msgstr "Виджет нижнего колонтитула %s"
+
+#: inc/customizer/configs/footer/widgets.php:93
+msgid "Footer Sidebar 6"
+msgstr "Боковая панель нижнего колонтитула 6"
+
+#: inc/customizer/configs/footer/widgets.php:76
+msgid "Footer Sidebar 5"
+msgstr "Боковая панель нижнего колонтитула 5"
+
+#: inc/customizer/configs/footer/widgets.php:59
+msgid "Footer Sidebar 4"
+msgstr "Боковая панель нижнего колонтитула 4"
+
+#: inc/customizer/configs/footer/widgets.php:42
+msgid "Footer Sidebar 3"
+msgstr "Боковая панель нижнего колонтитула 3"
+
+#: inc/customizer/configs/footer/widgets.php:25
+msgid "Footer Sidebar 2"
+msgstr "Боковая панель нижнего колонтитула 2"
+
+#: inc/customizer/configs/footer/widgets.php:8
+msgid "Footer Sidebar 1"
+msgstr "Боковая панель нижнего колонтитула 1"
+
+#: inc/customizer/configs/footer/templates.php:64
+#: inc/customizer/configs/header/templates.php:64
+msgid "Save"
+msgstr "Сохранить"
+
+#: inc/customizer/configs/footer/templates.php:63
+#: inc/customizer/configs/header/templates.php:63
+msgid "Save Template"
+msgstr "Сохранить шаблон"
+
+#: inc/customizer/configs/footer/templates.php:55
+#: inc/customizer/configs/header/templates.php:55
+#: inc/panel-builder/class-layout-builder.php:392
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: inc/customizer/configs/footer/templates.php:44
+#: inc/customizer/configs/header/templates.php:44
+msgid "No saved templates."
+msgstr "Шаблоны не сохранены."
+
+#: inc/class-metabox-fields.php:513
+#: inc/customizer/configs/footer/templates.php:40
+#: inc/customizer/configs/header/templates.php:40
+#: inc/customizer/controls/class-control-upload.php:44
+#: inc/customizer/controls/class-control-video.php:44
+#: inc/customizer/controls/class-control-media.php:44
+#: inc/customizer/controls/class-control-icon.php:24
+#: inc/customizer/controls/class-control-icon.php:27
+#: inc/customizer/controls/class-control-repeater.php:39
+#: inc/customizer/controls/class-control-image.php:44
+#: inc/panel-builder/class-layout-builder.php:258
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/customizer/configs/footer/templates.php:40
+#: inc/customizer/configs/header/templates.php:40
+#: inc/panel-builder/class-layout-builder.php:258
+msgid "Load"
+msgstr "Загрузить"
+
+#: inc/customizer/configs/footer/templates.php:36
+#: inc/customizer/configs/header/templates.php:36
+#: inc/customizer/controls/class-control-base.php:135
+#: inc/customizer/controls/class-control-base.php:264
+msgid "Untitled"
+msgstr "Без названия"
+
+#: inc/customizer/configs/footer/templates.php:24
+#: inc/customizer/configs/header/templates.php:24
+msgid "Saved Templates"
+msgstr "Шаблоны сохранены"
+
+#: inc/customizer/configs/header/panel.php:205
+#: inc/customizer/configs/header/panel.php:282
+msgid "Advanced styling for %s"
+msgstr "Расширенные настройки для %s"
+
+#: inc/customizer/configs/styling.php:281
+msgid "Widget Title Color"
+msgstr "Цвет заголовка виджета"
+
+#: inc/customizer/configs/footer/panel.php:109
+#: inc/customizer/configs/header/panel.php:162
+msgid "Layout <code>Full width - Contained</code> and <code>Full Width</code> will not fit browser width because you've selected <a class='focus-control' data-id='site_layout' href='#'>Site Layout</a> as <code>Boxed</code> or <code>Framed</code>"
+msgstr "Шаблон <code>На всю ширину - ограниченный</code> и <code>На всю ширину</code> не будет соответствовать ширине браузера, потому что вы выбрали <a class='focus-control' data-id='site_layout' href='#'>Шаблон сайта</a> как<code>Фиксированный</code> или <code>Рамочный</code>"
+
+#: inc/customizer/configs/page-header.php:222
+#: inc/customizer/configs/footer/panel.php:100
+#: inc/customizer/configs/header/panel.php:153
+msgid "Contained"
+msgstr "Ограниченный"
+
+#: inc/customizer/configs/page-header.php:220
+#: inc/customizer/configs/footer/panel.php:98
+#: inc/customizer/configs/header/panel.php:151
+msgid "Full width - Contained"
+msgstr "На всю ширину - ограниченный"
+
+#: inc/customizer/configs/footer/panel.php:65
+msgid "Footer Top"
+msgstr "Верх нижнего колонтитула"
+
+#: inc/customizer/configs/footer/panel.php:33
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+#: inc/customizer/configs/footer/panel.php:22
+msgid "Footer Bottom"
+msgstr "Низ нижнего колонтитула"
+
+#: inc/customizer/configs/footer/panel.php:21
+msgid "Footer Main"
+msgstr "Основной нижний колонтитул"
+
+#: inc/customizer/configs/footer/panel.php:14
+msgid "Footer Layout"
+msgstr "Макет нижнего колонтитула"
+
+#: inc/customizer/configs/header/panel.php:340
+#: inc/customizer/configs/header/panel.php:407
+msgid "Align"
+msgstr "Выравнивание"
+
+#: inc/customizer/configs/footer/copyright.php:63
+msgid "Copyright Text Typography"
+msgstr "Типографика текста авторского права"
+
+#: inc/customizer/configs/footer/copyright.php:56
+msgid "Arbitrary HTML code or shortcode. Available tags: {current_year}, {site_title}, {theme_author}"
+msgstr "Код произвольного HTML или шорткод. Доступные метки: {current_year}, {site_title}, {theme_author}"
+
+#: inc/customizer/configs/footer/copyright.php:55
+msgid "Copyright Text"
+msgstr "Текст авторского права"
+
+#: inc/customizer/configs/footer/copyright.php:54
+msgid "Copyright &copy; {current_year} {site_title} - Powered by {theme_author}."
+msgstr "Авторское право &copy; {current_year} {site_title} - Создано {theme_author}."
+
+#: inc/customizer/configs/footer/copyright.php:13
+#: inc/customizer/configs/footer/copyright.php:23
+msgid "Copyright"
+msgstr "Авторское право"
+
+#: inc/customizer/configs/compatibility.php:19
+msgid "Compatibility"
+msgstr "Совместимость"
+
+#: inc/customizer/configs/blogs.php:448
+msgid "Blog"
+msgstr "Блог"
+
+#: inc/customizer/configs/blogs.php:429
+msgid "How many numbers to either side of the current pages"
+msgstr "Сколько номеров по обе стороны от текущих страниц"
+
+#: inc/customizer/configs/blogs.php:418
+msgid "Next Label"
+msgstr "Следующая метка"
+
+#: inc/customizer/configs/blogs.php:400
+msgid "Show Next, Previous Label"
+msgstr "Отобразить Следующая, Предыдущая метка"
+
+#: inc/customizer/configs/blogs.php:391
+msgid "Show Pagination"
+msgstr "Показать постраничную навигацию"
+
+#: inc/customizer/configs/blogs.php:381
+msgid "Pagination"
+msgstr "Постраничная навигация"
+
+#: inc/customizer/configs/blogs.php:337
+msgid "Read More Text"
+msgstr "Текст Читать далее"
+
+#: inc/customizer/configs/blogs.php:318
+msgid "Read More"
+msgstr "Читать далее"
+
+#: inc/customizer/configs/single-blog-post.php:210
+#: inc/customizer/configs/blogs.php:310
+msgid "Avatar Size"
+msgstr "Размер аватара"
+
+#: inc/customizer/configs/single-blog-post.php:199
+#: inc/customizer/configs/blogs.php:299
+msgid "Show author avatar"
+msgstr "Показать аватар автора"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:154
+#: inc/compatibility/woocommerce/config/catalog-designer.php:265
+#: inc/customizer/configs/single-blog-post.php:47
+#: inc/customizer/configs/single-blog-post.php:106
+#: inc/customizer/configs/single-blog-post.php:187
+#: inc/customizer/configs/page-header.php:289
+#: inc/customizer/configs/header/social-icons.php:99
+#: inc/customizer/configs/related-posts.php:31
+#: inc/customizer/configs/related-posts.php:149
+#: inc/customizer/configs/related-posts.php:211
+#: inc/customizer/configs/blogs.php:287
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/customizer/configs/single-blog-post.php:175
+#: inc/customizer/configs/related-posts.php:198
+#: inc/customizer/configs/blogs.php:275
+msgid "Comment"
+msgstr "Комментарий"
+
+#: inc/customizer/configs/single-blog-post.php:67
+#: inc/customizer/configs/single-blog-post.php:171
+#: inc/customizer/configs/related-posts.php:193
+#: inc/customizer/configs/blogs.php:271
+msgid "Categories"
+msgstr "Рубрики"
+
+#: inc/customizer/configs/single-blog-post.php:167
+#: inc/customizer/configs/related-posts.php:148
+#: inc/customizer/configs/related-posts.php:189
+#: inc/customizer/configs/blogs.php:267
+msgid "Date"
+msgstr "Дата"
+
+#: inc/customizer/configs/single-blog-post.php:163
+#: inc/customizer/configs/related-posts.php:184
+#: inc/customizer/configs/blogs.php:263
+msgid "Author"
+msgstr "Автор"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:171
+#: inc/customizer/configs/single-blog-post.php:134
+#: inc/customizer/configs/blogs.php:234
+msgid "Separator"
+msgstr "Разделитель"
+
+#: inc/customizer/configs/single-blog-post.php:52
+msgid "Meta"
+msgstr "Мета"
+
+#: inc/customizer/configs/blogs.php:219 inc/customizer/configs/search.php:57
+msgid "Excerpt More"
+msgstr "Отрывок больше"
+
+#: inc/customizer/configs/blogs.php:209 inc/customizer/configs/search.php:47
+msgid "Excerpt Length"
+msgstr "Длина отрывка"
+
+#: inc/customizer/configs/blogs.php:183
+msgid "Excerpt"
+msgstr "Отрывок"
+
+#: inc/customizer/configs/single-blog-post.php:118
+#: inc/customizer/configs/related-posts.php:106
+#: inc/customizer/configs/blogs.php:163
+msgid "Thumbnail Size"
+msgstr "Размер миниатюры"
+
+#: inc/customizer/configs/blogs.php:148
+msgid "Media Radius"
+msgstr "Радиус медиа"
+
+#: inc/customizer/configs/blogs.php:133
+msgid "Media Width"
+msgstr "Ширина медиа"
+
+#: inc/customizer/configs/blogs.php:120
+msgid "Media Ratio"
+msgstr "Соотношение медиа"
+
+#: inc/customizer/configs/blogs.php:104
+msgid "Media"
+msgstr "Медиа"
+
+#: inc/customizer/configs/blogs.php:84
+msgid "Article Wrapper"
+msgstr "Отступ статьи"
+
+#: inc/customizer/configs/blogs.php:71
+msgid "Article Styling"
+msgstr "Стиль статьи"
+
+#: inc/class-metabox.php:47
+#: inc/compatibility/woocommerce/config/single-product.php:164
+#: inc/compatibility/woocommerce/config/single-product.php:187
+#: inc/customizer/configs/page-header.php:214
+#: inc/customizer/configs/footer/panel.php:92
+#: inc/customizer/configs/header/panel.php:145
+#: inc/customizer/configs/blogs.php:29 inc/customizer/configs/blogs.php:36
+msgid "Layout"
+msgstr "Макет"
+
+#: inc/customizer/class-customizer.php:657
+#: inc/customizer/class-customizer.php:743
+msgid "Box Shadow"
+msgstr "Тень объекта"
+
+#: inc/customizer/configs/header/social-icons.php:310
+#: inc/customizer/class-customizer.php:645
+#: inc/customizer/class-customizer.php:732
+msgid "Border Radius"
+msgstr "Радиус границы"
+
+#: inc/customizer/configs/header/social-icons.php:301
+#: inc/customizer/configs/header/menus.php:108
+#: inc/customizer/configs/styling.php:156
+#: inc/customizer/class-customizer.php:634
+#: inc/customizer/class-customizer.php:725
+msgid "Border Color"
+msgstr "Цвет границы"
+
+#: inc/customizer/configs/header/social-icons.php:288
+#: inc/customizer/class-customizer.php:619
+#: inc/customizer/class-customizer.php:713
+msgid "Border Width"
+msgstr "Ширина границы"
+
+#: inc/customizer/configs/header/social-icons.php:279
+#: inc/customizer/class-customizer.php:611
+#: inc/customizer/class-customizer.php:706
+msgid "Outset"
+msgstr "Внешняя рамка"
+
+#: inc/customizer/configs/header/social-icons.php:278
+#: inc/customizer/class-customizer.php:610
+#: inc/customizer/class-customizer.php:705
+msgid "Inset"
+msgstr "Внутренняя рамка"
+
+#: inc/customizer/configs/header/social-icons.php:277
+#: inc/customizer/class-customizer.php:609
+#: inc/customizer/class-customizer.php:704
+msgid "Ridge"
+msgstr "Край"
+
+#: inc/customizer/configs/header/social-icons.php:276
+#: inc/customizer/class-customizer.php:608
+#: inc/customizer/class-customizer.php:703
+msgid "Double"
+msgstr "Двойная"
+
+#: inc/customizer/configs/header/social-icons.php:275
+#: inc/customizer/class-customizer.php:607
+#: inc/customizer/class-customizer.php:702
+msgid "Dashed"
+msgstr "Пунктирная"
+
+#: inc/customizer/configs/header/social-icons.php:274
+#: inc/customizer/class-customizer.php:606
+#: inc/customizer/class-customizer.php:701
+msgid "Dotted"
+msgstr "Пунктирная"
+
+#: inc/customizer/configs/header/social-icons.php:273
+#: inc/customizer/class-customizer.php:605
+#: inc/customizer/class-customizer.php:700
+msgid "Solid"
+msgstr "Сплошная"
+
+#: inc/customizer/configs/header/social-icons.php:268
+#: inc/customizer/class-customizer.php:600
+#: inc/customizer/class-customizer.php:695
+msgid "Border Style"
+msgstr "Стиль рамки"
+
+#: inc/customizer/configs/header/social-icons.php:257
+#: inc/customizer/class-customizer.php:593
+#: inc/customizer/class-customizer.php:690
+msgid "Border"
+msgstr "Рамка"
+
+#: inc/customizer/configs/page-header.php:530
+#: inc/customizer/class-customizer.php:585
+msgid "Fixed"
+msgstr "Зафиксировано"
+
+#: inc/customizer/configs/page-header.php:529
+#: inc/customizer/class-customizer.php:584
+msgid "Scroll"
+msgstr "Прокрутка"
+
+#: inc/customizer/configs/page-header.php:522
+#: inc/customizer/class-customizer.php:577
+msgid "Attachment"
+msgstr "Вложение"
+
+#: inc/customizer/configs/page-header.php:513
+#: inc/customizer/class-customizer.php:569
+msgid "Repeat vertical"
+msgstr "Повторить вертикально"
+
+#: inc/customizer/configs/page-header.php:512
+#: inc/customizer/class-customizer.php:568
+msgid "Repeat horizontal"
+msgstr "Повторить горизонтально"
+
+#: inc/customizer/configs/page-header.php:511
+#: inc/customizer/class-customizer.php:567
+msgid "No repeat"
+msgstr "Не повторять"
+
+#: inc/customizer/configs/page-header.php:504
+#: inc/customizer/class-customizer.php:560
+msgid "Repeat"
+msgstr "Повторять"
+
+#: inc/customizer/configs/page-header.php:496
+#: inc/customizer/class-customizer.php:553
+msgid "Bottom Right"
+msgstr "Внизу справа"
+
+#: inc/customizer/configs/page-header.php:495
+#: inc/customizer/class-customizer.php:552
+msgid "Bottom Center"
+msgstr "Внизу по центру"
+
+#: inc/customizer/configs/page-header.php:494
+#: inc/customizer/class-customizer.php:551
+msgid "Bottom Left"
+msgstr "Внизу слева"
+
+#: inc/customizer/configs/page-header.php:493
+#: inc/customizer/class-customizer.php:550
+msgid "Top Center"
+msgstr "Сверху по центру"
+
+#: inc/customizer/configs/page-header.php:492
+#: inc/customizer/class-customizer.php:549
+msgid "Top Right"
+msgstr "Сверху справа"
+
+#: inc/customizer/configs/page-header.php:491
+#: inc/customizer/class-customizer.php:548
+msgid "Top Left"
+msgstr "Сверху слева"
+
+#: inc/customizer/configs/page-header.php:490
+#: inc/customizer/class-customizer.php:547
+msgid "Center"
+msgstr "Центр"
+
+#: inc/customizer/configs/page-header.php:485
+#: inc/customizer/class-customizer.php:542
+msgid "Position"
+msgstr "Положение"
+
+#: inc/customizer/configs/page-header.php:477
+#: inc/customizer/configs/header/social-icons.php:144
+#: inc/customizer/class-customizer.php:535
+msgid "Size"
+msgstr "Размер"
+
+#: inc/customizer/configs/page-header.php:474
+#: inc/customizer/class-customizer.php:532
+msgid "Contain"
+msgstr "Содержит"
+
+#: inc/customizer/configs/page-header.php:472
+#: inc/customizer/controls/class-control-css-ruler.php:21
+#: inc/customizer/class-customizer.php:530
+msgid "Auto"
+msgstr "Автоматически"
+
+#: inc/customizer/configs/page-header.php:463
+#: inc/customizer/class-customizer.php:522
+msgid "Background Image"
+msgstr "Изображение фона"
+
+#: inc/customizer/configs/footer/panel.php:139
+#: inc/customizer/configs/header/social-icons.php:220
+#: inc/customizer/configs/header/social-icons.php:236
+#: inc/customizer/class-customizer.php:516
+#: inc/customizer/class-customizer.php:684
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: inc/customizer/configs/background.php:18
+#: inc/customizer/class-customizer.php:510
+#: inc/customizer/class-customizer.php:679
+msgid "Background"
+msgstr "Фон"
+
+#: inc/customizer/configs/header/social-icons.php:158
+#: inc/customizer/class-customizer.php:504
+msgid "Padding"
+msgstr "Внутренний отступ"
+
+#: inc/customizer/configs/header/panel.php:391
+#: inc/customizer/class-customizer.php:491
+msgid "Margin"
+msgstr "Внешний отступ"
+
+#: inc/customizer/configs/styling.php:120
+#: inc/customizer/class-customizer.php:477
+#: inc/customizer/class-customizer.php:673
+msgid "Link Color"
+msgstr "Цвет ссылки"
+
+#: inc/customizer/configs/header/social-icons.php:196
+#: inc/customizer/configs/header/nav-icon.php:79
+#: inc/customizer/class-customizer.php:471
+#: inc/customizer/class-customizer.php:667
+msgid "Color"
+msgstr "Цвет"
+
+#: inc/customizer/configs/header/social-icons.php:214
+#: inc/customizer/class-customizer.php:465
+msgid "Hover"
+msgstr "При наведении мыши"
+
+#: inc/customizer/class-customizer.php:447
+msgid "Capitalize"
+msgstr "Первые заглавная"
+
+#: inc/customizer/class-customizer.php:446
+msgid "Lowercase"
+msgstr "Строчные"
+
+#: inc/customizer/controls/class-control-font-style.php:20
+#: inc/customizer/class-customizer.php:445
+msgid "Uppercase"
+msgstr "Заглавные"
+
+#: inc/customizer/class-customizer.php:442
+msgid "Text Transform"
+msgstr "Изминение текста"
+
+#: inc/customizer/configs/header/social-icons.php:185
+#: inc/customizer/configs/header/social-icons.php:272
+#: inc/customizer/class-customizer.php:436
+#: inc/customizer/class-customizer.php:448
+#: inc/customizer/class-customizer.php:604
+#: inc/customizer/class-customizer.php:699
+msgid "None"
+msgstr "Ничего"
+
+#: inc/customizer/class-customizer.php:435
+msgid "Line through"
+msgstr "Перечёркнутый"
+
+#: inc/customizer/class-customizer.php:434
+msgid "Overline"
+msgstr "Линия сверху"
+
+#: inc/customizer/controls/class-control-font-style.php:18
+#: inc/customizer/class-customizer.php:433
+msgid "Underline"
+msgstr "Подчеркнутый"
+
+#: inc/customizer/class-customizer.php:430
+msgid "Text Decoration"
+msgstr "Оформленеи текста"
+
+#: inc/customizer/class-customizer.php:424
+msgid "Oblique"
+msgstr "Наклоненный"
+
+#: inc/customizer/controls/class-control-font-style.php:17
+#: inc/customizer/class-customizer.php:423
+msgid "Italic"
+msgstr "Курсив"
+
+#: inc/customizer/configs/header/social-icons.php:213
+#: inc/customizer/configs/header/menus.php:165
+#: inc/customizer/class-customizer.php:422
+#: inc/customizer/class-customizer.php:464
+msgid "Normal"
+msgstr "Обычный"
+
+#: inc/customizer/class-customizer.php:419
+msgid "Font Style"
+msgstr "Стиль шрифта"
+
+#: inc/customizer/class-customizer.php:411
+msgid "Letter Spacing"
+msgstr "Расстояния между буквами"
+
+#: inc/customizer/class-customizer.php:402
+msgid "Line Height"
+msgstr "Высота рядка"
+
+#: inc/customizer/class-customizer.php:393
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: inc/customizer/class-customizer.php:388
+msgid "Font Languages"
+msgstr "Язык шрифта"
+
+#: inc/customizer/class-customizer.php:382
+msgid "Font Weight"
+msgstr "Толщина шрифта"
+
+#: inc/customizer/class-customizer.php:376
+msgid "Font Family"
+msgstr "Семейство шрифтов"
+
+#: inc/customizer/class-customizer-icons.php:26
+msgid "FontAwesome"
+msgstr "FontAwesome"
+
+#: inc/customizer/class-customizer-fonts.php:20
+msgid "Google Web Fonts"
+msgstr "Google Web Fonts"
+
+#: inc/customizer/class-customizer-fonts.php:16
+msgid "Default Web Fonts"
+msgstr "Web Fonts по умолчанию"
+
+#: inc/customizer/class-customify-section.php:31
+msgid "Customizing"
+msgstr "Настройка"
+
+#: inc/customizer/class-customify-section.php:28
+msgid "Customizing &#9656; %s"
+msgstr "Настройка &#9656; %s"
+
+#: inc/compatibility/woocommerce/woocommerce.php:659
+msgid "WooCommerce Secondary Sidebar"
+msgstr "Вторая боковая панель WooCommerce"
+
+#: inc/compatibility/woocommerce/woocommerce.php:648
+msgid "WooCommerce Primary Sidebar"
+msgstr "Основная боковая панель WooCommerce"
+
+#: inc/compatibility/woocommerce/woocommerce.php:610
+msgid "Display on single product"
+msgstr "Показывать на странице одиночного товара"
+
+#: inc/compatibility/woocommerce/woocommerce.php:602
+msgid "Display on product taxonomies (categories/tags,..)"
+msgstr "Показывать на таксономиях товара (рубриках, метках,..)"
+
+#: inc/compatibility/breadcrumb.php:210
+msgid "Styling for breadcrumb"
+msgstr "Стиль для хлебных крошек"
+
+#: inc/compatibility/breadcrumb.php:200
+msgid "Typography for breadcrumb"
+msgstr "Типографика для хлебных крошек"
+
+#: inc/compatibility/breadcrumb.php:185
+#: inc/customizer/configs/page-header.php:238
+msgid "Settings display for special pages."
+msgstr "Настройка отображения для специальных страниц."
+
+#: inc/class-metabox.php:111 inc/compatibility/breadcrumb.php:184
+#: inc/compatibility/breadcrumb.php:189
+#: inc/customizer/configs/page-header.php:237
+#: inc/customizer/configs/page-header.php:248
+msgid "Display"
+msgstr "Отображать"
+
+#: inc/compatibility/breadcrumb.php:175
+msgid "Hide on product tag"
+msgstr "Скрыть на метках товара"
+
+#: inc/compatibility/breadcrumb.php:170
+msgid "Hide on product category"
+msgstr "Скрыть на рубрике товара"
+
+#: inc/compatibility/breadcrumb.php:165
+msgid "Hide on product page"
+msgstr "Скрыть на странице товара"
+
+#: inc/compatibility/breadcrumb.php:156
+msgid "Hide on 404 page"
+msgstr "Скрыть на странице 404"
+
+#: inc/compatibility/breadcrumb.php:151
+msgid "Hide on singular"
+msgstr "Скрыть на одиночной"
+
+#: inc/compatibility/breadcrumb.php:146
+msgid "Hide on single post"
+msgstr "Скрыть на одиночной записи"
+
+#: inc/compatibility/breadcrumb.php:141
+msgid "Hide on single page"
+msgstr "Скрыть на одиночной странице"
+
+#: inc/compatibility/breadcrumb.php:136
+msgid "Hide on archive"
+msgstr "Скрыть на архиве"
+
+#: inc/compatibility/breadcrumb.php:131
+msgid "Hide on search"
+msgstr "Скрыть на поиске"
+
+#: inc/compatibility/breadcrumb.php:126
+msgid "Hide on categories"
+msgstr "Скрыть в рубриках"
+
+#: inc/compatibility/breadcrumb.php:121
+msgid "Hide on index"
+msgstr "Скрыть на главной"
+
+#: inc/compatibility/breadcrumb.php:112
+msgid "Before site main"
+msgstr "Перед основным сайтом"
+
+#: inc/compatibility/breadcrumb.php:111
+msgid "Inside cover/titlebar"
+msgstr "Внутри обложки/заголовка"
+
+#: inc/compatibility/breadcrumb.php:110
+msgid "After header"
+msgstr "После верхнего колонтитула"
+
+#: inc/compatibility/breadcrumb.php:106
+msgid "Display Position"
+msgstr "Место отображения"
+
+#: inc/class-metabox.php:129 inc/class-metabox.php:135
+#: inc/compatibility/breadcrumb.php:86
+msgid "Breadcrumb"
+msgstr "Хлебные крошки"
+
+#: inc/class-metabox.php:142
+#: inc/customizer/controls/class-control-repeater.php:23
+msgid "Show"
+msgstr "Отобразить"
+
+#: inc/class-metabox.php:120 inc/class-metabox.php:141
+#: inc/customizer/configs/page-header.php:39
+msgid "Hide"
+msgstr "Скрыть"
+
+#: inc/class-metabox.php:119 inc/customizer/configs/page-header.php:38
+msgid "Titlebar"
+msgstr "Заголовок"
+
+#: inc/class-metabox.php:118 inc/customizer/configs/page-header.php:37
+#: inc/customizer/configs/page-header.php:473
+#: inc/customizer/class-customizer.php:531
+msgid "Cover"
+msgstr "Обложка"
+
+#: inc/class-metabox.php:98
+msgid "Disable Footer Bottom"
+msgstr "Отключить низ нижнего колонтитула"
+
+#: inc/class-metabox.php:97
+msgid "Disable Footer Main"
+msgstr "Отключить основной нижний колонтитул"
+
+#: inc/class-metabox.php:87
+msgid "Disable Title"
+msgstr "Отключить заголовок"
+
+#: inc/class-metabox.php:86
+msgid "Disable Header"
+msgstr "Отключить верхний колонтитул"
+
+#: inc/class-metabox.php:101
+msgid "Disable Elements"
+msgstr "Отключить элементы"
+
+#: inc/class-metabox.php:68
+msgid "Full Width - Stretched"
+msgstr "На всю ширину - Растянутый"
+
+#: inc/class-metabox.php:67 inc/customizer/configs/page-header.php:221
+#: inc/customizer/configs/layouts.php:42
+#: inc/customizer/configs/footer/panel.php:99
+#: inc/customizer/configs/header/panel.php:152
+msgid "Full Width"
+msgstr "На всю ширину"
+
+#: inc/class-metabox.php:117
+#: inc/compatibility/woocommerce/config/single-product.php:196
+#: inc/class-metabox-fields.php:442 inc/customizer/configs/page-header.php:36
+#: inc/customizer/configs/page-header.php:219
+#: inc/customizer/configs/page-header.php:260
+#: inc/customizer/configs/page-header.php:271
+#: inc/customizer/configs/page-header.php:471
+#: inc/customizer/configs/page-header.php:489
+#: inc/customizer/configs/page-header.php:510
+#: inc/customizer/configs/page-header.php:528
+#: inc/customizer/configs/layouts.php:230
+#: inc/customizer/configs/header/social-icons.php:271
+#: inc/customizer/controls/class-control-base.php:267
+#: inc/customizer/class-customizer.php:421
+#: inc/customizer/class-customizer.php:432
+#: inc/customizer/class-customizer.php:444
+#: inc/customizer/class-customizer.php:529
+#: inc/customizer/class-customizer.php:546
+#: inc/customizer/class-customizer.php:566
+#: inc/customizer/class-customizer.php:583
+#: inc/customizer/class-customizer.php:603
+#: inc/customizer/class-customizer.php:698
+msgid "Default"
+msgstr "По умолчанию"
+
+#: inc/class-metabox.php:62
+msgid "Content Layout"
+msgstr "Макет содержимого"
+
+#: inc/class-metabox.php:82 inc/class-metabox.php:116 inc/class-metabox.php:140
+msgid "Inherit from customize settings"
+msgstr "Наследовать от настроек"
+
+#: inc/class-metabox.php:76
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: inc/class-metabox.php:182
+msgid "Customify Settings"
+msgstr "Настройка параметров"
+
+#. translators: 1: Widget number.
+#: inc/class-customify.php:230
+msgid "Footer Sidebar %d"
+msgstr "Боковая панель нижнего колонтитула %d"
+
+#: inc/class-customify.php:216
+msgid "Secondary Sidebar"
+msgstr "Вторая боковая панель"
+
+#: inc/class-customify.php:207 inc/class-customify.php:218
+#: inc/class-customify.php:232
+#: inc/compatibility/woocommerce/woocommerce.php:650
+#: inc/compatibility/woocommerce/woocommerce.php:661
+msgid "Add widgets here."
+msgstr "Добавьте сюда виджеты."
+
+#: inc/class-customify.php:205
+msgid "Primary Sidebar"
+msgstr "Основная боковая панель"
+
+#: inc/class-customify.php:135
+msgid "Primary"
+msgstr "Основной"
+
+#. translators: 1: Search query name
+#: inc/customizer/configs/page-header.php:775
+#: inc/blog/functions-posts-layout.php:41
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: woocommerce/loop/pagination.php:34 inc/blog/class-posts-layout.php:439
+msgctxt "next set of posts"
+msgid "Next"
+msgstr "Следующая"
+
+#: woocommerce/loop/pagination.php:33 inc/blog/class-posts-layout.php:436
+msgctxt "previous set of posts"
+msgid "Previous"
+msgstr "Предыдущая"
+
+#. Translators: %s: Name of current post. Only visible to screen readers.
+#: template-parts/content.php:53 inc/blog/class-post-entry.php:566
+msgid "Continue reading %s"
+msgstr "Продолжить чтение %s"
+
+#: inc/blog/class-post-entry.php:561
+msgid "Read more &larr;"
+msgstr "Читать далее &larr;"
+
+#: inc/blog/class-post-entry.php:559
+msgid "Read more &rarr;"
+msgstr "Читать далее &rarr;"
+
+#. translators: 1: comment count number, 2: title.
+#: inc/blog/class-post-entry.php:324
+msgctxt "comments number"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s комментарий"
+msgstr[1] "%1$s комментария"
+msgstr[2] "%1$s комментариев"
+
+#. translators: 1: title.
+#: inc/blog/class-post-entry.php:318
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/blog/class-post-entry.php:266 inc/blog/class-post-entry.php:282
+#: inc/blog/class-post-entry.php:296
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#: inc/blog/class-post-entry.php:23
+msgctxt "post term separator"
+msgid ","
+msgstr ","
+
+#: inc/blog/class-post-entry.php:20
+msgctxt "post meta separator"
+msgid "-"
+msgstr "-"
+
+#: inc/admin/dashboard.php:672
+msgid "Customify Pro Modules"
+msgstr "Модули Customify Pro"
+
+#: inc/admin/dashboard.php:600
+msgid "Multiple Headers"
+msgstr "Несколько заголовков"
+
+#: inc/admin/dashboard.php:595
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: inc/admin/dashboard.php:632
+msgid "WooCommerce Booster"
+msgstr "Ускоритель WooCommerce"
+
+#: inc/admin/dashboard.php:585
+msgid "Blog Pro"
+msgstr "Професиональный блог"
+
+#: inc/admin/dashboard.php:580
+msgid "Scroll To Top"
+msgstr "Пролистать наверх"
+
+#: inc/admin/dashboard.php:570 inc/customizer/configs/upsell.php:31
+msgid "Header Sticky"
+msgstr "Прилипший заголовок"
+
+#: inc/admin/dashboard.php:565 inc/customizer/configs/upsell.php:32
+msgid "Header Transparent"
+msgstr "Прозрачный заголовок"
+
+#: inc/admin/dashboard.php:413 inc/admin/dashboard.php:540
+msgid "Details"
+msgstr "Детали"
+
+#: inc/admin/dashboard.php:396
+msgid "Active Now"
+msgstr "Активировать сейчас"
+
+#: inc/admin/dashboard.php:371 inc/admin/dashboard.php:512
+msgid "Install Now"
+msgstr "Установить сейчас"
+
+#: inc/admin/dashboard.php:368
+msgid "View Site Library"
+msgstr "Посмотреть библиотеку сайта"
+
+#: inc/admin/dashboard.php:338
+msgid "<strong>Customify Sites</strong> is a free add-on for the Customify theme which help you browse and import ready made websites with few clicks."
+msgstr "<strong>Customify Sites</strong> это бесплатное дополнение для темы Customify, которое поможет вам просматривать и импортировать готовые веб-сайты в несколько нажатий мыши."
+
+#: inc/admin/dashboard.php:333
+msgid "Customify ready to import sites"
+msgstr "Customify готова к импорту сайтов"
+
+#: inc/admin/dashboard.php:320
+msgid "Join Our Facebook Group &rarr;\t"
+msgstr "Присоединяйтесь к нашей группе в Facebook &rarr;\t"
+
+#: inc/admin/dashboard.php:319
+msgid "Join the Facebook group for updates, discussions, chat with other Customify lovers."
+msgstr "Присоединяйтесь к нашей группе в Facebook для обновлений, обсуждений, чатов с другими любителями Customify."
+
+#: inc/admin/dashboard.php:317
+msgid "Join the community!"
+msgstr "Присоеденяйтесь к сообществу!"
+
+#: inc/admin/dashboard.php:297
+msgid "Links to Customizer Settings"
+msgstr "Ссылки на настройки Customizer-а"
+
+#: inc/admin/dashboard.php:289
+msgid "Homepage Settings"
+msgstr "Настройки домашней страницы"
+
+#: inc/admin/dashboard.php:285 inc/customizer/configs/blogs.php:8
+msgid "Blog Posts"
+msgstr "Записи блога"
+
+#: inc/admin/dashboard.php:280 inc/customizer/configs/page-header.php:332
+msgid "Titlebar Settings"
+msgstr "Настройки заголовка"
+
+#: inc/admin/dashboard.php:276
+msgid "Sidebar Settings"
+msgstr "Настройки боковой панели"
+
+#: inc/compatibility/woocommerce/config/header/cart.php:206
+#: inc/compatibility/breadcrumb.php:199 inc/admin/dashboard.php:272
+#: inc/customizer/configs/typography.php:21
+#: inc/customizer/configs/header/button.php:96
+#: inc/customizer/configs/blogs.php:346
+msgid "Typography"
+msgstr "Типография"
+
+#: inc/compatibility/woocommerce/config/catalog-designer.php:395
+#: inc/compatibility/woocommerce/config/header/cart.php:179
+#: inc/compatibility/woocommerce/config/header/cart.php:235
+#: inc/compatibility/breadcrumb.php:209 inc/admin/dashboard.php:268
+#: inc/customizer/configs/header/button.php:107
+#: inc/customizer/configs/header/panel.php:281
+#: inc/customizer/configs/blogs.php:360 inc/customizer/configs/styling.php:14
+msgid "Styling"
+msgstr "Стиль"
+
+#: inc/admin/dashboard.php:264 inc/customizer/configs/footer/panel.php:9
+#: inc/customizer/configs/footer/panel.php:40
+#: inc/customizer/configs/footer/panel.php:48
+msgid "Footer Builder"
+msgstr "Конструктор нижнего колонтитула"
+
+#: inc/admin/dashboard.php:260 inc/customizer/configs/header/panel.php:17
+#: inc/customizer/configs/header/panel.php:64
+#: inc/customizer/configs/header/panel.php:73
+msgid "Header Builder"
+msgstr "Конструктор верхнего колонтитула"
+
+#: inc/admin/dashboard.php:256
+msgid "Layout Settings"
+msgstr "Настройки макета"
+
+#: inc/admin/dashboard.php:252 inc/customizer/class-customizer.php:1118
+msgid "Logo & Site Identity"
+msgstr "Айдентика Логотип и Сайт"
+
+#: inc/admin/dashboard.php:58
+msgid "To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%1$s\">Customify options page</a>."
+msgstr "Что бы воспользоваться всеми возможностями нашей лучшей темы, пожалуйста посетите <a href=\"%1$s\">Страницу настроек Customify</a>."
+
+#: inc/admin/dashboard.php:57
+msgid "Thanks for installing Customify, you rock! <img draggable=\"false\" class=\"emoji\" alt=\"\" src=\"https://s.w.org/images/core/emoji/2.4/svg/1f918.svg\">"
+msgstr "Спасибо за установку Customify, вы крутые! <img draggable=\"false\" class=\"emoji\" alt=\"\" src=\"https://s.w.org/images/core/emoji/2.4/svg/1f918.svg\">"
+
+#: inc/admin/dashboard.php:54 inc/admin/dashboard.php:153
+msgid "logo"
+msgstr "логотип"
+
+#: inc/admin/dashboard.php:19
+msgid "Customify Options"
+msgstr "Настройки Customify"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#. translators: 1: title.
+#: comments.php:34
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Один комментарий к &ldquo;%1$s&rdquo;"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Похоже ничего не найдено по данной ссылке. Возможно попробуйте одну из ссылок ниже или воспользуйтесь поиском?"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Страница не найдена."
+
+#. Author URI of the theme
+msgid "https://pressmaximum.com"
+msgstr "https://pressmaximum.com"
+
+#. Theme URI of the theme
+msgid "https://pressmaximum.com/customify"
+msgstr "https://pressmaximum.com/customify"
+
+#. Author of the theme
+msgid "WPCustomify"
+msgstr "WPCustomify"

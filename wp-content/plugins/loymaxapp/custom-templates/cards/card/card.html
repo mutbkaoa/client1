@@ -1,0 +1,46 @@
+<div>
+    <div class="lmx-card-item__image" ng-class="{'lmx-blocked': card.block}">
+        <img ng-src="{{ card.imageUrl}}" fallback-image="" fallback-title="{{'imageNotFound' | translate}}" alt="">
+    </div>
+    <div class="lmx-card-item__info" ng-switch=":: !!cardNumberGraphicalCodes.length && !card.isInGroup">
+        <div ng-switch-when="true">
+            <!-- Пробел после :: в {{::cardNumberGraphicalCodes.join(' ')}} сводит префиксер с ума -->
+            <div class="lmx-card-number lmx-card-code lmx-{{::cardNumberGraphicalCodes.join(' lmx-')}}" ng-click="displayCodes(card)">
+                <a class="lmx-pseudolink">{{:: card.number | charsDivide: 4}}</a>
+            </div>
+        </div>
+        <div ng-switch-when="false" class="lmx-card-number">{{:: card.number | charsDivide: 4}}</div>
+
+        <div class="lmx-card-category" ng-hide="::card.cardCategory.title.toLowerCase() === 'стандартная'">
+            {{:: card.cardCategory.title}}
+        </div>
+        <div class="lmx-card-blocked-state-info" ng-if="::card.block">
+            {{'cards.info.blocked' | translate}}
+        </div>
+
+        <dl class="lmx-card-owner" ng-if="::card.cardOwnerInfo.firstName || card.cardOwnerInfo.lastName || card.patronymicName">
+            <dt>{{'cards.info.owner' | translate}}:</dt>
+            <dd>
+                <span>{{:: card.cardOwnerInfo.lastName}}</span>
+                <span>{{:: card.cardOwnerInfo.firstName}}</span>
+                <span>{{:: card.cardOwnerInfo.patronymicName}}</span>
+            </dd>
+        </dl>
+        <dl class="lmx-card-paid">
+            <dt>{{'cards.info.paid' | translate}}:</dt>
+            <dd>
+                <span>{{:: card.paid.amount | number: 2}}</span>
+                <span>{{:: card.paid.currencyInfo.nameCases.abbreviation}}</span>
+            </dd>
+        </dl>
+        <div ng-if=":: !card.isInGroup" class="lmx-card-actions">
+            <button ng-class="card.block ? 'lmx-card-action__unblock' : 'lmx-card-action__block'" class="lmx-block-btn" ng-if="card.cardActionAccessInfo.canBlock" ng-click="blockStateChange(card)" type="button">
+                {{card.block ? 'cards.actions.unblock' : 'cards.actions.block' | translate}}
+            </button>
+            <button ng-if="card.cardActionAccessInfo.canReplace" ng-click="replaceCard(card)" type="button" class="lmx-replace-btn">
+                {{'cards.actions.replace' | translate}}
+            </button>
+            <a ng-if="card.walletUrl && !card.block && platfotm.currentPlatform" ng-href="{{::card.walletUrl}}" target="_blank" class="lmx-wallet-btn lmx-{{::platfotm.currentPlatform}}-wallet-btn"></a>
+        </div>
+    </div>
+</div>

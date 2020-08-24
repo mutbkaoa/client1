@@ -1,0 +1,20 @@
+<div class="lmx-container lmx-anonymous-feedback">
+    <section>
+        <h2>{{'anonymousFeedback.title' | translate}}:</h2>
+        <div class="lmx-hint">
+            <p ng-bind-html="'anonymousFeedback.hint' | translate"></p>
+        </div>
+        <form novalidate="" name="anonFeedbackForm" ng-submit="anonFeedbackForm.$valid && sendMail(anonFeedbackForm)">
+            <form-group label-text="{{'anonymousFeedback.theme' | translate}}">
+                <input type="text" id="lmx-subject" ng-model="messageModel.subject" name="subject" required="">
+            </form-group>
+            <form-group label-text="{{'anonymousFeedback.message' | translate}}">
+                <textarea id="lmx-msg-textarea" ng-model="messageModel.message" name="msg-textarea" required="">
+                </textarea>
+            </form-group>
+            <div class="lmx-btn-container">
+                <button type="submit" class="lmx-right">{{'buttons.send' | translate}}</button>
+            </div>
+        </form>
+    </section>
+</div>

@@ -1,0 +1,1186 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+:root {
+    --loymax-light-blue-color: #E6F0F9;
+    --loymax-blue-color: #0094F9;
+    --loymax-dark-gray-color: #6D6D6D;
+}
+
+.lmx-noPersonalOffers .loymax-menu-item.personal-offers,
+.lmx-noPersonalGoods .loymax-menu-item.personal-goods {
+    display: none;
+}
+
+.notice.notice-loymax-setup button a.not-href {
+    text-decoration: none;
+    color: inherit;
+}
+
+.notice.notice-loymax-setup {
+    border-left-color: #336799 !important;
+}
+.notice.notice-loymax-setup button {
+    margin-bottom: 10px;
+}
+
+/*New style*/
+
+body.lmx {
+    height: auto;
+}
+
+body.lmx.lmx-install-wizard {
+    min-height: 100%;
+    color: #696969;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--loymax-light-blue-color);
+}
+
+body.lmx.lmx-install-wizard,
+body.toplevel_page_loymax-plugin {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3A4449;
+}
+
+body.lmx.lmx-install-wizard b {
+    color: black;
+}
+
+body.lmx.lmx-install-wizard,
+.lmx.lmx-install-wizard p {
+    font-size: 15px;
+}
+
+.lmx.lmx-install-wizard p {
+    margin: 0 0 33px 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #696969;
+}
+
+.lmx-install-wizard__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    background-color: #FFFFFF;
+    padding: 77px 82px 62px 71px;
+    box-shadow: 18px 18px 38px rgba(115, 140, 169, 0.19);
+    border-radius: 3px;
+    min-height: 540px;
+    max-width: 677px;
+    width: 677px;
+    margin-top: 38px
+}
+
+.lmx-install-wizard__card-content h1 {
+    margin: 0 0 31px 0;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 34px;
+}
+
+.lmx-install-wizard__card-content h3 {
+    line-height: 28px;
+    font-size: 19px;
+    margin: 0;
+    color: #313131;
+    font-weight: normal;
+}
+
+.lmx-install-wizard__card-content #loymax-all-options h3 {
+    margin: 21px 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 25px;
+    color: #464646;
+}
+
+.lmx-install-wizard__header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    max-height: 46px;
+    margin-bottom: 49px;
+}
+
+.lmx-logo {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+}
+
+.lmx-logo img {
+    height: 60px;
+    left: -15px;
+    position: relative;
+}
+
+.lmx-install-wizard__card .lmx-logo img {
+    height: 46px;
+    left: -38px;
+    position: relative;
+}
+
+.toplevel_page_loymax-plugin .lmx-logo img {
+    height: 49px;
+    position: relative;
+}
+
+.lmx-logo a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.lmx-logo a:hover {
+    outline: none;
+}
+
+.lmx-install-wizard__body {
+    width: 100%;
+    min-height: 475px;
+}
+
+.lmx__button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: auto;
+}
+
+.lmx-button {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    min-width: 164px;
+    height: 44px;
+    border-width: 0;
+    margin: 0 0 0 15px;
+}
+
+body.toplevel_page_loymax-plugin .lmx-options-table .lmx__button-container .lmx-button {
+    margin-right: 37px;
+}
+
+body.lmx.lmx-install-wizard input[type=text],
+body.toplevel_page_loymax-plugin input[type=text] {
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #464646;
+    padding: 0 10px 0 10px;
+    box-shadow: none;
+}
+
+body.lmx.lmx-install-wizard input[type=text]:hover,
+body.toplevel_page_loymax-plugin input[type=text]:hover {
+    border-color: #AAAAAA;
+}
+
+body.lmx.lmx-install-wizard input[type=text]:focus,
+body.toplevel_page_loymax-plugin input[type=text]:focus {
+    border-color: var(--loymax-blue-color);
+}
+
+.lmx-button--blue {
+    background-color: var(--loymax-blue-color);
+    color: #FFFFFF;
+}
+
+.lmx-button--white {
+    background-color: #FFFFFF;
+    color: var(--loymax-blue-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    border: 1px solid var(--loymax-blue-color);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.lmx-button--white:hover {
+    outline-width: 0;
+    background-color: #ECF5FF;
+}
+
+.lmx-button--white:active {
+    outline-width: 0;
+    border-width: 2px;
+    background-color: #ECF5FF;
+}
+
+.lmx-button--white:focus {
+    outline-width: 0;
+}
+
+.lmx-button--blue:hover {
+    background-color: #53B9FF;
+    outline-width: 0;
+}
+
+.lmx-button--blue:active {
+    background-color: #53B9FF;
+    border: 2px solid var(--loymax-blue-color);
+    outline-width: 0;
+}
+
+.lmx-button--blue:focus {
+    outline-width: 0;
+}
+
+.lmx-install-wizard__card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    min-height: 475px;
+}
+
+.lmx-install-wizard__card-content > * {
+    width: 100%;
+}
+
+.lmx-steps-dots {
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    max-height: 20px;
+    margin: 66px 0 94px 0;
+}
+
+.lmx-steps-dots > li {
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.lmx-steps-dots > li > a,
+.lmx-steps-dots > li > span {
+    position: relative;
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    cursor: default;
+    color: transparent;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+}
+.lmx-steps-dots > li > a::before,
+.lmx-steps-dots > li > span::before {
+    background-color: #C6C6C6;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.lmx-steps-dots > .lmx-step-dot-active > a::before,
+.lmx-steps-dots > .lmx-step-dot-active > span::before {
+    background-color: var(--loymax-blue-color);
+    cursor: pointer;
+}
+
+.lmx-install-wizard__card-content form {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lmx-sortable-component.ui-sortable-helper {
+    box-shadow: 0 7px 17px rgba(0, 103, 173, 0.08);
+    border-radius: 17px;
+    background-color: #FFFFFF;
+    margin: 0 -15px;
+    padding: 0 15px;
+}
+
+.lmx-sortable-component.ui-sortable-helper h3.lmx-sortable-component-name {
+    color: #0094F9;
+}
+
+.lmx-install-wizard__card-content .lmx-sortable-component {
+    margin-right: 40px;
+}
+
+.lmx-sortable-component:last-child {
+    border-bottom: none;
+}
+
+.lmx-sortable-component-header {
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body.toplevel_page_loymax-plugin .lmx-sortable-component-header {
+    padding-left: 36px;
+    padding-right: 35px;
+}
+
+body.lmx.lmx-install-wizard .lmx-sortable-component-header {
+    height: 67px;
+    width: 625px;
+}
+
+h3.lmx-sortable-component-name {
+    font-size: 19px;
+}
+
+body.toplevel_page_loymax-plugin h3.lmx-sortable-component-name {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #464646;
+}
+
+.lmx-margin-left--auto {
+    margin-left: auto;
+}
+
+.lmx-button--settings,
+.lmx-button--paid,
+.lmx-button--help {
+    cursor: pointer;
+}
+
+.lmx-button--paid {
+    margin-left: 15px;
+    content: '';
+    z-index: 1;
+    width: 23px;
+    height: 23px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.lmx-button--paid:hover {
+    filter: invert(48%) sepia(40%) saturate(6241%) hue-rotate(182deg) brightness(101%) contrast(101%);
+}
+
+.lmx-button--settings {
+    margin-left: auto;
+    margin-right: 25px;
+    color: var(--loymax-dark-gray-color);
+}
+
+.lmx-button--settings:hover {
+    color: var(--loymax-blue-color);
+}
+
+.lmx-button--settings:active {
+    color: #0082DB;
+}
+
+body.lmx.lmx-install-wizard .lmx-button--settings {
+    margin-right: 34px;
+}
+
+.lmx-button--move {
+    color: #AAAAAA;
+    cursor: move;
+    margin-right: 20px;
+}
+
+.lmx-button--move:hover,
+.lmx-button--move:active {
+    color: var(--loymax-dark-gray-color);
+}
+
+body.lmx.lmx-install-wizard .lmx-button--move {
+    margin-right: 14px;
+}
+
+.lmx-button--help {
+    color: var(--loymax-blue-color);
+}
+
+.lmx-button--help:hover,
+.lmx-button--help:active {
+    color: #0082DB;
+}
+
+.lmx-sortable-component-header.lmx-hidden-form + .lmx-settings-table-container {
+    display: none;
+}
+
+body.lmx.lmx-install-wizard .lmx-settings-table-container {
+    width: calc(100% + 40px);
+}
+
+body.lmx.lmx-install-wizard input[type=checkbox],
+body.toplevel_page_loymax-plugin input[type=checkbox] {
+    border: 1px solid #E1E1E1;
+    border-radius: 2px;
+    background: #FFFFFF;
+    color: #30A8FA;
+    height: 16px;
+    width: 16px;
+    min-width: 16px;
+    float: right;
+    margin-right: 10px;
+}
+
+body.lmx.lmx-install-wizard input[type=checkbox]:checked:before,
+body.toplevel_page_loymax-plugin input[type=checkbox]:checked:before {
+    color: #30A8FA;
+    width: 100%;
+    height: 100%;
+    margin-top: 3px;
+    margin-left: 0;
+    content: url("data:image/svg+xml,%3Csvg width='11' height='8' viewBox='0 0 11 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.213 0.25558C10.554 0.596195 10.554 1.14676 10.213 1.48754L4.54295 7.15083C4.37285 7.32074 4.14955 7.40625 3.92626 7.40625C3.70297 7.40625 3.47967 7.32074 3.30957 7.15083L0.474628 4.31918C0.133457 3.97857 0.133457 3.42784 0.474628 3.08723C0.815638 2.74645 1.36685 2.74645 1.70802 3.08723L3.92626 5.3029L8.9796 0.25558C9.32061 -0.0851935 9.87182 -0.0851935 10.213 0.25558Z' fill='%2330A8FA'/%3E%3C/svg%3E");
+}
+
+body.lmx.lmx-install-wizard input[type=checkbox].lmx-input-checkbox-component:checked:before {
+    margin-left: 1px;
+}
+
+body.lmx.lmx-install-wizard input[type=checkbox]:hover,
+body.toplevel_page_loymax-plugin input[type=checkbox]:hover {
+    border-color: #AAAAAA;
+    box-shadow: none;
+}
+
+body.lmx.lmx-install-wizard input[type=checkbox]:focus,
+body.toplevel_page_loymax-plugin input[type=checkbox]:focus {
+    box-shadow: none;
+}
+
+body.toplevel_page_loymax-plugin .lmx-common-config .lmx-td-checkbox input[type=checkbox] {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+input.lmx-input-checkbox-component {
+    margin-right: 22px;
+}
+
+body.lmx.lmx-install-wizard input.lmx-input-checkbox-component {
+    margin-right: 18px;
+}
+
+body.toplevel_page_loymax-plugin .lmx-td-checkbox input[type=checkbox] {
+    margin-right: 0;
+}
+
+.lmx-settings-table {
+    margin-bottom: 20px;
+}
+
+body.lmx.lmx-install-wizard #loymax-configs .lmx-settings-table {
+    margin-bottom: 90px;
+}
+
+.lmx-settings-table tbody td {
+    line-height: 1.3;
+    vertical-align: middle;
+    padding-right: 0;
+}
+
+.lmx-settings-table > tbody input[type=text] {
+    height: 28px;
+    float: right;
+    width: 100%;
+    margin-right: 0;
+}
+
+.lmx-settings-table.striped {
+    border: none;
+}
+
+.lmx-settings-table.striped > tbody > :nth-child(odd) {
+    background-color: #F9F9F9;
+}
+
+.lmx-sortable-component-header.lmx-hidden-form + .lmx-options-table {
+    display: none;
+}
+
+.lmx-td-checkbox {
+    width: 180px;
+    text-align: center;
+}
+
+td.lmx-setting-td-label {
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+body.toplevel_page_loymax-plugin td.lmx-setting-td-label {
+    padding: 14px 0 14px 38px;
+    width: 340px;
+    min-width: 340px;
+}
+
+body.lmx.lmx-install-wizard td.lmx-setting-td-label {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #464646;
+    padding: 12px 0 12px 38px;
+    width: 340px;
+    min-width: 340px;
+}
+
+body.toplevel_page_loymax-plugin .lmx-common-config td.lmx-setting-td-label {
+    width: 310px;
+    min-width: 310px;
+}
+
+body.toplevel_page_loymax-plugin tr td:nth-child(2n) {
+    width: calc(100% - 340px);
+    padding-left: 46px;
+    padding-right: 37px;
+}
+
+body.lmx.lmx-install-wizard tr td:nth-child(2n) {
+    width: calc(100% - 340px);
+    padding-left: 46px;
+    padding-right: 54px;
+}
+
+body.lmx.lmx-install-wizard tr td.lmx-td-checkbox input[type=checkbox] {
+    margin-right: 0;
+}
+
+body.lmx.lmx-install-wizard tr td.lmx-td-checkbox input[type=checkbox]:before {
+    margin-left: 1px;
+}
+
+body.toplevel_page_loymax-plugin .lmx-user-page-table tr  {
+    max-height: 40px;
+}
+
+body.toplevel_page_loymax-plugin .lmx-user-page-table tr td:nth-child(2n) {
+    width: 50%;
+    padding-left: 23px;
+    padding-right: 31px;
+}
+
+body.toplevel_page_loymax-plugin .lmx-common-config tr td:nth-child(2n) {
+    width: calc(100% - 310px);
+    padding-left: 34px;
+    padding-right: 31px;
+}
+
+body.toplevel_page_loymax-plugin td.lmx-setting-td-label label {
+    width: 340px;
+    min-width: 340px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #464646;
+}
+
+body.toplevel_page_loymax-plugin .lmx-common-config td.lmx-setting-td-label label {
+    width: 310px;
+    min-width: 310px;
+}
+
+input[type=text].lmx__input--text {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+body.toplevel_page_loymax-plugin input[type=text].lmx__input--text {
+    height: 30px;
+    padding: 0 11px;
+    margin-bottom: 0;
+}
+
+body.toplevel_page_loymax-plugin {
+    background-color: #ffffff;
+}
+
+body.toplevel_page_loymax-plugin #wpcontent {
+    padding-left: 0;
+}
+
+.lmx-settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 6px;
+    box-shadow: 18px 18px 38px rgba(115, 140, 169, 0.19);
+}
+
+.lmx-settings__header {
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 49px;
+    padding: 28px 0 43px;
+    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.05);
+}
+
+.lmx-navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1px;
+    min-height: 48px;
+    height: 48px;
+}
+
+.lmx-settings__logo-container {
+    width: 165px;
+    max-width: 165px;
+    margin-left: 47px;
+    margin-right: 42px;
+}
+
+.lmx-navigation__container {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 19px;
+    font-size: 16px;
+    height: 100%;
+}
+
+.lmx-mobile-nav-trigger {
+    color: #393f4c;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    display: none;
+    border-color: #d6e2ed;
+    border-style: solid;
+    border-width: 1px 0;
+    background: #fff;
+    padding: 15px 10px;
+    line-height: 1;
+    margin: 0;
+}
+
+.lmx-navigation__items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.lmx-navigation-tab-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #797979;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1;
+    outline: none;
+    font-family: Roboto, sans-serif;
+    padding: 0 15px;
+}
+
+.toplevel_page_loymax-plugin .lmx-navigation-tab-link {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B4B4B4;
+}
+
+.lmx-navigation-tab-link:hover {
+    color: var(--loymax-blue-color);
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.lmx-navigation-tab-link.router-link-exact-active,
+.lmx-navigation-tab-link:focus {
+    color: var(--loymax-blue-color);
+    border-bottom: 2px solid var(--loymax-blue-color);
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.lmx-settings__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    box-shadow: 18px 18px 38px rgba(115, 140, 169, 0.19);
+    border-radius: 3px;
+    min-height: 590px;
+    width: calc(100% - 29px);
+    font-size: 15px;
+    padding-top: 26px;
+    padding-left: 29px;
+}
+
+.lmx-settings__card p {
+    font-size: 12px;
+}
+
+.lmx-config-tab {
+    display: none;
+    height: 100%;
+    width: 708px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+body.toplevel_page_loymax-plugin .lmx-config-tab {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+body.toplevel_page_loymax-plugin .lmx-customify-text {
+    padding-left: 37px;
+}
+
+#lmx-customify .lmx-customify-text {
+    margin-top: 44px;
+}
+
+body.toplevel_page_loymax-plugin .lmx-customify-text p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    color: #6D6D6D;
+    margin-bottom: 34px;
+}
+
+body.toplevel_page_loymax-plugin #loymax-set-api {
+    padding-left: 37px;
+    padding-top: 11px;
+}
+
+body.lmx.lmx-install-wizard #loymax-set-api input[type=text].lmx__input--text,
+body.lmx.lmx-install-wizard #loymax-generate-page input[type=text].lmx__input--text {
+    height: 30px;
+    padding: 0 12px;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+body.toplevel_page_loymax-plugin #lmx-customify .lmx__button-container {
+    margin-top: 72px;
+}
+
+body.toplevel_page_loymax-plugin #loymax-set-api .lmx__button-container {
+    margin-top: 123px;
+}
+
+.lmx-config-tab#lmx-userportal-config {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.lmx-config-tab#lmx-common-config {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.lmx-tab-show {
+    display: block;
+}
+
+.lmx-config-tab .lmx-sortable-component .lmx-options-table {
+    margin-bottom: 20px;
+}
+
+.lmx-config-tab .lmx-settings-component {
+    height: 100%;
+}
+
+.lmx-config-tab .lmx-settings-component .lmx-sortable-container {
+    padding-right: 60px;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    width: 100% ;
+}
+
+body.toplevel_page_loymax-plugin .lmx-config-tab .lmx-settings-component .lmx-sortable-container {
+    overflow-y: unset;
+}
+
+body.lmx.lmx-install-wizard .lmx-sortable-container {
+    margin-bottom: 80px;
+}
+
+.lmx-config-tab .lmx-settings-component .lmx-sortable-container::-webkit-scrollbar,
+.lmx-config-tab .lmx-common-config::-webkit-scrollbar {
+    width: 3px;
+}
+
+.lmx-config-tab .lmx-settings-component .lmx-sortable-container::-webkit-scrollbar-track,
+.lmx-config-tab .lmx-common-config::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.lmx-config-tab .lmx-settings-component .lmx-sortable-container::-webkit-scrollbar-thumb,
+.lmx-config-tab .lmx-common-config::-webkit-scrollbar-thumb {
+    background-color: #CBCBCB;
+    border-radius: 3px;
+}
+
+.lmx-documentation-link {
+    text-align: left;
+    margin-top: 89px;
+    width: calc(100% - 36px);
+    margin-bottom: 31px;
+    padding-left: 36px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.lmx-tab-header {
+    margin-bottom: 30px;
+}
+
+body.toplevel_page_loymax-plugin .lmx-tab-header {
+    margin-top: 0;
+    margin-left: 37px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 35px;
+    color: #3A4449;
+    margin-bottom: 23px;
+}
+
+.lmx-user-page-table {
+    margin-bottom: 27px;
+}
+
+.lmx-user-page-table input[type=text].lmx__input--text {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.lmx-user-page-table tbody td {
+    line-height: 1.5;
+    vertical-align: middle;
+    height: 22px;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+body.toplevel_page_loymax-plugin .lmx-user-page-table tbody td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 24px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #464646;
+}
+
+.lmx-user-page-table tbody tr > :nth-child(odd) {
+    padding-left: 20px;
+}
+
+body.toplevel_page_loymax-plugin td.lmx-user-portal-page-td-label {
+    padding: 8px 0 8px 38px;
+    width: 50%;
+    min-width: 50%;
+}
+
+.lmx-user-page-table > tbody input[type=text].lmx-page-title {
+    width: 264px;
+    height: 28px;
+    font-size: 14px;
+}
+
+.lmx-user-page-table.striped {
+    border: none;
+}
+
+.lmx-user-page-table.striped > tbody > :nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+.lmx-user-page-table.striped > tbody > :nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+a.lmx-link {
+    color: #57B8FB;
+    text-decoration: underline;
+}
+
+a.lmx-link:focus {
+    color: #0082DB;
+    outline: none;
+    box-shadow: none;
+}
+
+a.lmx-link:hover {
+    color: #0082DB;
+    outline: none;
+}
+
+.lmx-page-link {
+    width: 100%;
+    min-height: 25px;
+    margin-bottom: 26px;
+    padding-left: 38px;
+}
+
+.lmx-page-link .lmx-link {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+}
+
+.lmx-common-config {
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    padding-right: 20px;
+    width: calc(100% - 15px);
+}
+
+body.toplevel_page_loymax-plugin .lmx-common-config {
+    overflow-y: unset;
+    width: 100%;
+}
+
+body.toplevel_page_loymax-plugin #loymax-generate-page .lmx__button-container .lmx-button {
+    margin-right: 31px;
+}
+
+body.toplevel_page_loymax-plugin .lmx-tooltip.tooltip .arrow::before,
+body.lmx .lmx-tooltip.tooltip .arrow::before {
+    position: absolute;
+    content: "";
+    border-color: transparent;
+    border-style: solid;
+}
+
+body.toplevel_page_loymax-plugin .lmx-tooltip .tooltip-inner,
+body.lmx .lmx-tooltip .tooltip-inner {
+    max-width: 200px;
+    padding: 5px 10px 10px;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    border-radius: 0.25rem;
+}
+
+body.toplevel_page_loymax-plugin .lmx-dialog,
+body.lmx .lmx-dialog {
+    left: calc((100% + 160px) / 2 - 250px) !important;
+    top: calc(50% - 125px) !important;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 2px;
+    box-shadow: 0 11px 15px rgba(0, 0, 0, 0.2), 0 9px 46px rgba(0, 0, 0, 0.12), 0 24px 38px rgba(0, 0, 0, 0.14);
+    font-family: Roboto, sans-serif;
+}
+
+body.toplevel_page_loymax-plugin .lmx-dialog .ui-dialog-titlebar,
+body.lmx .lmx-dialog .ui-dialog-titlebar {
+    display: none;
+}
+
+.lmx-dialog__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px 25px 33px 34px !important;
+}
+
+.lmx-dialog__card .lmx__button-container {
+    margin: 34px 0 0 0;
+}
+
+.lmx-dialog__card .lmx-button {
+    max-width: 117px;
+    min-width: 117px;
+    height: 34px;
+    line-height: 15px;
+    margin-left: 21px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+}
+
+h1.lmx-dialog__header {
+    margin: 0 0 39px 0;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #3A4449;
+}
+
+.lmx-dialog__text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+body.toplevel_page_loymax-plugin .lmx-tooltip-right.bs-tooltip-right,
+body.toplevel_page_loymax-plugin .lmx-tooltip-right.bs-tooltip-auto[x-placement^="right"],
+body.lmx .lmx-tooltip-right.bs-tooltip-right,
+body.lmx .lmx-tooltip-right.bs-tooltip-auto[x-placement^="right"] {
+    padding: 0 20px;
+    opacity: unset;
+}
+
+body.toplevel_page_loymax-plugin .lmx-tooltip-right.bs-tooltip-right .arrow,
+body.toplevel_page_loymax-plugin .lmx-tooltip-right.bs-tooltip-auto[x-placement^="right"] .arrow,
+body.lmx .lmx-tooltip-right.bs-tooltip-right .arrow,
+body.lmx .lmx-tooltip-right.bs-tooltip-auto[x-placement^="right"] .arrow {
+    left: 13px;
+    width: 7px;
+    height: 14px;
+    margin-left: 0 !important;
+}
+
+body.toplevel_page_loymax-plugin .lmx-tooltip-right.bs-tooltip-right .arrow::before,
+body.toplevel_page_loymax-plugin .lmx-tooltip-right.bs-tooltip-auto[x-placement^="right"] .arrow::before,
+body.lmx .lmx-tooltip-right.bs-tooltip-right .arrow::before,
+body.lmx .lmx-tooltip-right.bs-tooltip-auto[x-placement^="right"] .arrow::before {
+    right: 0;
+    border-width: 7px 7px 7px 0;
+    border-right-color: var(--loymax-blue-color);
+}
+
+body.toplevel_page_loymax-plugin .lmx-tooltip-right .tooltip-inner,
+body.lmx .lmx-tooltip-right .tooltip-inner {
+    max-height: 58px;
+    max-width: 180px;
+    color: #FFFFFF;
+    background-color: var(--loymax-blue-color);
+    font-size: 11px;
+    text-align: left;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.26);
+    line-height: 130.3%;
+    padding-top: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+body.toplevel_page_loymax-plugin .lmx-tooltip-left.bs-tooltip-left,
+body.toplevel_page_loymax-plugin .lmx-tooltip-left.bs-tooltip-auto[x-placement^="left"],
+body.lmx .lmx-tooltip-left.bs-tooltip-left,
+body.lmx .lmx-tooltip-left.bs-tooltip-auto[x-placement^="left"] {
+    padding: 0 10px;
+    opacity: unset;
+}
+
+body.toplevel_page_loymax-plugin .lmx-tooltip-left.bs-tooltip-left .arrow,
+body.toplevel_page_loymax-plugin .lmx-tooltip-left.bs-tooltip-auto[x-placement^="left"] .arrow,
+body.lmx .lmx-tooltip-left.bs-tooltip-left .arrow,
+body.lmx .lmx-tooltip-left.bs-tooltip-auto[x-placement^="left"] .arrow {
+    right: 1px;
+    left: unset;
+    width: 21px;
+    height: 28px;
+    margin-right: 0 !important;
+}
+
+body.toplevel_page_loymax-plugin .lmx-tooltip-left.bs-tooltip-left .arrow::before,
+body.toplevel_page_loymax-plugin .lmx-tooltip-left.bs-tooltip-auto[x-placement^="left"] .arrow::before,
+body.lmx .lmx-tooltip-left.bs-tooltip-left .arrow::before,
+body.lmx .lmx-tooltip-left.bs-tooltip-auto[x-placement^="left"] .arrow::before {
+    right: 0;
+    left: unset;
+    border-width: 14px 0 14px 21px;
+    border-left-color: var(--loymax-blue-color);
+}
+
+body.toplevel_page_loymax-plugin .lmx-tooltip-left .tooltip-inner,
+body.lmx .lmx-tooltip-left .tooltip-inner {
+    max-height: 58px;
+    max-width: 180px;
+    color: #FFFFFF;
+    background-color: var(--loymax-blue-color);
+    font-size: 11px;
+    text-align: left;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.26);
+    line-height: 130.3%;
+    padding-top: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media only screen and (max-width: 960px) {
+    body.toplevel_page_loymax-plugin .lmx-dialog,
+    body.lmx .lmx-dialog {
+        left: calc(50% - 250px) !important;
+    }
+}

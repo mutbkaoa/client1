@@ -1,0 +1,507 @@
+imageNotFound: "Изображение отсутствует"
+showAll: "Показать все"
+show: "Показать"
+hide: "Скрыть"
+buttons:
+ save: "Сохранить"
+ change: "Изменить"
+ cancel: "Отмена"
+ approve: "Подтвердить"
+ yes: "Да"
+ no: "Нет"
+ accept: "Принять"
+ next: "Далее"
+ complete: "Завершить"
+ close: "Закрыть"
+ send: "Отправить"
+ attachFile: "Прикрепить файл"
+ delete: "Удалить"
+ viewMore: "Посмотреть подробнее"
+ backToList: "Вернуться к списку"
+ reload: "Обновить страницу"
+plurals:
+ merchant_plural:
+  one: "{{ number }} магазин"
+  few: "{{ number }} магазина"
+  many: "{{ number }} магазинов"
+ minute_plural:
+  one: "{{number}} минуту"
+  few: "{{number}} минуты"
+  many: "{{number}} минут"
+alerts:
+ areYouSure: "Вы уверены?"
+ localeFileUploadFailed: "Не найден файл локализации &laquo;{{locale}}&raquo;"
+ systemError: "Системная ошибка"
+validationMessages:
+ defaultMsg: "Неправильный ввод {0}"
+ email: "Пожалуйста, введите правильный email"
+ minLength: "Минимум символов: {0} (сейчас {1})"
+ maxLength: "Максимум {0} символов (сейчас {1})"
+ min: "Минимум {0}"
+ max: "Максимум {0}"
+ required: "Это поле обязательно"
+ date: "Пожалуйста, введите корректную дату"
+ pattern: "Формат {0}"
+ number: "Пожалуйста, введите число"
+ url: "Пожалуйста, введите url в формате http(s)://www.google.com"
+ greaterThan: "Больше, чем {0}"
+ greaterThanEqual: "Больше или равно {0}"
+ lessThan: "Меньше, чем {0}"
+ lessThanEqual: "Меньше или равно {0}"
+ requiredItems: "Необходимо выбрать хотя бы один элемент"
+ digitsAfterComma: "Неверное количество знаков после запятой. Должно быть {0}"
+ integer: "Должно быть целое число"
+ notEmptyGuid: "Невозможно использовать пустое значение внешнего ключа"
+ isGuid: "Значение не соответствует типу Guid"
+ isPhone: "Номер должен начинаться с 7 и состоять из 11 цифр"
+ isEmail: "Пожалуйста, введите правильный email"
+ isEqualPasswords: "Пароли не совпадают"
+dateRange:
+ from: "с"
+ to: "по"
+ toTime: "до"
+ since: "с"
+reCaptcha:
+ error: "Ошибка взаимодействия с сервером валидации, обратитесь в службу технической поддержки"
+file:
+ error: "Ошибка загрузки файла"
+ maxsizeError: "Превышен максимальный размер файла (5 МБ)"
+map:
+ mon: "Пн"
+ tue: "Вт"
+ wed: "Ср"
+ thu: "Чт"
+ fri: "Пт"
+ sat: "Сб"
+ sun: "Вс"
+ weekend: "Выходной"
+ breakTime: "обед"
+ closed: "Сейчас закрыто"
+ opened: "Сейчас открыто"
+ closedButWillOpenSoon: "Закрыто, откроется через {{minutes}}"
+ openedButWillCloseSoon: "Открыто, закроется через {{minutes}}"
+ closedForLunch: "Закрыто на обед"
+ openedButWillCloseSoonForLunch: "Открыто, закроется на обед через {{minutes}}"
+ closedForLunchButWillOpenSoon: "Закрыто на обед, откроется через {{minutes}}"
+datePicker:
+ day: "День"
+ month: "Месяц"
+ year: "Год"
+ date: "Дата"
+ time: "Время"
+accounts:
+ userPassword:
+  title: "Пароль"
+  password: "Пароль"
+  currentPassword: "Текущий пароль"
+  newPassword: "Новый пароль"
+  repeatPassword: "Подтверждение пароля"
+  alerts:
+   passwordUpdated: "Пароль успешно изменён"
+ socials:
+  title: &socials "Социальные сети"
+  login: "Войти с&nbsp;помощью социальных сетей"
+  bind: "Привязать"
+  unbind: "Отвязать"
+announcement:
+ title: &announcement "Реклама"
+anonymousFeedback:
+ title: &anonymousFeedback "Задать вопрос"
+ hint: "Отправка письма будет выполнена через почтовый клиент, установленный на&nbsp;Вашем устройстве"
+ theme: "Тема письма"
+ message: "Ваше сообщение"
+ alerts:
+  mailClient: "Происходит запуск почтового клиента. В&nbsp;случае, если по&nbsp;истечению некоторого времени ничего не&nbsp;произошло, отправьте письмо непосредственно со&nbsp;своей электронной почты на&nbsp;адрес {{supportEmail}}"
+authentication:
+ title: &authentication "Вход в Личный кабинет"
+ login: "Войти"
+ password: "Пароль"
+ code: "Код подтверждения"
+ resendCode: "Выслать код подтверждения ещё раз"
+ resendCodeCompleted: "Код подтверждения выслан повторно"
+ forgotPassword: "Забыли пароль?"
+ register: "Зарегистрироваться"
+ alerts:
+  authenticationNeeded: "Необходима авторизация"
+  wrongCredentials: "Неверное имя пользователя или пароль. Проверьте правильность введенных данных."
+identifiers:
+ phone: "Номер телефона"
+ card: "Номер карты"
+ email: "Email"
+balance:
+ title: &balance "Детальный баланс"
+ amount: "Баланс"
+ notActivatedAmount: "К зачислению"
+ period: "Период"
+ date: "Дата"
+ activationAmount: "К зачислению"
+ expirationAmount: "Сгорят"
+ lastWeekChanges: "Изменение баланса в течение недели"
+ infoNotFound: "Нет действующих счетов"
+ lifeTimePeriod:
+  fromWeekToMonth: "От недели до месяца"
+  fromMonthToYear: "От месяца до года"
+  fromYear: "Через год и более"
+brands:
+ title: &brands "Бренды"
+ site: "Перейти на сайт бренда"
+ locations: "Адреса"
+cards:
+ title: &cards "Карты"
+ personalCards: "Мои карты"
+ accountCards: "Семейный счёт"
+ attachCardModal:
+  title: "Объединение карт"
+  separationImpossible: "Разъединение карт будет невозможно"
+  confirmCode: "Введите код подтверждения, отправленный владельцу <b>прикрепляемой&nbsp;карты</b>"
+  resendConfirmCode: "Выслать код подтверждения ещё раз"
+  cardNumber: "Номер прикрепляемой карты"
+  password: "Пароль от Вашего Личного кабинета"
+  code: "Код подтверждения"
+  codeSent: "Код подтверждения отправлен"
+ blockCardModal:
+  blockTitle: "Блокировка карты"
+  unblockTitle: "Разблокировка карты"
+  password: "Пароль от Вашего Личного кабинета"
+ graphicalCodesModal:
+  barCode: "Штрих-код"
+  qrCode: "QR-код"
+ replaceCardModal:
+  title: "Замена карты"
+  cardNumber: "Номер новой карты"
+  password: "Пароль от Вашего Личного кабинета"
+  cvcCode: "CVC-код"
+ setCardModal:
+  title: "Привязка физической карты"
+  cardNumber: "Введите номер карты"
+ actions:
+  set: "Добавить карту"
+  attach: "Добавить карту к счёту"
+  block: "Заблокировать"
+  unblock: "Разблокировать"
+  replace: "Заменить"
+ noCard: "Нет карты"
+ replaceHint: "Для того, чтобы заменить карту на&nbsp;новую, её&nbsp;необходимо предварительно <strong>заблокировать</strong>"
+ info:
+  owner: "Владелец"
+  paid: "Израсходовано"
+  blocked: "Заблокирована"
+favoriteGoods:
+ title: &favoriteGoods "Любимые вкусы"
+ actions:
+  edit: "Редактировать"
+ info:
+  limitation:
+   part1: "Любимый вкус можно изменить 1 раз в месяц, так же эта возможность появляется, если ваш любимый вкус попадает под действие"
+   part2: "промо акции"
+  description: "В этом разделе вы можете назначить Любимый вкус для приобретения его в магазинах сети по самой выгодной цене - со скидкой 15%"
+ alreadyChanged: "Вы уже изменяли этот любимый вкус"
+ noFavoriteGood: "Любимый вкус не выбран"
+ favoriteGoodsEmpty: "Нет любимых вкусов"
+ modal:
+  selectGood: "Выберите товар"
+  close: "Закрыть"
+  selectFavoriteGood: "Назначить любимым вкусом"
+  instead: "вместо"
+contacts:
+ title: "Контакты"
+ userPhone:
+  title: "Номер телефона"
+  phone: "Номер телефона"
+  confirmationCode: "Код подтверждения"
+  numberHint: "На&nbsp;данный номер будет выслано SMS с&nbsp;кодом подтверждения"
+  codeHint: "Код подтверждения отправлен Вам по&nbsp;SMS на&nbsp;номер"
+  sendConfirmCode: "Выслать код подтверждения ещё раз"
+  resetPhone: "Повторить ввод номера телефона"
+  alerts:
+   codeSent: "Код подтверждения отправлен"
+   phoneNumberUpdated: "Номер телефона успешно изменён"
+ userEmail:
+  email: "Адрес электронной почты"
+  resetEmail: "Повторить ввод электронной почты"
+  emailHint: "Введите <strong>новый</strong> электронный адрес. На&nbsp;этот адрес Вы&nbsp;получите письмо с&nbsp;дальнейшей инструкцией"
+  codeHint: "Введите код подтверждения, который был отправлен на&nbsp;почту"
+  confirmationCode: "Код подтверждения"
+  sendConfirmCode: "Выслать код подтверждения ещё раз"
+  alerts:
+   emailUpdated: "Email успешно изменён"
+   codeSent: "Код подтверждения отправлен"
+coupons:
+ title: "Купоны"
+ coupon: "Купон"
+ viewOnSite: "Перейти к купону на сайте"
+ date: "Дата покупки"
+ expirationDate: "Истекает"
+ refund: "Вернуть купон"
+ price: "Стоимость купона"
+ description: "Описание акции"
+ noDescription: "Описание акции отсутствует"
+ buy: "Купить за"
+ login: "Войти, чтобы купить"
+ imageNotFound: "Изображение купона отсутствует"
+feedback:
+ title: &feedback "Чат"
+ askQuestion: "Задайте свой вопрос оператору"
+ you: "Вы"
+ operator: "Оператор"
+ file: "Файл"
+ typeText: "Введите текст..."
+history:
+ title: &history "История операций"
+ fromDate: "В период с"
+ toDate: "по"
+ allCards: "Все карты"
+ resetFilters: "Сбросить фильтры"
+ date: "Дата"
+ cardNumber: "Номер карты"
+ description: "Описание"
+ operation: "Операция"
+ amount: "Сумма"
+ showMore: "Показать ещё"
+ goToFullHistory: "Перейти к полной истории операций"
+ notFound: "По Вашему запросу ничего не найдено, попробуйте поменять параметры фильтров"
+ gift:
+  purchase: "Покупка"
+  withdraw: "Оплата"
+  withdrawData: "Списание"
+  rewardData: "Начисление"
+  bonus: "Бонусы"
+  discount: "Скидка"
+  gift: "Подарок"
+  charging: "Начисление"
+ giftRefund:
+  purchase: "Покупка"
+  withdrawData: "Возврат оплаты"
+  withdraw: "Возврат оплаты"
+  rewardData: "Возврат бонусов"
+  bonus: "Возврат бонусов"
+  discount: "Скидка"
+  gift: "Подарок"
+  charging: "Начисление"
+merchants:
+ title: &merchants "Магазины"
+ onMap: "На карте"
+ asList: "Списком"
+ showOnMap: "Показать на карте"
+ noRegionInfo: "Не найдена информация о регионах"
+ showAll: "Показать все"
+ hide: "Скрыть магазины"
+ notFound: "Не найдена информация о магазинах"
+ filteredNotFound: "По Вашему запросу ничего не найдено, попробуйте поменять параметры фильтров"
+ offers: "Акции в магазине"
+ chooseRegion: "Выберите регион"
+ chooseCity: "Выберите город"
+messages:
+ title: &messages "Уведомления"
+ notFound: "Уведомления отсутствуют"
+offers:
+ title: &offers "Акции"
+ noActiveOffers: "Действующие акции отсутствуют"
+ noFutureOffers: "Будущие акции отсутствуют"
+ date: "Дата проведения акции"
+ description: "Описание"
+ instructions: "Инструкции"
+ merchants: "Магазины"
+ showAllMerchants: "Показать все"
+ hideMerchants: "Скрыть магазины"
+personal:
+ title: "Введите свои данные"
+ alerts:
+  incorrectFields: "Некоторые поля анкеты заполнены неверно"
+  dataUpdated: "Личные данные обновлены"
+personalGoods:
+ title: &personalGoods "Персональные товары"
+ myGoodsOffers: "Мои товары"
+ activeOffers: "Действующие акции"
+ futureOffers: "Будущие акции"
+ noActiveOffers: "Нет действующих акций"
+ availableGoodsCount: "Ещё можно выбрать товаров: {{availableCount}} из {{maxGoodsCount}}"
+ maxGoodsCount: "Выбрано максимально допустимое количество товаров"
+ editingNotAvailable: "Редактирование списка товаров возможно только в&nbsp;период"
+ goodsSelected: "Выбрано товаров: {{approvedCount}} из {{maxGoodsCount}}"
+ offerPeriod: "Срок действия акции"
+ alerts:
+  maxGoodsCount: "Выбрано максимально допустимое количество товаров"
+  approvedGoodsNotEditable: "Изменить список подтверждённых товаров невозможно"
+  approvalConfirm: "Вы&nbsp;уверены, что хотите подтвердить выбранные товары? Изменить список подтверждённых товаров невозможно"
+  noGoodsSelected: "Не выбран ни один товар"
+  approvalMessage: "Товары успешно добавлены! Приятных покупок!"
+personalOffers:
+ title: &personalOffers "Персональные предложения"
+ noActiveOffers: "Нет действующих акций"
+ offer: "Предложение"
+ offerPeriod: "Срок действия акции"
+ details: "Детали"
+ detailPeriodTitle: "Срок действия предложения по позиции"
+ detailPeriod: "С {{offerBeginning}} до {{offerEnd}}"
+ offerBeginning: "начала акции"
+ offerEnd: "конца акции"
+ goodsCode: "Код товара"
+ viewOnMap: "Посмотреть на карте"
+ showOnMap: "Показать на карте"
+ discountTypes:
+  cashback: "Бонус"
+  discount: "Скидка"
+ discountTypesCurrency:
+  cashback: "б."
+  discount: "р."
+ discountDescription:
+  amount: "{{type}} {{value}} {{currency}} от суммы товара"
+  amountPerMeasure: "{{type}} {{value}} {{currency}} за каждые {{step}} р."
+  amountPerUnit: "{{type}} {{value}} {{currency}} за единицу товара"
+  percent: "{{type}} {{value}}% от суммы товара"
+  pricePerUnit: "Стоимость товара {{value}} р."
+ pricePerUnitDiscountHint:
+  cashback: "Разница между исходной ценой и указанной будет предоставлена в виде бонусов"
+  discount: "Разница между исходной ценой и указанной будет предоставлена в виде скидки"
+registration:
+ title: &registration "Регистрация"
+ phoneNumber: "Номер телефона"
+ password: "Пароль"
+ referrerCardNumber: "Номер карты друга (необязательно)"
+ phoneHint: "На&nbsp;данный номер будет выслано SMS с&nbsp;кодом подтверждения"
+ codeHint: "Код подтверждения, отправленный по&nbsp;SMS."
+ forgotPassword: "Забыли пароль?"
+ offerAccept: "Я принимаю"
+ tenderOffer: "условия оферты"
+ opdAgree: "Я подтверждаю своё согласие на"
+ opd: "обработку персональных данных"
+ register: "Зарегистрироваться"
+ referrerCodeMessage: "Вы&nbsp;уже установили код друга.<br>Повторный ввод для продолжения регистрации не&nbsp;требуется"
+ tenderOfferStep:
+  title: "Оферта"
+  offerAccept: "Вы принимаете условия оферты."
+  opdAccept: "Вы подтверждаете своё согласие на"
+  opd: "обработку Ваших персональных данных"
+  alerts:
+   offerFileError: "Ошибка получения файла оферты."
+   offerFileFormatError: "Некорректный формат файла оферты."
+   opdFileError: "Ошибка получения файла согласия на обработку персональных данных."
+ phoneStep:
+  phone: "Номер телефона"
+  resetPhone: "Повторить ввод номера телефона"
+  confirmationCode: "Код подтверждения"
+  sendConfirmCode: "Выслать код подтверждения ещё раз"
+  numberTitle: "Введите номер телефона"
+  codeTitle: "Введите код подтверждения"
+  numberHint: "На&nbsp;данный номер будет выслано SMS с&nbsp;кодом подтверждения"
+  codeHint: "Код подтверждения отправлен Вам по&nbsp;SMS на&nbsp;номер"
+  alerts:
+   codeSent: "Код подтверждения отправлен"
+ emailStep:
+  email: "Адрес электронной почты"
+  confirmationCode: "Код подтверждения"
+  sendConfirmCode: "Выслать код подтверждения ещё раз"
+  resetEmail: "Повторить ввод электронной почты"
+  emailTitle: "Введите адрес электронной почты"
+  codeTitle: "Введите код подтверждения"
+  skipEmailStep: "Пропустить шаг ввода электронной почты"
+  skipCodeStep: "Пропустить шаг ввода кода подтверждения"
+  codeHint: "На Вашу электронную почту был отправлен код подтверждения, введите его ниже"
+  alerts:
+   codeSent: "Код подтверждения отправлен"
+ passwordStep:
+  title: "Установите пароль"
+  password: "Пароль"
+  repeatPassword: "Подтверждение пароля"
+ cardStep:
+  title: "Введите номер карты"
+  cardNumber: "Номер карты"
+  cvcCode: "CVC-код"
+  cardNeeded: "Завершить регистрацию возможно только при наличии на руках карты"
+ finish:
+  title: "Регистрация успешно завершена"
+  welcome: "Добро пожаловать в программу лояльности!"
+  login: "Войти в Личный кабинет"
+  close: "Закрыть"
+resetPassword:
+ title: "Восстановление пароля"
+ identity: "Номер телефона / Email"
+ confirmCode: "Код подтверждения"
+ newPassword: "Новый пароль"
+ newPasswordConfirmCode: "Подтверждение нового пароля"
+ identityHint: "Укажите контакт для восстановления пароля"
+ smsCodeHint: "Код подтверждения отправлен Вам по&nbsp;SMS на&nbsp;номер"
+ emailCodeHint: "Введите код подтверждения, который был отправлен на&nbsp;почту"
+ resendCode: "Выслать код подтверждения ещё раз"
+ alerts:
+  codeSent: "Код подтверждения отправлен"
+showcase:
+ title: &showcase "Витрина"
+ main: "Основные"
+ categories: "Категории"
+ buyCoupon:
+  title: "Покупка купона"
+  couponBought: "Купон номер <b>{{couponNumber}}</b> успешно приобретен."
+  date: "Дата приобретения"
+  expirationDate: "Купон доступен до"
+  error: "Ошибка приобретения купона"
+  payBonuses: "Оплатить бонусами"
+status:
+ title: &status "Статус пользователя"
+ currentAmount: "Сумма покупок"
+ nextStatus: "Осталось до следующего статуса"
+ bonuses: "Бонусы"
+ countMeetcoin: "Количество миткоинов"
+ currentLevel: "Текущий уровень"
+ currentLevelNextMonth: "Вы достигли уровня"
+ necessaryForNextLevel:
+  necessary: "Необходимо еще"
+  meetcoinFor: "Миткоинов для уровня"
+  nextLevel: "В следующем месяце"
+ countBonuses: "Количество бонусных рублей"
+subscriptions:
+ title: "Управление подписками"
+ error: "Должны быть указаны типы отображаемых подписок и типы оповещений"
+ hint: "Получать рекламные рассылки по следующим каналам"
+ notificationTypes:
+  smsNotification: "SMS"
+  emailNotification: "Email"
+  pushNotification: "Push"
+  viberNotification: "Viber"
+  socialNetworksNotification: "Соц. сети"
+userInfo:
+ title: &userInfo "Информация о пользователе"
+ balance: "Баланс"
+ accounts: "счетов"
+ notActivatedBonuses: "Бонусов к активации"
+ accumulatedBonuses: "Получено бонусов"
+ logout: "Выйти"
+ purchasesAttributeCurrency: "р."
+obsoleteBrowserAlert: 'Вы пользуетесь устаревшим браузером, который не поддерживает современные технологии и представляет угрозу Вашей безопасности.<br>Сайт может отображаться некорректно. Рекомендуем установить один из перечисленных браузеров:<br><a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a>, <a href="https://www.mozilla.org/firefox/" target="_blank">Mozilla Firefox</a>'
+unregistration:
+ refuseToParticipateInLP: "Отказ от участия в программе лояльности"
+ message: "Нам очень жаль, что Вы отказываетесь от участия в программе лояльности.<br>Пожалуйста, напишите причину Вашего отказа. Мы обязательно учтем это в дальнейшей работе. Спасибо!"
+ reason: "Пожалуйста, введите причину Вашего отказа"
+ enterConfirmCode: "Введите код подтверждения, который был отправлен на номер"
+ refuse: "Отказаться"
+ endRefuse: "Уважаемый клиент, Ваше участие в программе лояльности завершено.<br>Ваши персональные данные удалены из системы.<br>Для повторного принятия участия в будущем, Вам необходимо пройти повторную регистрацию в программе лояльности"
+ confirm: "Подтвердить"
+ cancel: "Отмена"
+settings:
+ accountsTitle: "Аккаунты"
+questionnaire:
+ title: &questionnaire "Личные данные"
+ customAnswerPlaceholder: "Введите свой ответ"
+menu:
+ authentication: *authentication
+ registration: *registration
+ settings: "Настройки"
+ balance: *balance
+ cards: *cards
+ history: *history
+ personalOffers: *personalOffers
+ personalGoods: *personalGoods
+ favoriteGoods: *favoriteGoods
+ socials: *socials
+ messages: *messages
+ feedback: *feedback
+ status: *status
+ userInfo: *userInfo
+ anonymousFeedback: *anonymousFeedback
+ offers: *offers
+ showcase: *showcase
+ brands: *brands
+ announcement: *announcement
+ merchants: *merchants
+ personalData: *questionnaire

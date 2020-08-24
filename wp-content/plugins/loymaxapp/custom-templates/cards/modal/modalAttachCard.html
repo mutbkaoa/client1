@@ -1,0 +1,56 @@
+<div class="lmx-attach-card-modal">
+    <div class="modal-header">
+        <h2>{{'cards.attachCardModal.title' | translate}}</h2>
+    </div>
+
+    <lmx-notifications area="cardModal"></lmx-notifications>
+    <div loader="confirmForm === undefined">
+        <div ng-hide="confirmForm === undefined" class="lmx-hint lmx-modal-description lmx-row">
+            <div>{{'cards.attachCardModal.separationImpossible' | translate}}</div>
+            <div ng-if="confirmForm" ng-bind-html="'cards.attachCardModal.confirmCode' | translate"></div>
+        </div>
+        <form novalidate="" ng-if="confirmForm === false" name="attachCardForm" ng-submit="attachCardForm.$valid && startAttachCard()">
+            <div class="modal-content-wrapper">
+                <div class="modal-body">
+                    <form-group label-text="{{'cards.attachCardModal.cardNumber' | translate}}">
+                        <input type="text" ng-model="model.cardNumber" ng-disabled="inProgress" id="lmx-cardnumber" name="cardnumber" required="" autofocus="">
+                    </form-group>
+                    <form-group label-text="{{'cards.attachCardModal.password' | translate}}">
+                        <input type="password" ng-model="model.password" ng-disabled="inProgress" id="lmx-password" name="password" autocomplete="off" required="">
+                    </form-group>
+                </div>
+                <div class="modal-footer lmx-btn-container">
+                    <div ng-hide="inProgress">
+                        <button class="lmx-btn-cancel" type="button" ng-click="cancel()">
+                            {{'buttons.cancel' | translate}}
+                        </button>
+                        <button type="submit">{{'buttons.next' | translate}}</button>
+                    </div>
+                    <inline-loader>inProgress</inline-loader>
+                </div>
+            </div>
+        </form>
+
+        <form novalidate="" ng-if="confirmForm" name="attachCardConfirmForm" ng-submit="attachCardConfirmForm.$valid && confirm()">
+            <div class="modal-content-wrapper">
+                <div class="modal-body">
+                    <form-group label-text="{{'cards.attachCardModal.code' | translate}}">
+                        <input type="text" ng-model="model.confirmCode" ng-disabled="inProgress" id="lmx-confirmCode" name="confirmCode" required="" autofocus="">
+                    </form-group>
+                    <div ng-hide="inProgress">
+                        <a ng-click="sendConfirmCode()" href="">{{'cards.attachCardModal.resendConfirmCode' | translate}}</a>
+                    </div>
+                </div>
+                <div class="modal-footer lmx-btn-container">
+                    <div ng-hide="inProgress">
+                        <button class="lmx-btn-cancel" ng-click="cancelAttachCard()" type="button">
+                            {{'buttons.cancel' | translate}}
+                        </button>
+                        <button type="submit">{{'cards.actions.attach' | translate}}</button>
+                    </div>
+                    <inline-loader>inProgress</inline-loader>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

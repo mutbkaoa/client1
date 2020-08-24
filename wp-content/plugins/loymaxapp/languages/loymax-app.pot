@@ -1,0 +1,601 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: loymax-app 2.7\n"
+"POT-Creation-Date: 2020-04-23 18:08+0700\n"
+"PO-Revision-Date: 2020-02-11 18:03+0700\n"
+"Last-Translator: \n"
+"Language-Team: loymax\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: admin\n"
+"X-Poedit-SearchPathExcluded-0: public\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+"X-Poedit-SearchPathExcluded-2: custom-templates\n"
+"X-Poedit-SearchPathExcluded-3: widget\n"
+
+#: includes/loymax-common-config.php:95
+#: includes/loymax-customify-theme-installer.php:49
+#: includes/loymax-install-wizard.php:61 includes/loymax-set-api.php:29
+#: includes/loymax-userportal-config.php:203
+#: includes/loymax-userportal-page.php:75
+msgid "Skip This Step"
+msgstr ""
+
+#: includes/loymax-common-config.php:97
+#: includes/loymax-customify-theme-installer.php:16
+#: includes/loymax-customify-theme-installer.php:43
+#: includes/loymax-set-api.php:31 includes/loymax-userportal-config.php:206
+#: includes/loymax-userportal-page.php:44
+msgid "Continue"
+msgstr ""
+
+#: includes/loymax-common-config.php:101 includes/loymax-set-api.php:35
+#: includes/loymax-userportal-config.php:186
+#: includes/loymax-userportal-page.php:250
+msgid "Save"
+msgstr ""
+
+#: includes/loymax-configs-page.php:28
+#: includes/loymax-userportal-config.php:125
+msgid "Modules"
+msgstr ""
+
+#: includes/loymax-configs-page.php:29 includes/loymax-configs-page.php:50
+#: includes/loymax-install-wizard.php:97
+msgid "Settings"
+msgstr ""
+
+#: includes/loymax-configs-page.php:30
+msgid "API"
+msgstr ""
+
+#: includes/loymax-configs-page.php:31
+#: includes/loymax-customify-theme-installer.php:24
+msgid "Theme"
+msgstr ""
+
+#: includes/loymax-configs-page.php:32
+msgid "Personal Account"
+msgstr ""
+
+#: includes/loymax-configs-page.php:83
+msgid ""
+"Read more about Personal Account configuration in the documentation."
+msgstr ""
+
+#: includes/loymax-configs-page.php:85
+msgid "Click here"
+msgstr ""
+
+#: includes/loymax-configs-page.php:85
+msgid "to go to the documentation."
+msgstr ""
+
+#: includes/loymax-customify-helper.php:31
+msgid ""
+"Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: includes/loymax-customify-helper.php:35
+msgid "The Customify theme installed successfully."
+msgstr ""
+
+#: includes/loymax-customify-helper.php:47
+msgid "An error occurred while installing the Customify theme."
+msgstr ""
+
+#: includes/loymax-customify-helper.php:49
+msgid "To install it manually"
+msgstr ""
+
+#: includes/loymax-customify-helper.php:51
+msgid "click here"
+msgstr ""
+
+#: includes/loymax-customify-helper.php:62
+msgid "The Customify theme activated successfully."
+msgstr ""
+
+#: includes/loymax-customify-theme-installer.php:14
+msgid "You have activated the <strong>Customify</strong> theme."
+msgstr ""
+
+#: includes/loymax-customify-theme-installer.php:14
+msgid "We recommend using the <strong>Customify</strong> theme."
+msgstr ""
+
+#: includes/loymax-customify-theme-installer.php:16
+msgid "Install and Continue"
+msgstr ""
+
+#: includes/loymax-customify-theme-installer.php:18
+msgid "Activate and Continue"
+msgstr ""
+
+#: includes/loymax-customify-theme-installer.php:18
+#: includes/loymax-customify-theme-installer.php:67
+msgid "Activate"
+msgstr ""
+
+#: includes/loymax-customify-theme-installer.php:32
+msgid ""
+"This theme enables you to configure flexibly the appearance of various "
+"elements of the site interface according to your requirements."
+msgstr ""
+
+#: includes/loymax-customify-theme-installer.php:63
+#: includes/loymax-install-wizard.php:62
+msgid "Install"
+msgstr ""
+
+#: includes/loymax-install-wizard.php:53
+msgid "Welcome to the Personal Account Installation Wizard!"
+msgstr ""
+
+#: includes/loymax-install-wizard.php:55
+msgid "Thanks for choosing the LoymaxWebApp plugin."
+msgstr ""
+
+#: includes/loymax-install-wizard.php:56
+msgid ""
+"The Installation Wizard will help you to create a Personal Account page "
+"for your site, as well as to quickly configure its design and the "
+"necessary modules."
+msgstr ""
+
+#: includes/loymax-install-wizard.php:57
+msgid ""
+"If you do not want to configure Personal Account, you can close the "
+"Installation Wizard and return to the WordPress toolbar. The "
+"Installation Wizard can be started later."
+msgstr ""
+
+#: includes/loymax-install-wizard.php:58
+msgid ""
+"After installing the Personal Account, its settings can be changed at "
+"any time in the <b>Loymax&nbsp;→&nbsp;Settings</b> section."
+msgstr ""
+
+#: includes/loymax-install-wizard.php:69
+msgid ""
+"Installation and Configuration of the Personal&nbsp;Account Are Complete"
+msgstr ""
+
+#: includes/loymax-install-wizard.php:71
+msgid "Thanks for choosing the LoymaxWebApp plugin!"
+msgstr ""
+
+#: includes/loymax-install-wizard.php:72
+msgid ""
+"At any time, you can change your account settings in the <b>Loymax&nbsp;"
+"→&nbsp;Settings</b> section"
+msgstr ""
+
+#: includes/loymax-install-wizard.php:75
+msgid "Finish"
+msgstr ""
+
+#: includes/loymax-install-wizard.php:86
+msgid "Theme Setting"
+msgstr ""
+
+#: includes/loymax-install-wizard.php:91
+msgid "Section Settings"
+msgstr ""
+
+#: includes/loymax-install-wizard.php:103
+msgid "API Settings"
+msgstr ""
+
+#: includes/loymax-install-wizard.php:108
+msgid "Page Placement"
+msgstr ""
+
+#: includes/loymax-install-wizard.php:159
+msgid "LoymaxWebApp Setup Wizard"
+msgstr ""
+
+#: includes/loymax-set-api.php:10
+msgid "Loymax API Settings"
+msgstr ""
+
+#: includes/loymax-set-api.php:12
+msgid "Loymax API address"
+msgstr ""
+
+#: includes/loymax-updater.php:227
+msgid "An error occurred while updating LoymaxWebApp. Go to"
+msgstr ""
+
+#: includes/loymax-updater.php:228
+msgid "settings"
+msgstr ""
+
+#: includes/loymax-updater.php:228
+msgid "for details."
+msgstr ""
+
+#: includes/loymax-userportal-config.php:120
+msgid ""
+"Mark the sections of the Personal Account you want to add and configure"
+msgstr ""
+
+#: includes/loymax-userportal-config.php:254
+msgid "Settings updated!"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:36
+msgid "Do you want to continue?"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:40
+msgid "The page"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:40
+msgid "is in the Trash. If you continue, the page will be re-published."
+msgstr ""
+
+#: includes/loymax-userportal-page.php:43
+msgid "Cancel"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:66
+msgid ""
+"Enter the name of the page on which the Personal Account will be placed."
+msgstr ""
+
+#: includes/loymax-userportal-page.php:85
+msgid "Create"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:130
+msgid "Page generated successfully."
+msgstr ""
+
+#: includes/loymax-userportal-page.php:132
+msgid ""
+"To navigate through the user's portal, a <b>menu</b> with the same name "
+"has been created <i>(<b>&laquo;Appearance&raquo; &rarr; &laquo;"
+"Menus&raquo;</b>)</i>."
+msgstr ""
+
+#: includes/loymax-userportal-page.php:134
+msgid ""
+"To display this menu, you must place it in a separate menu area "
+"<i>(<b>&laquo;Appearance&raquo; &rarr; &laquo;Menus&raquo; &rarr; &laquo;"
+"Manage Locations&raquo;</b>)</i> or in the&nbsp;<b>&laquo;Custom "
+"menu&raquo;</b> Widget<i>(<b>&laquo;Appearance&raquo; &rarr; &laquo;"
+"Widgets&raquo;</b>)</i>."
+msgstr ""
+
+#: includes/loymax-userportal-page.php:136
+msgid ""
+"Also, a <b><i>Loymax widget</i></b> has been added to display a panel of "
+"basic information about the portal user."
+msgstr ""
+
+#: includes/loymax-userportal-page.php:138
+msgid ""
+"To customize the display of this widget, it is required to place it in "
+"the desired widget area <i>(<b>&laquo;Appearance&raquo; &rarr; &laquo;"
+"Widgets&raquo;</b>)</i>."
+msgstr ""
+
+#: includes/loymax-userportal-page.php:146
+msgid ""
+"The title of the page has conflict with the existing page. Please select "
+"another one."
+msgstr ""
+
+#: includes/loymax-userportal-page.php:170
+msgid "Page successfully re-generated"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:188
+msgid "Not created"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:197
+msgid "In trash"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:203
+msgid "Published"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:206
+msgid "Not published"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:212
+msgid "Status of the Personal Account"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:217
+msgid "Page with Personal Account"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:228
+msgid "Status"
+msgstr ""
+
+#: includes/loymax-userportal-page.php:236
+msgid "Go to the Personal Account page"
+msgstr ""
+
+#: loymax-app.php:57
+msgid "User Portal settings"
+msgstr ""
+
+#: loymax-app.php:239
+msgid "Welcome to"
+msgstr ""
+
+#: loymax-app.php:240
+msgid "You need to configure your Personal Account"
+msgstr ""
+
+#: loymax-app.php:242
+msgid "Run Installation Wizard"
+msgstr ""
+
+#: loymax-app.php:245
+msgid "Skip Installation"
+msgstr ""
+
+#: loymax-app.php:278 loymax-app.php:291
+msgid "Attention! The"
+msgstr ""
+
+#: loymax-app.php:280
+msgid "page is used and protected from deletion by the LoymaxWebApp plugin"
+msgstr ""
+
+#: loymax-app.php:293
+msgid "menu is used and protected from deletion by the LoymaxWebApp plugin"
+msgstr ""
+
+#: loymax-app.php:376
+msgid "An error occurred while updating"
+msgstr ""
+
+#: loymax-userportal-config.php:176
+msgid "Use of paid modules must be agreed with the API provider"
+msgstr ""
+
+msgid "Loymax API"
+msgstr ""
+
+msgid "Path to image files"
+msgstr ""
+
+msgid "reCAPTCHA site key (public key)"
+msgstr ""
+
+msgid "Acceptance of a contract offer at the initial stage of registration (instead of a separate registration step)"
+msgstr ""
+
+msgid "Authorization of the LP Member in the Personal Account after successful completion of registration"
+msgstr ""
+
+msgid "Begin the registration process of an unregistered customer when trying to log in to the Personal Account"
+msgstr ""
+
+msgid "Field for entering a friend's card number upon registration"
+msgstr ""
+
+msgid "Setting a verification code sent via SMS as a password to access the Personal Account"
+msgstr ""
+
+msgid "Login autocomplete on the registration page with the login entered during a failed login attempt"
+msgstr ""
+
+msgid "Ask for user attributes"
+msgstr ""
+
+msgid "GUID of the contract offer html file"
+msgstr ""
+
+msgid "GUID of the contract offer pdf file"
+msgstr ""
+
+msgid "GUID of pdf consent file for personal data processing"
+msgstr ""
+
+msgid "The logical name of the Member status attribute in the database"
+msgstr ""
+
+msgid "The logical name of the purchases amount attribute of the Member in the database"
+msgstr ""
+
+msgid "Technical support email"
+msgstr ""
+
+msgid "Personal Account page for moving the Member after confirming the email by link upon registration"
+msgstr ""
+
+msgid "Personal Account page for moving the Member after confirming the email by link when changing the email"
+msgstr ""
+
+msgid "Personal Account page for moving the Member after confirming the email by the link, if the token is out of date"
+msgstr ""
+
+msgid "Personal Account page for moving the Member after successful authorization"
+msgstr ""
+
+msgid "Personal Account page for moving the Member upon successful completion of registration"
+msgstr ""
+
+msgid "Personal Account page for moving the Member after logout of the Personal Account"
+msgstr ""
+
+msgid "Personal Account page for moving the Member upon confirmation of password recovery using the link from the email"
+msgstr ""
+
+msgid "Personal Account page for moving the Member in case of a failed authorization attempt via social network"
+msgstr ""
+
+msgid "Personal Account page for moving the Member upon successful authorization via social network"
+msgstr ""
+
+msgid "Personal Account page for moving the Member upon successful completion of linking social network"
+msgstr ""
+
+msgid "The text of the message on successful confirmation of personal products selection"
+msgstr ""
+
+msgid "Notification when using an outdated browser (Internet Explorer)"
+msgstr ""
+
+msgid "The address from which images of your favorite products will be loaded"
+msgstr ""
+
+msgid "Mark unread messages before reading them"
+msgstr ""
+
+msgid "Display Member status in the Personal Account"
+msgstr ""
+
+msgid "In the absence of personal offers, close access for the Member to the relevant section of the Personal Account"
+msgstr ""
+
+msgid "In the absence of personal products, close access for the Member to the relevant section of the Personal Account"
+msgstr ""
+
+msgid "Adding a card to Apple Wallet"
+msgstr ""
+
+msgid "Adding a card to Google Pay"
+msgstr ""
+
+msgid "Types of identifiers for authorization in the Personal Account"
+msgstr ""
+
+msgid "Types of identifiers for password reset in the Personal Account"
+msgstr ""
+
+msgid "Types of identifiers for registration in the Personal Account"
+msgstr ""
+
+msgid "Types of subscriptions that can be managed via Personal Account"
+msgstr ""
+
+msgid "Types of notifiers used to manage subscriptions via Personal Account"
+msgstr ""
+
+msgid "Skip email linking step"
+msgstr ""
+
+msgid "Display barcodes and QR codes of cards"
+msgstr ""
+
+msgid "Load all history elements on one page (when the flag is disabled, history elements are displayed page by page)"
+msgstr ""
+
+msgid "Filtering points of sale by region"
+msgstr ""
+
+msgid "The logical name of the ad slot"
+msgstr ""
+
+msgid "Authorization"
+msgstr ""
+
+msgid "The module is intended for authorization of Loyalty Program Members in the Personal Account"
+msgstr ""
+
+msgid "Registration"
+msgstr ""
+
+msgid "The module is intended for registration of customers in the Loyalty Program"
+msgstr ""
+
+msgid "Cards"
+msgstr ""
+
+msgid "The module provides the Loyalty Program Member with information on cards and accounts and access to operations with them"
+msgstr ""
+
+msgid "History"
+msgstr ""
+
+msgid "The module is intended for viewing operations conducted on the cards of the Loyalty Program Member"
+msgstr ""
+
+msgid "Points of sale"
+msgstr ""
+
+msgid "The module is intended for displaying on the map the points of sale participating in the Loyalty Program"
+msgstr ""
+
+msgid "Advertisement"
+msgstr ""
+
+msgid "The module is intended for displaying advertisement"
+msgstr ""
+
+msgid "Personal offers"
+msgstr ""
+
+msgid "The module is intended for displaying personal offers of the Loyalty Program Member"
+msgstr ""
+
+msgid "Personal products"
+msgstr ""
+
+msgid "The module is intended for displaying and selecting personal products of the Loyalty Program Member"
+msgstr ""
+
+msgid "Favorite tastes"
+msgstr ""
+
+msgid "The module is intended for displaying and selecting favorite products of the Loyalty Program Member"
+msgstr ""
+
+msgid "Support service"
+msgstr ""
+
+msgid "The module is intended for sending messages to technical support email"
+msgstr ""
+
+msgid "Offers"
+msgstr ""
+
+msgid "The module is intended for displaying Loyalty Program offers"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "The module is intended for displaying notifications sent to the Member as part of the Loyalty Program"
+msgstr ""
+
+msgid "Detailed balance"
+msgstr ""
+
+msgid "The module is intended for displaying detailed balance of the Loyalty Program Member"
+msgstr ""
+
+msgid "Chat"
+msgstr ""
+
+msgid "The module is intended for messaging with technical support in the form of chat"
+msgstr ""
+
+msgid "Loymax loyalty program User Portal configuration."
+msgstr ""
+
+msgid "Ability to add a card with cvc code"
+msgstr ""

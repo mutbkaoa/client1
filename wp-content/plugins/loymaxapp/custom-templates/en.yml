@@ -1,0 +1,507 @@
+imageNotFound: "No image available"
+showAll: "Show all"
+show: "Show"
+hide: "Hide"
+buttons:
+ save: "Save"
+ change: "Edit"
+ cancel: "Cancel"
+ approve: "OK"
+ yes: "Yes"
+ no: "No"
+ accept: "Accept"
+ next: "Next"
+ complete: "Finish"
+ close: "Close"
+ send: "Submit"
+ attachFile: "Attach a file"
+ delete: "Delete"
+ viewMore: "View more"
+ backToList: "Go back to the list"
+ reload: "Refresh the page"
+plurals:
+ merchant_plural:
+  one: "{{ number }} point of sale"
+  few: "{{ number }} point of sale"
+  many: "{{ number }} points of sale"
+ minute_plural:
+  one: "{{number}} minute"
+  few: "{{number}} minutes"
+  many: "{{number}} minutes"
+alerts:
+ areYouSure: "Are you sure?"
+ localeFileUploadFailed: "Localization file not found &laquo;{{locale}}&raquo;"
+ systemError: "System error"
+validationMessages:
+ defaultMsg: "Invalid input {0}"
+ email: "Please enter a valid email address"
+ minLength: "Minimum characters: {0} (now {1})"
+ maxLength: "Maximum {0} characters (now {1})"
+ min: "Minimum {0}"
+ max: "Maximum {0}"
+ required: "This field is required"
+ date: "Please enter a valid date"
+ pattern: "Format {0}"
+ number: "Please enter a number"
+ url: "Please enter url in format http(s)://www.google.com"
+ greaterThan: "Greater than {0}"
+ greaterThanEqual: "Greater than or equal to {0}"
+ lessThan: "Less than {0}"
+ lessThanEqual: "Less than or equal to {0}"
+ requiredItems: "Choose at least one element"
+ digitsAfterComma: "The number of decimal places is invalid. Must be {0}"
+ integer: "Must be an integer"
+ notEmptyGuid: "Cannot use null foreign key value"
+ isGuid: "The value does not match the Guid type"
+ isPhone: "The number must start with 7 and contain 11 digits"
+ isEmail: "Please enter a valid email address"
+ isEqualPasswords: "The passwords are different"
+dateRange:
+ from: "from"
+ to: "to"
+ toTime: "to"
+ since: "since"
+reCaptcha:
+ error: "Error in interaction with the validation server, please contact technical support"
+file:
+ error: "Download failed"
+ maxsizeError: "Maximum file size exceeded (5 МБ)"
+map:
+ mon: "Mon"
+ tue: "Tue"
+ wed: "Wed"
+ thu: "Thu"
+ fri: "Fri"
+ sat: "Sat"
+ sun: "Sun"
+ weekend: "Day off"
+ breakTime: "lunch break"
+ closed: "Closed"
+ opened: "Open"
+ closedButWillOpenSoon: "Closed, will be open in {{minutes}}"
+ openedButWillCloseSoon: "Open, will be closed in {{minutes}}"
+ closedForLunch: "Closed for lunch"
+ openedButWillCloseSoonForLunch: "Open, will be closed for lunch in {{minutes}}"
+ closedForLunchButWillOpenSoon: "Closed for lunch, will be open in {{minutes}}"
+datePicker:
+ day: "Day"
+ month: "Month"
+ year: "Year"
+ date: "Date"
+ time: "Time"
+accounts:
+ userPassword:
+  title: "Password"
+  password: "Password"
+  currentPassword: "Current password"
+  newPassword: "New password"
+  repeatPassword: "Confirm password"
+  alerts:
+   passwordUpdated: "The password has been successfully changed"
+ socials:
+  title: &socials "Soсial networks"
+  login: "Log in with&nbsp;social networks"
+  bind: "Connect"
+  unbind: "Disconnect"
+announcement:
+ title: &announcement "Advertisement"
+anonymousFeedback:
+ title: &anonymousFeedback "Ask a question"
+ hint: "The message will be sent via email client installed on&nbsp;your device"
+ theme: "Subject"
+ message: "Your message"
+ alerts:
+  mailClient: "Email client is starting. & nbsp;If & nbsp; after some time nothing has happened, & nbsp; send an email directly from your email to & nbsp; {{supportEmail}}"
+authentication:
+ title: &authentication "Login to your account"
+ login: "Log in"
+ password: "Password"
+ code: "Verification code"
+ resendCode: "Resend a verification code"
+ resendCodeCompleted: "Verification code was sent"
+ forgotPassword: "Forgot password?"
+ register: "Register"
+ alerts:
+  authenticationNeeded: "Authorization required"
+  wrongCredentials: "Invalid username or password. Try again or click Forgot password to reset it."
+identifiers:
+ phone: "Phone number"
+ card: "Card number"
+ email: "Email"
+balance:
+ title: &balance "Detailed balance"
+ amount: "Balance"
+ notActivatedAmount: "To deposit"
+ period: "Period"
+ date: "Date"
+ activationAmount: "To deposit"
+ expirationAmount: "Will expire"
+ lastWeekChanges: "Last week changes"
+ infoNotFound: "No active accounts"
+ lifeTimePeriod:
+  fromWeekToMonth: "Between a week and a month"
+  fromMonthToYear: "Between a month and a year"
+  fromYear: "In a year or later"
+brands:
+ title: &brands "Brands"
+ site: "Go to the brand site"
+ locations: "Locations"
+cards:
+ title: &cards "Cards"
+ personalCards: "My cards"
+ accountCards: "Family account"
+ attachCardModal:
+  title: "Cards consolidation"
+  separationImpossible: "Card separation will be impossible"
+  confirmCode: "Enter the verification code sent to <b>attached card&nbsp;owner</b>"
+  resendConfirmCode: "Resend a verification code"
+  cardNumber: "Аttached card number"
+  password: "Password of your personal account "
+  code: "Verification code"
+  codeSent: "A verification code has been sent"
+ blockCardModal:
+  blockTitle: "Card blocking"
+  unblockTitle: "Card unblocking"
+  password: "Your personal account password"
+ graphicalCodesModal:
+  barCode: "Barcode"
+  qrCode: "QR code"
+ replaceCardModal:
+  title: "Card replacement"
+  cardNumber: "New card number"
+  password: "Your personal account password"
+  cvcCode: "CVC-code"
+ setCardModal:
+  title: "Link a physical card"
+  cardNumber: "Enter a card number"
+ actions:
+  set: "Add a card"
+  attach: "Add card to the account"
+  block: "Block"
+  unblock: "Unblock"
+  replace: "Replace"
+ noCard: "No card"
+ replaceHint: "Card must&nbsp;be&nbsp; blocked before <strong>replacement</strong>"
+ info:
+  owner: "Card owner"
+  paid: "Expended"
+  blocked: "Blocked"
+favoriteGoods:
+ title: &favoriteGoods "Favorite tastes"
+ actions:
+  edit: "Edit"
+ info:
+  limitation:
+   part1: "You can change your favorite taste once a month, this option also appears if your favorite taste falls under the "
+   part2: "promotional offer"
+  description: "In this section you can set your favorite taste to purchase it in the POSs at the most beneficial price - with a 15% discount"
+ alreadyChanged: "You have already changed this favorite taste"
+ noFavoriteGood: "Favorite taste not selected"
+ favoriteGoodsEmpty: "No favorite tastes"
+ modal:
+  selectGood: "Select a product"
+  close: "Close"
+  selectFavoriteGood: "Set as your favorite taste"
+  instead: "instead"
+contacts:
+ title: "Contacts"
+ userPhone:
+  title: "Phone number"
+  phone: "Phone number"
+  confirmationCode: "Verification code"
+  numberHint: "You will&nbsp;get a verification code via SMS to this &nbsp;phone number"
+  codeHint: "A verification code&nbsp; has been&nbsp;sent"
+  sendConfirmCode: "Resend a verification code"
+  resetPhone: "Retype phone number"
+  alerts:
+   codeSent: "A verification code has been sent"
+   phoneNumberUpdated: "The phone number has been successfully changed"
+ userEmail:
+  email: "Email address"
+  resetEmail: "Retype email address"
+  emailHint: "Enter <strong>new</strong> email address. You will&nbsp;receive&nbsp;the email to this address&nbsp;with further instructions"
+  codeHint: "Enter the verification code sent&nbsp;to email"
+  confirmationCode: "Verification code"
+  sendConfirmCode: "Resend a verification code"
+  alerts:
+   emailUpdated: "The email address has been successfully changed"
+   codeSent: "A verification code has been sent"
+coupons:
+ title: "Coupons"
+ coupon: "Coupon"
+ viewOnSite: "Go to the coupon on the site"
+ date: "Purchase date"
+ expirationDate: "Expiration date"
+ refund: "Return coupon"
+ price: "Coupon price"
+ description: "Offer description"
+ noDescription: "No offer description"
+ buy: "Buy for"
+ login: "Log in to buy"
+ imageNotFound: "No coupon image"
+feedback:
+ title: &feedback "Chat"
+ askQuestion: "Ask your question to the operator"
+ you: "You"
+ operator: "Operator"
+ file: "File"
+ typeText: "Type a text..."
+history:
+ title: &history "Transaction history"
+ fromDate: "From date"
+ toDate: "to date"
+ allCards: "All cards"
+ resetFilters: "Reset filters"
+ date: "Date"
+ cardNumber: "Card number"
+ description: "Description"
+ operation: "Transaction"
+ amount: "Amount"
+ showMore: "Show more"
+ goToFullHistory: "Go to the full transaction history"
+ notFound: "Nothing was found by your request, try changing the filter parameters"
+ gift:
+  purchase: "Purchase"
+  withdraw: "Payment"
+  withdrawData: "Withdrawal"
+  rewardData: "Deposit"
+  bonus: "Cashback"
+  discount: "Discount"
+  gift: "Gift"
+  charging: "Deposit"
+ giftRefund:
+  purchase: "Purchase"
+  withdrawData: "Payment refund"
+  withdraw: "Payment refund"
+  rewardData: "Cashback refund"
+  bonus: "Cashback refund"
+  discount: "Discount"
+  gift: "Gift"
+  charging: "Deposit"
+merchants:
+ title: &merchants "Points of sale"
+ onMap: "On map"
+ asList: "As list"
+ showOnMap: "Show on map"
+ noRegionInfo: "No region information"
+ showAll: "Show all"
+ hide: "Hide points of sale"
+ notFound: "No points of sale information found"
+ filteredNotFound: "Nothing was found by your request, try changing the filter parameters"
+ offers: "Offers in a point of sale"
+ chooseRegion: "Choose a region"
+ chooseCity: "Choose a city"
+messages:
+ title: &messages "Notifications"
+ notFound: "No notifications"
+offers:
+ title: &offers "Offers"
+ noActiveOffers: "No active offers"
+ noFutureOffers: "No future offers"
+ date: "Offer date"
+ description: "Description"
+ instructions: "Manuals"
+ merchants: "Points of sale"
+ showAllMerchants: "Show all"
+ hideMerchants: "Hide points of sale"
+personal:
+ title: "Enter your details"
+ alerts:
+  incorrectFields: "Some fields in the form are incorrect"
+  dataUpdated: "Personal information has been updated"
+personalGoods:
+ title: &personalGoods "Personal goods"
+ myGoodsOffers: "My goods"
+ activeOffers: "Active offers"
+ futureOffers: "Future offers"
+ noActiveOffers: "No active offers"
+ availableGoodsCount: "You can also select goods{{availableCount}} of {{maxGoodsCount}}"
+ maxGoodsCount: "The maximum amount of goods has been selected"
+ editingNotAvailable: "Goods list editing is possible only during the &nbsp;period"
+ goodsSelected: "Selected goods amoun: {{approvedCount}} of{{maxGoodsCount}}"
+ offerPeriod: "Offer expiration time"
+ alerts:
+  maxGoodsCount: "The maximum amount of goods has been selected"
+  approvedGoodsNotEditable: "Editing of the confirmed goods list is impossible"
+  approvalConfirm: "Are you sure&nbsp; you want to confirm selected goods? Editing of the confirmed goods list is impossible"
+  noGoodsSelected: "No goods selected"
+  approvalMessage: "Goods successfully added! Enjoy your shopping!"
+personalOffers:
+ title: &personalOffers "Personal offers"
+ noActiveOffers: "No active offers"
+ offer: "Offer"
+ offerPeriod: "Offer expiration time"
+ details: "Details"
+ detailPeriodTitle: "Offer expiration time for a position"
+ detailPeriod: "From {{offerBeginning}} to {{offerEnd}}"
+ offerBeginning: "start time"
+ offerEnd: "end time"
+ goodsCode: "Goods code"
+ viewOnMap: "View on map"
+ showOnMap: "Show on map"
+ discountTypes:
+  cashback: "Cashback"
+  discount: "Discount"
+ discountTypesCurrency:
+  cashback: "points"
+  discount: "RUB"
+ discountDescription:
+  amount: "{{type}} {{value}} {{currency}} of goods amount"
+  amountPerMeasure: "{{type}} {{value}} {{currency}} for every {{step}} RUB"
+  amountPerUnit: "{{type}} {{value}} {{currency}} for goods item"
+  percent: "{{type}} {{value}}% of goods amount"
+  pricePerUnit: "Goods price {{value}} RUB"
+ pricePerUnitDiscountHint:
+  cashback: "The difference between the original price and the specified price will be provided by cashback"
+  discount: "The difference between the original price and the specified price will be provided by discount"
+registration:
+ title: &registration "Registration"
+ phoneNumber: "Phone number"
+ password: "Password"
+ referrerCardNumber: "Card number of a friend"
+ phoneHint: "You will&nbsp;get a verification code via SMS to&nbsp;this phone number"
+ codeHint: "A verification code has been sent by&nbsp;SMS."
+ forgotPassword: "Forgot password?"
+ offerAccept: "Accept"
+ tenderOffer: "Terms of the formal offer"
+ opdAgree: "I agree to"
+ opd: "personal data processing"
+ register: "Register"
+ referrerCodeMessage: "You&nbsp; have already set a friend code.<br>Retype to continue registration &nbsp;is not required"
+ tenderOfferStep:
+  title: "Formal offer"
+  offerAccept: "Accept terms of the formal offer."
+  opdAccept: "You agree to"
+  opd: "your personal data processing"
+  alerts:
+   offerFileError: "Error while getting the formal offer file."
+   offerFileFormatError: "Invalid format of the formal offer file"
+   opdFileError: "Error while getting the file of personal data processing agreement."
+ phoneStep:
+  phone: "Phone number"
+  resetPhone: "Retype phone number"
+  confirmationCode: "Verification code"
+  sendConfirmCode: "Resend a verification code"
+  numberTitle: "Enter a phone number"
+  codeTitle: "Enter the verification code"
+  numberHint: "You will get&nbsp;a verification code via SMS to&nbsp;this phone number"
+  codeHint: "A verification code has been sent by&nbsp;SMS to&nbsp; the phone number"
+  alerts:
+   codeSent: "A verification code has been sent"
+ emailStep:
+  email: "Email address"
+  confirmationCode: "Verification code"
+  sendConfirmCode: "Resend a verification code"
+  resetEmail: "Retype email address"
+  emailTitle: "Enter an email address"
+  codeTitle: "Enter the verification code"
+  skipEmailStep: "Skip the email entry step"
+  skipCodeStep: "Skip the verification code entry step"
+  codeHint: "A verification code has been sent to your email, enter it below"
+  alerts:
+   codeSent: "A verification code has been sent "
+ passwordStep:
+  title: "Set a password"
+  password: "Password"
+  repeatPassword: "Confirm password"
+ cardStep:
+  title: "Enter a card number"
+  cardNumber: "Card number"
+  cvcCode: "CVC-code"
+  cardNeeded: "Registration is possible only if you have a card"
+ finish:
+  title: "Registration completed successfully"
+  welcome: "Welcome to the loyalty program!"
+  login: "Log in to your account"
+  close: "Close"
+resetPassword:
+ title: "Password reset"
+ identity: "Phone number/ Email"
+ confirmCode: "Phone number/ Email"
+ newPassword: "New password"
+ newPasswordConfirmCode: "Confirm new password"
+ identityHint: "Specify a contact to reset your password"
+ smsCodeHint: "A verification code has been sent by&nbsp;SMS to&nbsp;the phone number"
+ emailCodeHint: "Enter the verification code&nbsp;sent to email"
+ resendCode: "Resend a verification code"
+ alerts:
+  codeSent: "A verification code has been sent"
+showcase:
+ title: &showcase "Storefront"
+ main: "Main"
+ categories: "Categories"
+ buyCoupon:
+  title: "Coupon purchase"
+  couponBought: "Coupon number <b>{{couponNumber}}</b> successfully purchased."
+  date: "Рurchase date"
+  expirationDate: "Expiration date"
+  error: "Coupon purchase error"
+  payBonuses: "Pay with cashback"
+status:
+ title: &status "User status"
+ currentAmount: "Purchases amount"
+ nextStatus: "Next status after"
+ bonuses: "Cashback"
+ countMeetcoin: "Count meetcoins"
+ currentLevel: "Current level"
+ currentLevelNextMonth: "You have reached the level"
+ necessaryForNextLevel:
+  necessary: "Need more"
+  meetcoinFor: "Meetcoins for level"
+  nextLevel: "Next month"
+ countBonuses: "The amount of bonus rubles"
+subscriptions:
+ title: "Subscriptions management"
+ error: "The types of displayed subscriptions and notifications must be specified"
+ hint: "Receive promotional mailings via"
+ notificationTypes:
+  smsNotification: "SMS"
+  emailNotification: "Email"
+  pushNotification: "Push"
+  viberNotification: "Viber"
+  socialNetworksNotification: "Social networks"
+userInfo:
+ title: &userInfo "User info"
+ balance: "Balance"
+ accounts: "accounts"
+ notActivatedBonuses: "Available points"
+ accumulatedBonuses: "Total points"
+ logout: "Log out"
+ purchasesAttributeCurrency: "RUB"
+obsoleteBrowserAlert: 'You are using an outdated browser that does not support modern technology and poses a threat to your security.<br>The site may not display correctly. We recommend installing one of the following browsers:<br><a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a>, <a href="https://www.mozilla.org/firefox/" target="_blank">Mozilla Firefox</a>'
+unregistration:
+ refuseToParticipateInLP: "The refusal to participate in the loyalty program"
+ message: "We are regret that you refuse to participate in the loyalty program.<br>Please write the reason for the refusal. We’ll  take that into consideration in future work. Thanks!"
+ reason: "Please enter the reason for your refusal"
+ enterConfirmCode: "Enter the verification code sent to phone number ending in"
+ refuse: "Refuse"
+ endRefuse: "Dear customer, your participation in the loyalty program has been completed.<br>Your personal data has been deleted from the system.<br>To return to the loyalty program, the re-registration is required. "
+ confirm: "Confirm"
+ cancel: "Cancel"
+settings:
+ accountsTitle: "Accounts"
+questionnaire:
+ title: &questionnaire "Personal Data"
+ customAnswerPlaceholder: "Enter your answer"
+menu:
+ authentication: *authentication
+ registration: *registration
+ settings: "Settings"
+ balance: *balance
+ cards: *cards
+ history: *history
+ personalOffers: *personalOffers
+ personalGoods: *personalGoods
+ favoriteGoods: *favoriteGoods
+ socials: *socials
+ messages: *messages
+ feedback: *feedback
+ status: *status
+ userInfo: *userInfo
+ anonymousFeedback: *anonymousFeedback
+ offers: *offers
+ showcase: *showcase
+ brands: *brands
+ announcement: *announcement
+ merchants: *merchants
+ personalData: *questionnaire

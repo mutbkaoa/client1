@@ -1,0 +1,585 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: loymax-app 2.7\n"
+"POT-Creation-Date: 2020-04-23 18:08+0700\n"
+"PO-Revision-Date: 2020-05-21 12:06+0700\n"
+"Language-Team: loymax\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: admin\n"
+"X-Poedit-SearchPathExcluded-0: public\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+"X-Poedit-SearchPathExcluded-2: custom-templates\n"
+"X-Poedit-SearchPathExcluded-3: widget\n"
+
+#: includes/loymax-common-config.php:95 includes/loymax-customify-theme-installer.php:49 includes/loymax-install-wizard.php:61
+#: includes/loymax-set-api.php:29 includes/loymax-userportal-config.php:203 includes/loymax-userportal-page.php:75
+msgid "Skip This Step"
+msgstr "Пропустить шаг"
+
+#: includes/loymax-common-config.php:97 includes/loymax-customify-theme-installer.php:16
+#: includes/loymax-customify-theme-installer.php:43 includes/loymax-set-api.php:31 includes/loymax-userportal-config.php:206
+#: includes/loymax-userportal-page.php:44
+msgid "Continue"
+msgstr "Продолжить"
+
+#: includes/loymax-common-config.php:101 includes/loymax-set-api.php:35 includes/loymax-userportal-config.php:186
+#: includes/loymax-userportal-page.php:250
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/loymax-configs-page.php:28 includes/loymax-userportal-config.php:125
+msgid "Modules"
+msgstr "Модули"
+
+#: includes/loymax-configs-page.php:29 includes/loymax-configs-page.php:50 includes/loymax-install-wizard.php:97
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/loymax-configs-page.php:30
+msgid "API"
+msgstr "API"
+
+#: includes/loymax-configs-page.php:31 includes/loymax-customify-theme-installer.php:24
+msgid "Theme"
+msgstr "Тема"
+
+#: includes/loymax-configs-page.php:32
+msgid "Personal Account"
+msgstr "Личный кабинет"
+
+#: includes/loymax-configs-page.php:83
+msgid "Read more about Personal Account configuration in the documentation."
+msgstr "Подробнее о настройке ЛК Вы можете прочитать в документации."
+
+#: includes/loymax-configs-page.php:85
+msgid "Click here"
+msgstr "Нажмите здесь"
+
+#: includes/loymax-configs-page.php:85
+msgid "to go to the documentation."
+msgstr "для перехода к документации."
+
+#: includes/loymax-customify-helper.php:31
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "Невозможно подключиться к файловой системе. Пожалуйста, подтвердите свои учетные данные."
+
+#: includes/loymax-customify-helper.php:35
+msgid "The Customify theme installed successfully."
+msgstr "Тема Customify успешно установлена."
+
+#: includes/loymax-customify-helper.php:47
+msgid "An error occurred while installing the Customify theme."
+msgstr "Произошла ошибка при установке темы Customify."
+
+#: includes/loymax-customify-helper.php:49
+msgid "To install it manually"
+msgstr "Чтобы установить её вручную"
+
+#: includes/loymax-customify-helper.php:51
+msgid "click here"
+msgstr "нажмите здесь"
+
+#: includes/loymax-customify-helper.php:62
+msgid "The Customify theme activated successfully."
+msgstr "Тема Customify успешно активирована."
+
+#: includes/loymax-customify-theme-installer.php:14
+msgid "You have activated the <strong>Customify</strong> theme."
+msgstr "Вы активировали тему <strong>Customify</strong>."
+
+#: includes/loymax-customify-theme-installer.php:14
+msgid "We recommend using the <strong>Customify</strong> theme."
+msgstr "Рекомендуем к использованию тему <strong>Customify</strong>."
+
+#: includes/loymax-customify-theme-installer.php:16
+msgid "Install and Continue"
+msgstr "Установить и продолжить"
+
+#: includes/loymax-customify-theme-installer.php:18
+msgid "Activate and Continue"
+msgstr "Активировать и продолжить"
+
+#: includes/loymax-customify-theme-installer.php:18 includes/loymax-customify-theme-installer.php:67
+msgid "Activate"
+msgstr "Активировать"
+
+#: includes/loymax-customify-theme-installer.php:32
+msgid ""
+"This theme enables you to configure flexibly the appearance of various elements of the site interface according to your "
+"requirements."
+msgstr ""
+"Данная тема позволяет гибко настраивать внешний вид различных элементов интерфейса сайта в соответствии с Вашими требованиями."
+
+#: includes/loymax-customify-theme-installer.php:63 includes/loymax-install-wizard.php:62
+msgid "Install"
+msgstr "Установить"
+
+#: includes/loymax-install-wizard.php:53
+msgid "Welcome to the Personal Account Installation Wizard!"
+msgstr "Добро пожаловать в мастер установки Личного кабинета!"
+
+#: includes/loymax-install-wizard.php:55
+msgid "Thanks for choosing the LoymaxWebApp plugin."
+msgstr "Спасибо за выбор плагина LoymaxWebApp."
+
+#: includes/loymax-install-wizard.php:56
+msgid ""
+"The Installation Wizard will help you to create a Personal Account page for your site, as well as to quickly configure its "
+"design and the necessary modules."
+msgstr ""
+"Мастер установки поможет Вам создать страницу Личного кабинета для Вашего сайта, а также быстро настроить ее оформление и "
+"необходимые модули."
+
+#: includes/loymax-install-wizard.php:57
+msgid ""
+"If you do not want to configure Personal Account, you can close the Installation Wizard and return to the WordPress toolbar. "
+"The Installation Wizard can be started later."
+msgstr ""
+"Если Вы не хотите настраивать Личный кабинет сейчас, Вы можете закрыть Мастер установки и вернуться к панели инструментов "
+"WordPress. Мастер установки можно будет запустить позже."
+
+#: includes/loymax-install-wizard.php:58
+msgid ""
+"After installing the Personal Account, its settings can be changed at any time in the <b>Loymax&nbsp;→&nbsp;Settings</b> "
+"section."
+msgstr ""
+"После установки Личного кабинета его настройки можно будет изменить в любой момент в разделе <b>Loymax&nbsp;→&nbsp;Настройки</"
+"b>."
+
+#: includes/loymax-install-wizard.php:69
+msgid "Installation and Configuration of the Personal&nbsp;Account Are Complete"
+msgstr "Установка и настройка Личного&nbsp;кабинета успешно завершена"
+
+#: includes/loymax-install-wizard.php:71
+msgid "Thanks for choosing the LoymaxWebApp plugin!"
+msgstr "Спасибо за выбор плагина LoymaxWebApp!"
+
+#: includes/loymax-install-wizard.php:72
+msgid "At any time, you can change your account settings in the <b>Loymax&nbsp;→&nbsp;Settings</b> section"
+msgstr "В любой момент вы можете изменить настройки Личного кабинета в разделе <b>Loymax&nbsp;→&nbsp;Настройки</b>"
+
+#: includes/loymax-install-wizard.php:75
+msgid "Finish"
+msgstr "Готово"
+
+#: includes/loymax-install-wizard.php:86
+msgid "Theme Setting"
+msgstr "Настройка темы"
+
+#: includes/loymax-install-wizard.php:91
+msgid "Section Settings"
+msgstr "Настройки разделов"
+
+#: includes/loymax-install-wizard.php:103
+msgid "API Settings"
+msgstr "Настройка API"
+
+#: includes/loymax-install-wizard.php:108
+msgid "Page Placement"
+msgstr "Размещение страницы"
+
+#: includes/loymax-install-wizard.php:159
+msgid "LoymaxWebApp Setup Wizard"
+msgstr "Помощник установки LoymaxWebApp"
+
+#: includes/loymax-set-api.php:10
+msgid "Loymax API Settings"
+msgstr "Настройка Loymax API"
+
+#: includes/loymax-set-api.php:12
+msgid "Loymax API address"
+msgstr "Адрес Loymax API"
+
+#: includes/loymax-updater.php:227
+msgid "An error occurred while updating LoymaxWebApp. Go to"
+msgstr "При обновлении LoymaxWebApp произошла ошибка. Перейдите к"
+
+#: includes/loymax-updater.php:228
+msgid "settings"
+msgstr "настройкам"
+
+#: includes/loymax-updater.php:228
+msgid "for details."
+msgstr "для получения подробностей."
+
+#: includes/loymax-userportal-config.php:120
+msgid "Mark the sections of the Personal Account you want to add and configure"
+msgstr "Отметьте разделы Личного кабинета, которые хотите добавить, и настройте их"
+
+#: includes/loymax-userportal-config.php:254
+msgid "Settings updated!"
+msgstr "Настройки обновлены!"
+
+#: includes/loymax-userportal-page.php:36
+msgid "Do you want to continue?"
+msgstr "Хотите продолжить?"
+
+#: includes/loymax-userportal-page.php:40
+msgid "The page"
+msgstr "Страница"
+
+#: includes/loymax-userportal-page.php:40
+msgid "is in the Trash. If you continue, the page will be re-published."
+msgstr "находится в корзине. При продолжении страница будет повторно опубликована."
+
+#: includes/loymax-userportal-page.php:43
+msgid "Cancel"
+msgstr "Отмена"
+
+#: includes/loymax-userportal-page.php:66
+msgid "Enter the name of the page on which the Personal Account will be placed."
+msgstr "Введите название страницы, на которой будет размещен Личный кабинет."
+
+#: includes/loymax-userportal-page.php:85
+msgid "Create"
+msgstr "Создать"
+
+#: includes/loymax-userportal-page.php:130
+msgid "Page generated successfully."
+msgstr "Страница успешно сгенерирована."
+
+#: includes/loymax-userportal-page.php:132
+msgid ""
+"To navigate through the user's portal, a <b>menu</b> with the same name has been created <i>(<b>&laquo;Appearance&raquo; "
+"&rarr; &laquo;Menus&raquo;</b>)</i>."
+msgstr ""
+"В целях навигации по порталу пользователя создано <b>меню</b> меню с идентичным названием <i>(<b>&laquo;Внешний вид&raquo; "
+"&rarr; &laquo;Меню&raquo;</b>)</i>."
+
+#: includes/loymax-userportal-page.php:134
+msgid ""
+"To display this menu, you must place it in a separate menu area <i>(<b>&laquo;Appearance&raquo; &rarr; &laquo;Menus&raquo; "
+"&rarr; &laquo;Manage Locations&raquo;</b>)</i> or in the&nbsp;<b>&laquo;Custom menu&raquo;</b> Widget<i>(<b>&laquo;"
+"Appearance&raquo; &rarr; &laquo;Widgets&raquo;</b>)</i>."
+msgstr ""
+"Чтобы отобразить данное меню, необходимо поместить его в отдельную область меню <i>(<b>&laquo;Внешний вид&raquo; &rarr; "
+"&laquo;Меню&raquo; &rarr; &laquo;Управление областями&raquo;</b>)</i> либо в виджет&nbsp;<b>&laquo;Произвольное меню&raquo;</"
+"b> Widget<i>(<b>&laquo;Внешний вид&raquo; &rarr; &laquo;Виджеты&raquo;</b>)</i>."
+
+#: includes/loymax-userportal-page.php:136
+msgid "Also, a <b><i>Loymax widget</i></b> has been added to display a panel of basic information about the portal user."
+msgstr "Также, добавлен <b><i>виджет “Loymax”</i></b>, отображающий панель основной информации о пользователе портала."
+
+#: includes/loymax-userportal-page.php:138
+msgid ""
+"To customize the display of this widget, it is required to place it in the desired widget area <i>(<b>&laquo;"
+"Appearance&raquo; &rarr; &laquo;Widgets&raquo;</b>)</i>."
+msgstr ""
+"Чтобы настроить отображение данного виджета, необходимо разместить его в желаемой области для виджетов <i>(<b>&laquo;Внешний "
+"вид&raquo; &rarr; &laquo;Виджеты&raquo;</b>)</i>."
+
+#: includes/loymax-userportal-page.php:146
+msgid "The title of the page has conflict with the existing page. Please select another one."
+msgstr "Заголовок создаваемой страницы конфликтует с существующей страницей. Пожалуйста, выберите другой."
+
+#: includes/loymax-userportal-page.php:170
+msgid "Page successfully re-generated"
+msgstr "Страница успешно перегенерирована"
+
+#: includes/loymax-userportal-page.php:188
+msgid "Not created"
+msgstr "Не создан"
+
+#: includes/loymax-userportal-page.php:197
+msgid "In trash"
+msgstr "В корзине"
+
+#: includes/loymax-userportal-page.php:203
+msgid "Published"
+msgstr "Опубликован"
+
+#: includes/loymax-userportal-page.php:206
+msgid "Not published"
+msgstr "Не опубликован"
+
+#: includes/loymax-userportal-page.php:212
+msgid "Status of the Personal Account"
+msgstr "Статус Личного кабинета"
+
+#: includes/loymax-userportal-page.php:217
+msgid "Page with Personal Account"
+msgstr "Страница с Личным кабинетом"
+
+#: includes/loymax-userportal-page.php:228
+msgid "Status"
+msgstr "Статус"
+
+#: includes/loymax-userportal-page.php:236
+msgid "Go to the Personal Account page"
+msgstr "Перейти на страницу Личного кабинета"
+
+#: loymax-app.php:57
+msgid "User Portal settings"
+msgstr "Настройка Личного кабинета"
+
+#: loymax-app.php:239
+msgid "Welcome to"
+msgstr "Добро пожаловать в"
+
+#: loymax-app.php:240
+msgid "You need to configure your Personal Account"
+msgstr "Вам необходимо настроить Личный кабинет"
+
+#: loymax-app.php:242
+msgid "Run Installation Wizard"
+msgstr "Запустить помощника установки"
+
+#: loymax-app.php:245
+msgid "Skip Installation"
+msgstr "Пропустить установку"
+
+#: loymax-app.php:278 loymax-app.php:291
+msgid "Attention! The"
+msgstr "Внимание! "
+
+#: loymax-app.php:280
+msgid "page is used and protected from deletion by the LoymaxWebApp plugin"
+msgstr "используется и защищена от удаления плагином LoymaxWebApp"
+
+#: loymax-app.php:293
+msgid "menu is used and protected from deletion by the LoymaxWebApp plugin"
+msgstr "используется и защищено от удаления плагином LoymaxWebApp"
+
+#: loymax-app.php:376
+msgid "An error occurred while updating"
+msgstr "Произошла ошибка при обновлении"
+
+#: loymax-userportal-config.php:176
+msgid "Use of paid modules must be agreed with the API provider"
+msgstr "Использование платных модулей должно быть согласовано с поставщиком API"
+
+msgid "Loymax API"
+msgstr "Loymax API"
+
+msgid "Path to image files"
+msgstr "Путь до файлов изображений"
+
+msgid "reCAPTCHA site key (public key)"
+msgstr "Публичный ключ (public key) reCAPTCHA сайта"
+
+msgid "Acceptance of a contract offer at the initial stage of registration (instead of a separate registration step)"
+msgstr "Принятие оферты на начальном этапе регистрации (вместо отдельного шага регистрации)"
+
+msgid "Authorization of the LP Member in the Personal Account after successful completion of registration"
+msgstr "Авторизация Участника в ЛК после успешного завершения регистрации"
+
+msgid "Begin the registration process of an unregistered customer when trying to log in to the Personal Account"
+msgstr "Начинать процесс регистрации незарегистрированного клиента при попытке его входа в ЛК"
+
+msgid "Field for entering a friend's card number upon registration"
+msgstr "Поле для ввода номера карты друга при регистрации"
+
+msgid "Setting a verification code sent via SMS as a password to access the Personal Account"
+msgstr "Установка в качестве пароля от ЛК отправленного по SMS кода подтверждения"
+
+msgid "Login autocomplete on the registration page with the login entered during a failed login attempt"
+msgstr "Автозаполнение логина на странице регистрации логином, введенным при неудавшейся попытке авторизации"
+
+msgid "Ask for user attributes"
+msgstr "Запрашивать атрибуты пользователя"
+
+msgid "GUID of the contract offer html file"
+msgstr "GUID html-файла оферты"
+
+msgid "GUID of the contract offer pdf file"
+msgstr "GUID pdf-файла оферты"
+
+msgid "GUID of pdf consent file for personal data processing"
+msgstr "GUID pdf-файла согласия на обработку персональных данных"
+
+msgid "The logical name of the Member status attribute in the database"
+msgstr "Логическое имя атрибута статуса Участника в БД"
+
+msgid "The logical name of the purchases amount attribute of the Member in the database"
+msgstr "Логическое имя атрибута суммы покупок Участника в БД"
+
+msgid "Technical support email"
+msgstr "Адрес электронной почты службы технической поддержки"
+
+msgid "Personal Account page for moving the Member after confirming the email by link upon registration"
+msgstr "Страница ЛК для перемещения Участника после подтверждения email по ссылке при регистрации"
+
+msgid "Personal Account page for moving the Member after confirming the email by link when changing the email"
+msgstr "Страница ЛК для перемещения Участника после подтверждения email по ссылке при смене email"
+
+msgid "Personal Account page for moving the Member after confirming the email by the link, if the token is out of date"
+msgstr "Страница ЛК для перемещения Участника после подтверждения email по ссылке, если токен устарел"
+
+msgid "Personal Account page for moving the Member after successful authorization"
+msgstr "Страница ЛК для перемещения Участника после его успешной авторизации"
+
+msgid "Personal Account page for moving the Member upon successful completion of registration"
+msgstr "Страница ЛК для перемещения Участника при успешном завершении регистрации"
+
+msgid "Personal Account page for moving the Member after logout of the Personal Account"
+msgstr "Страница ЛК для перемещения Участника после выхода из ЛК"
+
+msgid "Personal Account page for moving the Member upon confirmation of password recovery using the link from the email"
+msgstr "Страница ЛК для перемещения Участника при подтверждении восстановления пароля по ссылке из письма email"
+
+msgid "Personal Account page for moving the Member in case of a failed authorization attempt via social network"
+msgstr "Страница ЛК для перемещения Участника при неудавшейся попытке авторизации через социальные сети"
+
+msgid "Personal Account page for moving the Member upon successful authorization via social network"
+msgstr "Страница ЛК для перемещения Участника при успешной авторизации через социальные сети"
+
+msgid "Personal Account page for moving the Member upon successful completion of linking social network"
+msgstr "Страница ЛК для перемещения Участника при успешном завершении привязки социальной сети"
+
+msgid "The text of the message on successful confirmation of personal products selection"
+msgstr "Текст сообщения об успешном подтверждении выбора персональных товаров"
+
+msgid "Notification when using an outdated browser (Internet Explorer)"
+msgstr "Оповещение при использовании устаревшего браузера (Internet Explorer)"
+
+msgid "The address from which images of your favorite products will be loaded"
+msgstr "Адрес, с которого будут загружаться изображения любимых товаров"
+
+msgid "Mark unread messages before reading them"
+msgstr "Выделять непрочитанные сообщения до их прочтения"
+
+msgid "Display Member status in the Personal Account"
+msgstr "Отображать статус Участника в ЛК"
+
+msgid "In the absence of personal offers, close access for the Member to the relevant section of the Personal Account"
+msgstr "При отсутствии персональных предложений закрывать доступ для Участника к соответствующему разделу ЛК"
+
+msgid "In the absence of personal products, close access for the Member to the relevant section of the Personal Account"
+msgstr "При отсутствии персональных товаров закрывать доступ для Участника к соответствующему разделу ЛК"
+
+msgid "Adding a card to Apple Wallet"
+msgstr "Добавление карты в Apple Wallet"
+
+msgid "Adding a card to Google Pay"
+msgstr "Добавление карты в Google Pay"
+
+msgid "Types of identifiers for authorization in the Personal Account"
+msgstr "Типы идентификаторов для авторизации в ЛК"
+
+msgid "Types of identifiers for password reset in the Personal Account"
+msgstr "Типы идентификаторов для сброса пароля в ЛК"
+
+msgid "Types of identifiers for registration in the Personal Account"
+msgstr "Типы идентификаторов для регистрации в ЛК"
+
+msgid "Types of subscriptions that can be managed via Personal Account"
+msgstr "Типы подписок, которыми можно управлять через ЛК"
+
+msgid "Types of notifiers used to manage subscriptions via Personal Account"
+msgstr "Типы нотификаторов, использующиеся для управления подписками через  ЛК"
+
+msgid "Skip email linking step"
+msgstr "Пропускать шаг привязки email"
+
+msgid "Display barcodes and QR codes of cards"
+msgstr "Отображать штрихкоды и QR-коды карт"
+
+msgid "Load all history elements on one page (when the flag is disabled, history elements are displayed page by page)"
+msgstr "Подгружать все элементы истории на одной странице (при выключенном флаге элементы истории будут выводиться постранично)"
+
+msgid "Filtering points of sale by region"
+msgstr "Фильтрация магазинов по регионам"
+
+msgid "The logical name of the ad slot"
+msgstr "Логическое имя рекламного места"
+
+msgid "Authorization"
+msgstr "Авторизация"
+
+msgid "The module is intended for authorization of Loyalty Program Members in the Personal Account"
+msgstr "Модуль, предназначенный для авторизации Участников Программы лояльности в Личном кабинете"
+
+msgid "Registration"
+msgstr "Регистрация"
+
+msgid "The module is intended for registration of customers in the Loyalty Program"
+msgstr "Модуль, предназначенный для регистрации клиентов в Программе лояльности"
+
+msgid "Cards"
+msgstr "Карты"
+
+msgid "The module provides the Loyalty Program Member with information on cards and accounts and access to operations with them"
+msgstr "Модуль предоставляет Участнику Программы лояльности информацию по картам и счетам и доступ к операциям с ними"
+
+msgid "History"
+msgstr "История"
+
+msgid "The module is intended for viewing operations conducted on the cards of the Loyalty Program Member"
+msgstr "Модуль, предназначенный для просмотра операций, проведенным по картам Участника Программы лояльности"
+
+msgid "Points of sale"
+msgstr "Магазины"
+
+msgid "The module is intended for displaying on the map the points of sale participating in the Loyalty Program"
+msgstr "Модуль, предназначенный для отображения на карте точек продаж, участвующих в Программе лояльности"
+
+msgid "Advertisement"
+msgstr "Реклама"
+
+msgid "The module is intended for displaying advertisement"
+msgstr "Модуль, предназначенный для отображения рекламы"
+
+msgid "Personal offers"
+msgstr "Персональные предложения"
+
+msgid "The module is intended for displaying personal offers of the Loyalty Program Member"
+msgstr "Модуль, предназначенный для отображения персональных предложений Участника Программы лояльности"
+
+msgid "Personal products"
+msgstr "Персональные товары"
+
+msgid "The module is intended for displaying and selecting personal products of the Loyalty Program Member"
+msgstr "Модуль, предназначенный для отображения и выбора персональных товаров Участника Программы лояльности"
+
+msgid "Favorite tastes"
+msgstr "Любимые вкусы"
+
+msgid "The module is intended for displaying and selecting favorite products of the Loyalty Program Member"
+msgstr "Модуль, предназначенный для отображения и выбора любимых товаров Участника Программы лояльности"
+
+msgid "Support service"
+msgstr "Поддержка"
+
+msgid "The module is intended for sending messages to technical support email"
+msgstr "Модуль, предназначенный для отправки сообщений на электронную почту технической поддержки"
+
+msgid "Offers"
+msgstr "Акции"
+
+msgid "The module is intended for displaying Loyalty Program offers"
+msgstr "Модуль, предназначенный для отображения акций Программы лояльности"
+
+msgid "Notifications"
+msgstr "Уведомления"
+
+msgid "The module is intended for displaying notifications sent to the Member as part of the Loyalty Program"
+msgstr "Модуль, предназначенный для отображения уведомлений, отправленных Участнику в рамках Программы лояльности"
+
+msgid "Detailed balance"
+msgstr "Детальный баланс"
+
+msgid "The module is intended for displaying detailed balance of the Loyalty Program Member"
+msgstr "Модуль, предназначенный для отображения детального баланса Участника Программы лояльности"
+
+msgid "Chat"
+msgstr "Чат"
+
+msgid "The module is intended for messaging with technical support in the form of chat"
+msgstr "Модуль, предназначенный для обмена сообщениями с технической поддержкой в форме чата"
+
+#. Description of the plugin
+msgid "Loymax loyalty program User Portal configuration."
+msgstr "Программа лояльности Loymax Настройка Личного кабинета."
+
+msgid "Ability to add a card with cvc code"
+msgstr "Возможность добавить карту с cvc-кодом"

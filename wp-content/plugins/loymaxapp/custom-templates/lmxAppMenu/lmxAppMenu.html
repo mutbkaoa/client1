@@ -1,0 +1,75 @@
+<div class="lmx-loymax-menu-container">
+    <nav ng-if="allRequestsCompleted" class="lmx-base-menu">
+        <ul class="lmx-side-nav">
+            <li class="lmx-hide-when-authed">
+                <a href="#login"><i class="material-icons">input</i>Вход</a>
+            </li>
+            <li class="lmx-hide-when-authed">
+                <a href="#registration"><i class="material-icons">person_add</i>Регистрация</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#personal"><i class="material-icons">settings</i>Настройки</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#balance"><i class="material-icons">account_balance_wallet</i>Детальный баланс</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#cards"><i class="material-icons">card_membership</i>Карты</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#history"><i class="material-icons">card_membership</i>История операций</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#history-load-more-button"><i class="material-icons">card_membership</i>История операций (подгрузка)</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#personal"><i class="material-icons">question_answer</i>Анкета</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#personal-offers" style="{{noPersonalOffers ? 'color:gray' : ''}}"><i class="material-icons">shopping_cart</i>Персональные предложения</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#personal-goods" style="{{noPersonalGoods ? 'color:gray' : ''}}"><i class="material-icons">add_shopping_cart</i>Персональные товары</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#favorite-goods"><i class="material-icons">shopping_cart</i>Любимые вкусы</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#social-binding"><i class="material-icons">people</i>Привязка соц-сетей</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#message"><i class="material-icons" style="{{hasMessages ? 'color:red' : ''}}">notifications</i>Уведомления</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#feedback"><i class="material-icons">feedback</i>Обратная связь</a>
+            </li>
+            <li ng-if="userStatus" class="lmx-show-when-authed">
+                <a href="#user-status"><i class="material-icons">shopping_cart</i>Статус пользователя</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#user-info"><i class="material-icons">shopping_cart</i>User Info</a>
+            </li>
+            <li>
+                <a href="#anonymous-feedback"><i class="material-icons">feedback</i>Бесплатная обратная связь</a>
+            </li>
+            <li>
+                <a href="#offers"><i class="material-icons">local_offer</i>Рекламные материалы</a>
+            </li>
+            <li>
+                <a href="#showcase"><i class="material-icons">shopping_basket</i>Витрина</a>
+            </li>
+            <li>
+                <a href="#brands"><i class="material-icons">thumb_up</i>Бренды</a>
+            </li>
+            <li>
+                <a href="#announcement"><i class="material-icons">loyalty</i>Реклама</a>
+            </li>
+            <li>
+                <a href="#merchants"><i class="material-icons">store</i>Магазины</a>
+            </li>
+            <li>
+                <a href="#merchants-filter-by-region"><i class="material-icons">store</i>Магазины по регионам</a>
+            </li>
+        </ul>
+    </nav>
+</div>

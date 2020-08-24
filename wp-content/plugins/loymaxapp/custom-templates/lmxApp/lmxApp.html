@@ -1,0 +1,139 @@
+<div class="loymax-container">
+    <div class="lmx-body-loader" ng-hide="allRequestsCompleted"></div>
+    <div class="lmx-main-block lmx-embedded-user-info lmx-clearfix">
+        <lmx-user-info></lmx-user-info>
+    </div>
+    <nav class="lmx-main-block lmx-embedded-menu lmx-base-menu" ng-if="allRequestsCompleted">
+        <ul class="lmx-side-nav">
+            <li class="lmx-hide-when-authed">
+                <a href="#login"><i class="material-icons">input</i>{{'menu.authentication' | translate}}</a>
+            </li>
+            <li class="lmx-hide-when-authed">
+                <a href="#registration"><i class="material-icons">person_add</i>{{'menu.registration' | translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#contacts"><i class="material-icons">settings</i>{{'menu.settings' | translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#balance"><i class="material-icons">account_balance_wallet</i>{{'menu.balance' |
+                    translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#cards"><i class="material-icons">card_membership</i>{{'menu.cards' | translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#history"><i class="material-icons">card_membership</i>{{'menu.history' | translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#personal"><i class="material-icons">question_answer</i>{{'menu.personalData' |
+                    translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#personal-offers" style="{{noPersonalOffers ? 'color:gray' : ''}}"><i class="material-icons">shopping_cart</i>{{'menu.personalOffers' |
+                    translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#personal-goods" style="{{noPersonalGoods ? 'color:gray' : ''}}"><i class="material-icons">add_shopping_cart</i>{{'menu.personalGoods' |
+                    translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#favorite-goods"><i class="material-icons">shopping_cart</i>{{'menu.favoriteGoods' |
+                    translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#accounts"><i class="material-icons">people</i>{{'menu.socials' | translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#message"><i class="material-icons" style="{{hasMessages ? 'color:red' : ''}}">notifications</i>{{'menu.messages' | translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#feedback"><i class="material-icons">feedback</i>{{'menu.feedback' | translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#user-status"><i class="material-icons">shopping_cart</i>{{'menu.status' | translate}}</a>
+            </li>
+            <li class="lmx-show-when-authed">
+                <a href="#user-info"><i class="material-icons">shopping_cart</i>{{'menu.userInfo' | translate}}</a>
+            </li>
+            <li>
+                <a href="#anonymous-feedback"><i class="material-icons">feedback</i>{{'menu.anonymousFeedback' |
+                    translate}}</a>
+            </li>
+            <li>
+                <a href="#offers"><i class="material-icons">local_offer</i>{{'menu.offers' | translate}}</a>
+            </li>
+            <li>
+                <a href="#brands"><i class="material-icons">thumb_up</i>{{'menu.brands' | translate}}</a>
+            </li>
+            <li>
+                <a href="#announcement"><i class="material-icons">loyalty</i>{{'menu.announcement' | translate}}</a>
+            </li>
+            <li>
+                <a href="#merchants"><i class="material-icons">store</i>{{'menu.merchants' | translate}}</a>
+            </li>
+            <li>
+                <a href="#options"><i class="material-icons">settings</i>Опции сайта</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="lmx-main-block lmx-section" ng-cloak="" ng-if="allRequestsCompleted">
+        <div ng-switch="appLocationParts[0]">
+            <lmx-history ng-switch-when="cabinet" on-page="10"></lmx-history>
+            <lmx-authentication ng-switch-when="login"></lmx-authentication>
+            <lmx-reset-password ng-switch-when="reset-password"></lmx-reset-password>
+            <lmx-registration ng-switch-when="registration"></lmx-registration>
+            <lmx-offers ng-switch-when="offers"></lmx-offers>
+            <lmx-feedback ng-switch-when="feedback"></lmx-feedback>
+            <lmx-anonymous-feedback ng-switch-when="anonymous-feedback"></lmx-anonymous-feedback>
+            <lmx-message ng-switch-when="message"></lmx-message>
+            <lmx-user-status ng-switch-when="user-status"></lmx-user-status>
+            <lmx-cards ng-switch-when="cards" card-number-graphical-code="bar,qr"></lmx-cards>
+            <lmx-favorite-goods ng-switch-when="favorite-goods"></lmx-favorite-goods>
+            <lmx-balance ng-switch-when="balance"></lmx-balance>
+            <lmx-history ng-switch-when="history"></lmx-history>
+            <lmx-merchant filter-by-region="" ng-switch-when="merchants"></lmx-merchant>
+            <lmx-user-info ng-switch-when="user-info"></lmx-user-info>
+            <lmx-announcement ng-switch-when="announcement" space="offerSpace"></lmx-announcement>
+
+            <div class="lmx-settings" ng-if="['personal', 'contacts', 'accounts'].contains(currentLocation)">
+                <nav class="lmx-menu grid lmx-clearfix lmx-margin-bottom">
+                    <a class="lmx-col4" ng-class="{'active': currentLocation == 'personal'}" ng-click="changeLocation('personal')" href="">{{'menu.personalData' | translate}}</a>
+                    <a class="lmx-col4" ng-class="{'active': currentLocation == 'contacts'}" ng-click="changeLocation('contacts')" href="">{{'contacts.title' | translate}}</a>
+                    <a class="lmx-col4" ng-class="{'active': currentLocation == 'accounts'}" ng-click="changeLocation('accounts')" href="">{{'settings.accountsTitle' | translate}}</a>
+                </nav>
+            </div>
+
+            <div ng-switch-when="contacts">
+                <div class="lmx-container lmx-contacts">
+                    <lmx-user-phone></lmx-user-phone>
+                    <lmx-user-email></lmx-user-email>
+                    <lmx-subscriptions subscription-types="Advertisement" notification-types="smsNotification,emailNotification"></lmx-subscriptions>
+                    <lmx-unregistration></lmx-unregistration>
+                </div>
+            </div>
+            <div ng-switch-when="accounts">
+                <div class="lmx-container lmx-accounts">
+                    <lmx-user-password></lmx-user-password>
+                    <lmx-social is-binding=""></lmx-social>
+                </div>
+            </div>
+            <div ng-switch-when="personal">
+                <div class="lmx-container lmx-personal">
+                    <h2>{{'questionnaire.title' | translate}}</h2>
+                    <lmx-questionnaire registration="false"></lmx-questionnaire>
+                </div>
+            </div>
+            <lmx-options ng-switch-when="options"></lmx-options>
+
+            <lmx-brands ng-switch-when="brands"></lmx-brands>
+            <lmx-personal-offers ng-switch-when="personal-offers"></lmx-personal-offers>
+            <lmx-personal-goods ng-switch-when="personal-goods"></lmx-personal-goods>
+
+            <div ng-switch-when="logout" ng-init="logout()"></div>
+
+            <div ng-switch-default="" ng-init="goToDefaultPage()"></div>
+        </div>
+    </div>
+    <lmx-notifications></lmx-notifications>
+    <re-captcha></re-captcha>
+</div>
